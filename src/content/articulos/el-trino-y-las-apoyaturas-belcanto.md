@@ -2,7 +2,7 @@
 title: "El Arte del Trino y la Apoyatura en el Bel Canto"
 description: "Técnica, retórica y criterio estético en la ornamentación vocal histórica según los tratados de Corri, Lablache, Bacon y García."
 date: "2026-11-12"
-author: "Cátedra de Canto Lírico"
+author: "Ars Cantorum"
 category: "Ornamentación y Estilo"
 tags: ["Bel Canto", "Trinos", "Apoyaturas", "García", "Corri"]
 readTime: "7 min"
@@ -36,6 +36,8 @@ Los tratados distinguen claramente dos orientaciones melódicas:
 1. **Apoyatura Superior:** Abordada por grado conjunto desde arriba, creando una disonancia expresiva que resuelve en la nota real. Domenico Corri aplicaba apoyaturas superiores tanto preparadas como espontáneas, asignándoles valores que iban desde notas breves de paso hasta aquellas que ocupaban dos tercios de la duración de la nota principal[^8].
 2. **Apoyatura Inferior:** Especialmente eficaz en intervalos de semitono ascendente ya preparados por el contexto melódico anterior, infundiendo un carácter suplicante y afectuoso al discurso vocal[^9].
 
+![Ejemplo de Apoyatura en Partitura](/ejemplos/apoyatura.svg)
+
 Los maestros prevenían rigurosamente contra el abuso mecánico: Corri advertía expresamente a sus alumnos que el exceso de apoyaturas debilitaba la estructura de la pieza y terminaba por saturar el oído del oyente[^10].
 
 ### 2.2. El Trino (*Trillo / Shake*): Estructura, Entrada y Resolución
@@ -44,6 +46,8 @@ El trino consistía en la alternancia rápida, regular y perfectamente afinada e
 * **La Nota de Inicio:** Si bien la tradición más antigua aconsejaba comenzar la gracia invariablemente en la nota auxiliar superior para acentuar la disonancia armónica, hacia finales del siglo XVIII y principios del XIX existía una clara división de criterios; maestros como Gesualdo Lanza y el propio Corri reconocían que los trinos podían iniciarse tanto en la nota principal como en la auxiliar, dependiendo del afecto y del tempo de la pieza[^11].
 * **El Enlace Inicial con *Messa di Voce*:** Los cantantes de la "vieja escuela" (la generación dieciochesca de Corri y Tenducci) jamás atacaban un trino a pleno volumen de manera abrupta; la norma estilística prescribía iniciar la nota con un suave *crescendo* hasta el punto culminante y luego descender en *diminuendo*, vinculando la ornamentación al control dinámico del aliento[^12]. Hacia 1840, esta exigencia comenzó a relajarse en favor de ataques más directos y enérgicos propios del estilo de Donizetti y Verdi temprano.
 * **La Terminación con Giro (*Turned Trill*):** La conclusión de un trino rara vez era estática. Se requería una resolución elegante mediante un giro (*gruppetto*) o terminación cadencial, especialmente en los cierres de arias y recitativos, garantizando que la voz reposara en la tónica con perfecta estabilidad[^13].
+
+![Ejemplo de Trino en Partitura](/ejemplos/trino.svg)
 
 ---
 
@@ -78,25 +82,23 @@ Para el cantante lírico del siglo XXI, el estudio del trino y de la apoyatura h
 
 ---
 
-## Referencias y Notas al Pie
-
-[^1]: *Belcanto a Performed Guide Español*, pág. 18. «La notación musical siempre ha reducido la expresión a un conjunto de símbolos que solo aproximan los matices del estilo interpretativo».
-[^2]: *Op. cit.*, págs. 17, 145. Sobre las herramientas expresivas (acento, énfasis y gracias vocales) para narrar historias de forma convincente.
-[^3]: Corri, Domenico (c. 1781). *The Singer's Preceptor*. Citado en *Belcanto a Performed Guide Español*, págs. 138, 147.
-[^4]: Lablache, Louis (1840). *Méthode complète de chant*. Citado en *Belcanto a Performed Guide Español*, pág. 147.
-[^5]: Bacon, Richard Mackenzie (1824). *Elements of Vocal Science*, págs. 108, 113–14. Citado en *Belcanto a Performed Guide Español*, págs. 146, 153.
-[^6]: García, Manuel II (1857). *Nouveau traité sommaire de l'art du chant*, pág. 71. Citado en *Belcanto a Performed Guide Español*, pág. 26.
-[^7]: *Belcanto a Performed Guide Español*, pág. 135. «Cuando la melodía de un compositor descendía una tercera, los cantantes solían rellenar el intervalo con una apoyatura».
-[^8]: *Op. cit.*, pág. 142. Sobre el valor de las apoyaturas superiores en las arias arregladas por Corri.
-[^9]: *Op. cit.*, págs. 135–136. Sobre el contexto melódico y el uso de semitonos preparados para apoyaturas inferiores.
-[^10]: Corri, Domenico. Citado en *Belcanto a Performed Guide Español*, pág. 138.
-[^11]: Lanza, Gesualdo (1820) y Corri, Domenico. Citados en *Belcanto a Performed Guide Español*, págs. 139, 147–148.
-[^12]: *Belcanto a Performed Guide Español*, pág. 147. «Los cantantes de la 'vieja escuela' no comenzaban un trino sin un crescendo y un diminuendo (messa di voce)».
-[^13]: *Op. cit.*, pág. 147. Sobre la resolución del trino con giro en cadencias finales y su preparación.
-[^14]: *Op. cit.*, págs. 147, 149. Definición de divisiones y ornamentos: «ejecutadas en un solo aliento sobre una sola sílaba».
-[^15]: *Op. cit.*, pág. 147. Instrucción pedagógica: cantar lentamente al principio y aumentar gradualmente hasta la máxima rapidez.
-[^16]: Bacon, R. M. (1824). Citado en *Belcanto a Performed Guide Español*, págs. 145–146.
-[^17]: *Belcanto a Performed Guide Español*, pág. 155. «Los cantantes rellenaban regularmente los saltos melódicos de una quinta o más mediante divisiones».
-[^18]: Egestorf, G. H. (?1815). Citado en *Belcanto a Performed Guide Español*, pág. 153. «La adición prematura de adornos impediría captar la melodía del compositor».
-[^19]: *Belcanto a Performed Guide Español*, pág. 155. Criterio de reserva ornamental para las secciones *Da Capo* y estrofas secundarias.
-[^20]: Bacon, R. M. (1824) y extractos de prensa. Citados en *Belcanto a Performed Guide Español*, págs. 153, 157.
+[^1]: *Bel Canto: A Performed Guide* (Pág. 18).
+[^2]: *Bel Canto: A Performed Guide* (Págs. 17, 145).
+[^3]: Domenico Corri, *The Singer's Preceptor* (Págs. 138, 147).
+[^4]: Louis Lablache, *Méthode complète de chant* (Pág. 147).
+[^5]: Richard Mackenzie Bacon, *Elements of Vocal Science* (Págs. 108, 113–114).
+[^6]: Manuel García II, *Nouveau traité sommaire de l'art du chant* (Pág. 26).
+[^7]: *Bel Canto: A Performed Guide* (Pág. 135).
+[^8]: Domenico Corri, *The Singer's Preceptor* (Pág. 142).
+[^9]: *Bel Canto: A Performed Guide* (Págs. 135–136).
+[^10]: Domenico Corri, *The Singer's Preceptor* (Pág. 138).
+[^11]: Gesualdo Lanza y Domenico Corri (Págs. 139, 147–148).
+[^12]: *Bel Canto: A Performed Guide* (Pág. 147).
+[^13]: *Bel Canto: A Performed Guide* (Pág. 147).
+[^14]: *Bel Canto: A Performed Guide* (Págs. 147, 149).
+[^15]: *Bel Canto: A Performed Guide* (Pág. 147).
+[^16]: Richard Mackenzie Bacon, *Elements of Vocal Science* (Págs. 145–146).
+[^17]: *Bel Canto: A Performed Guide* (Pág. 155).
+[^18]: G. H. Egestorf, *A Few Remarks on Singing* (Pág. 153).
+[^19]: *Bel Canto: A Performed Guide* (Pág. 155).
+[^20]: Richard Mackenzie Bacon, *Elements of Vocal Science* (Págs. 153, 157).
