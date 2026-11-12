@@ -1,0 +1,102 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+	const postModules = import.meta.glob('../../content/articulos/*.md', { eager: true });
+	return Object.entries(postModules).map(([path, post]: [string, any]) => {
+		const slug = path.split(/[\\/]/).pop()?.replace('.md', '');
+		return {
+			params: { slug },
+			props: { post },
+		};
+	});
+}
+
+const { post } = Astro.props;
+const { Content } = post;
+const { title, date, category, readTime } = post.frontmatter;
+---
+
+<Layout title={`${title} — Ars Cantorum`} description={post.frontmatter.description}>
+	<div class="container" style="max-width: 800px;">
+		<!-- Barra superior con botón volver -->
+		<div class="font-sans" style="margin-bottom: 2.5rem;">
+			<a href="/" style="display: inline-flex; align-items: center; gap: 0.4rem; color: #64748b; font-size: 0.9rem; font-weight: 500; text-decoration: none;">
+				← Volver al índice de artículos
+			</a>
+		</div>
+
+		<!-- Cabecera del Artículo -->
+		<header style="margin-bottom: 3.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color);">
+			<div class="font-sans" style="display: flex; gap: 0.75rem; align-items: center; margin-bottom: 1.2rem; flex-wrap: wrap;">
+				<span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; background: #f4ede3; color: var(--accent-gold); padding: 0.25rem 0.7rem; border-radius: 4px;">
+					{category || "Técnica Vocal"}
+				</span>
+				<span style="font-size: 0.85rem; color: #cbd5e1;">•</span>
+				<span style="font-size: 0.9rem; color: #64748b;">Lectura: {readTime || "7 min"}</span>
+			</div>
+
+			<h1 style="font-size: 2.6rem; color: #0f172a; margin-bottom: 1.2rem; line-height: 1.2;">
+				{title}
+			</h1>
+
+			{post.frontmatter.description && (
+				<p style="font-size: 1.25rem; color: #475569; line-height: 1.6; font-style: italic;">
+					{post.frontmatter.description}
+				</p>
+			)}
+		</header>
+
+		<!-- Cuerpo del Artículo -->
+		<article class="articulo-contenido" style="font-size: 1.2rem; line-height: 1.85; color: #1e293b;">
+			<Content />
+		</article>
+
+		<!-- Pie de Artículo -->
+		<div class="font-sans" style="margin-top: 4.5rem; padding-top: 2rem; border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+			<a href="/" style="color: var(--accent); font-weight: 600; text-decoration: none;">
+				← Volver a todos los artículos
+			</a>
+			<span style="color: #94a3b8; font-size: 0.85rem;">
+				Ars Cantorum
+			</span>
+		</div>
+	</div>
+</Layout>
+
+<style is:global>
+	.articulo-contenido h2 {
+		font-size: 1.8rem;
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+		color: #0f172a;
+		border-bottom: 1px solid #f1f5f9;
+		padding-bottom: 0.4rem;
+	}
+
+	.articulo-contenido h3 {
+		font-size: 1.35rem;
+		margin-top: 2.2rem;
+		margin-bottom: 0.75rem;
+		color: #334155;
+	}
+
+	.articulo-contenido p {
+		margin-bottom: 1.5rem;
+	}
+
+	.articulo-contenido ul, .articulo-contenido ol {
+		margin: 1.2rem 0 1.6rem 1.8rem;
+	}
+
+	.articulo-contenido li {
+		margin-bottom: 0.5rem;
+	}
+
+	.articulo-contenido hr {
+		border: 0;
+		height: 1px;
+		background: var(--border-color);
+		margin: 2.5rem 0;
+	}
+</style>

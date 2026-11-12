@@ -1,0 +1,15 @@
+{
+  "name": "ars-cantorum",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --port 3000 --host",
+    "start": "astro dev --port 3000 --host",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "astro": "^7.4.11"
+  }
+}
