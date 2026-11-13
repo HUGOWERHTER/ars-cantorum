@@ -23,7 +23,7 @@ export async function GET(context) {
   return rss({
     title: 'Ars Cantorum — El Arte del Canto',
     description: 'Ensayos sobre la tradición del Bel Canto, pedagogía vocal comparada y acústica musical.',
-    site: context.site || 'https://arscantorum.com',
+    site: context.site || 'https://www.arscantorum.com',
     items: items,
     customData: `<language>es-ES</language><copyright>Ars Cantorum</copyright>`,
   });
