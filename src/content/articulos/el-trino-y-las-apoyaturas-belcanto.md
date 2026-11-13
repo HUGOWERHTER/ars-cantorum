@@ -45,9 +45,11 @@ El trino consistía en la alternancia rápida, regular y perfectamente afinada e
 
 * **La Nota de Inicio:** Si bien la tradición más antigua aconsejaba comenzar la gracia invariablemente en la nota auxiliar superior para acentuar la disonancia armónica, hacia finales del siglo XVIII y principios del XIX existía una clara división de criterios; maestros como Gesualdo Lanza y el propio Corri reconocían que los trinos podían iniciarse tanto en la nota principal como en la auxiliar, dependiendo del afecto y del tempo de la pieza[^11].
 * **El Enlace Inicial con *Messa di Voce*:** Los cantantes de la "vieja escuela" (la generación dieciochesca de Corri y Tenducci) jamás atacaban un trino a pleno volumen de manera abrupta; la norma estilística prescribía iniciar la nota con un suave *crescendo* hasta el punto culminante y luego descender en *diminuendo*, vinculando la ornamentación al control dinámico del aliento[^12]. Hacia 1840, esta exigencia comenzó a relajarse en favor de ataques más directos y enérgicos propios del estilo de Donizetti y Verdi temprano.
-* **La Terminación con Giro (*Turned Trill*):** La conclusión de un trino rara vez era estática. Se requería una resolución elegante mediante un giro (*gruppetto*) o terminación cadencial, especialmente en los cierres de arias y recitativos, garantizando que la voz reposara en la tónica con perfecta estabilidad[^13].
+* **La Terminación Inferior o Giro Cadencial (*Turned Trill*):** La conclusión de un trino rara vez era estática. Se requería una resolución elegante mediante una terminación inferior (*la–si*) o giro cadencial, especialmente en los cierres de arias y recitativos, garantizando que la voz reposara en la tónica con perfecta estabilidad[^13].
 
 ![Ejemplo de Trino en Partitura](/ejemplos/trino.svg)
+
+> **Nota pedagógica:** *Realización ilustrativa de un trino iniciado en la nota principal, con terminación inferior y resolución ascendente. La ejecución histórica puede variar según el estilo, la época y el contexto armónico.*
 
 ---
 

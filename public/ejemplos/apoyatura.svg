@@ -23,6 +23,8 @@
   <ellipse cx="145" cy="103" rx="4.2" ry="3.2" fill="#0f172a" transform="rotate(-15 145 103)"/>
   <line x1="149" y1="103" x2="149" y2="82" stroke="#0f172a" stroke-width="1.4"/>
   <path d="M 149 82 Q 155 86 158 92" stroke="#0f172a" stroke-width="1.4" fill="none"/>
+  <!-- Ligadura de expresión entre apoyatura y nota principal -->
+  <path d="M 148 108 Q 182 121 214 113" stroke="#0f172a" stroke-width="1.4" fill="none"/>
 
   <!-- Nota principal Re5 (4ta línea, Blanca) -->
   <ellipse cx="220" cy="108" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="2" transform="rotate(-15 220 108)"/>
