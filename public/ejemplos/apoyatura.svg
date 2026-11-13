@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 215" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
   <!-- Barra superior del título -->
   <rect x="10" y="8" width="740" height="34" rx="6" fill="#e2e8f0"/>
-  <text x="380" y="30" text-anchor="middle" font-family="'Cinzel', serif" font-size="13.5" font-weight="700" fill="#0f172a" letter-spacing="0.05em">EJEMPLO 1 CORREGIDO: APOYATURA DESCENDENTE</text>
+  <text x="380" y="30" text-anchor="middle" font-family="'Cinzel', serif" font-size="13.5" font-weight="700" fill="#0f172a" letter-spacing="0.05em">EJEMPLO 1: APOYATURA DESCENDENTE</text>
 
   <!-- ==================== TARJETA A (CÓMO SE ESCRIBE) ==================== -->
   <rect x="15" y="50" width="355" height="152" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
