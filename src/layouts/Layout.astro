@@ -175,10 +175,10 @@ const canonicalURL = new URL(Astro.url.pathname, "https://arscantorum.com");
 		<header style="background: #ffffff; border-bottom: 1px solid var(--border-color); padding: 1.2rem 0; position: sticky; top: 0; z-index: 50; box-shadow: 0 1px 4px rgba(0,0,0,0.02);">
 			<div class="container" style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
 				<a href="/" style="display: flex; align-items: center; gap: 1rem; text-decoration: none;">
-					<img src="/logo.jpg" alt="Logo Ars Cantorum" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #b45309; box-shadow: 0 2px 6px rgba(0,0,0,0.12);" />
-					<div>
-						<div class="font-heading" style="font-weight: 800; font-size: 1.35rem; color: #0f172a; line-height: 1.1; letter-spacing: 0.04em;">ARS CANTORUM</div>
-						<div class="font-sans" style="font-size: 0.8rem; letter-spacing: 0.06em; font-style: italic; color: var(--accent-gold); font-weight: 600;">El Arte del Canto</div>
+					<img src="/logo.jpg" alt="Logo Ars Cantorum" style="width: 52px; height: 52px; border-radius: 50%; object-fit: cover; border: 2px solid #b45309; box-shadow: 0 2px 6px rgba(0,0,0,0.12); flex-shrink: 0;" />
+					<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+						<div class="font-heading" style="font-weight: 800; font-size: 1.35rem; color: #0f172a; line-height: 1.1; letter-spacing: 0.04em; text-align: center;">ARS CANTORUM</div>
+						<div class="font-sans" style="font-size: 0.8rem; letter-spacing: 0.06em; font-style: italic; color: var(--accent-gold); font-weight: 600; text-align: center; margin-top: 0.15rem;">El Arte del Canto</div>
 					</div>
 				</a>
 				
@@ -213,10 +213,10 @@ const canonicalURL = new URL(Astro.url.pathname, "https://arscantorum.com");
 		<footer style="background: #0f172a; color: #94a3b8; padding: 3.5rem 0; font-size: 0.9rem;" class="font-sans">
 			<div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 2rem;">
 				<div style="display: flex; align-items: center; gap: 1rem;">
-					<img src="/logo.jpg" alt="Logo Ars Cantorum" style="width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 1px solid #b45309;" />
-					<div>
-						<div class="font-heading" style="color: #f8fafc; font-size: 1.15rem; margin-bottom: 0.2rem;">ARS CANTORUM</div>
-						<p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; font-style: italic;">
+					<img src="/logo.jpg" alt="Logo Ars Cantorum" style="width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 1px solid #b45309; flex-shrink: 0;" />
+					<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+						<div class="font-heading" style="color: #f8fafc; font-size: 1.15rem; margin-bottom: 0.2rem; text-align: center;">ARS CANTORUM</div>
+						<p style="font-size: 0.85rem; color: #94a3b8; line-height: 1.2; font-style: italic; text-align: center; margin: 0;">
 							El Arte del Canto
 						</p>
 					</div>

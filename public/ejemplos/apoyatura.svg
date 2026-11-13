@@ -1,67 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 170" width="100%" height="auto" style="background:#ffffff; border:1px solid #e5ded4; border-radius:8px; padding:10px;">
-  <!-- Título del ejemplo -->
-  <text x="30" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">EJEMPLO 1: LA APOYATURA DESCENDENTE (Resolución de tercera)</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 195" width="100%" height="auto" style="background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:12px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
+  <!-- Título principal -->
+  <text x="30" y="24" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#0f172a" letter-spacing="0.04em">EJEMPLO 1: LA APOYATURA DESCENDENTE (Resolución de tercera)</text>
   
-  <!-- Subtítulos de comparación -->
-  <text x="70" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#92400e">A) Como está escrito</text>
-  <text x="420" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#059669">B) Como se canta (Ejecución Belcantista)</text>
+  <!-- Subtítulos de cada sistema -->
+  <text x="60" y="50" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#b45309">A) Como está escrito en partitura</text>
+  <text x="410" y="50" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#047857">B) Como se canta (Ejecución Belcantista)</text>
 
-  <!-- PENTAGRAMA A -->
-  <g stroke="#334155" stroke-width="1.2">
-    <line x1="60" y1="65" x2="350" y2="65"/>
-    <line x1="60" y1="77" x2="350" y2="77"/>
-    <line x1="60" y1="89" x2="350" y2="89"/>
-    <line x1="60" y1="101" x2="350" y2="101"/>
-    <line x1="60" y1="113" x2="350" y2="113"/>
-    <!-- Barra inicial y final -->
-    <line x1="60" y1="65" x2="60" y2="113" stroke-width="2"/>
-    <line x1="350" y1="65" x2="350" y2="113" stroke-width="2"/>
+  <!-- ==================== PENTAGRAMA A ==================== -->
+  <g stroke="#64748b" stroke-width="1.2">
+    <line x1="60" y1="75" x2="360" y2="75"/>
+    <line x1="60" y1="87" x2="360" y2="87"/>
+    <line x1="60" y1="99" x2="360" y2="99"/>
+    <line x1="60" y1="111" x2="360" y2="111"/>
+    <line x1="60" y1="123" x2="360" y2="123"/>
+    <line x1="60" y1="75" x2="60" y2="123" stroke-width="2"/>
+    <line x1="360" y1="75" x2="360" y2="123" stroke-width="2"/>
   </g>
-  <!-- Clave de Sol A (simplificada nítida) -->
-  <text x="70" y="106" font-family="serif" font-size="46" fill="#0f172a">𝄞</text>
+  <!-- Clave de Sol A -->
+  <text x="66" y="116" font-family="serif" font-size="44" fill="#0f172a">𝄞</text>
   <!-- Compás 4/4 -->
-  <text x="105" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#334155">4</text>
-  <text x="105" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#334155">4</text>
-  <!-- Pequeña apoyatura (Re5) -->
-  <ellipse cx="160" cy="71" rx="4.5" ry="3.5" fill="#92400e" transform="rotate(-15 160 71)"/>
-  <line x1="164" y1="71" x2="164" y2="48" stroke="#92400e" stroke-width="1.5"/>
-  <path d="M164 48 Q 170 52 173 58" stroke="#92400e" stroke-width="1.5" fill="none"/>
-  <line x1="158" y1="56" x2="170" y2="50" stroke="#92400e" stroke-width="1.2"/> <!-- Tachadura de apoyatura breve -->
-  <path d="M 162 76 Q 175 84 190 79" stroke="#92400e" stroke-width="1.2" fill="none"/> <!-- Ligadura -->
-  <text x="150" y="134" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Apoyatura</text>
-  <!-- Nota principal (Do5) Blanca -->
-  <ellipse cx="195" cy="77" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="2" transform="rotate(-15 195 77)"/>
-  <line x1="201" y1="77" x2="201" y2="45" stroke="#0f172a" stroke-width="1.8"/>
-  <text x="185" y="134" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Nota real</text>
-  <!-- Nota resolución (Si4) Blanca -->
-  <ellipse cx="280" cy="83" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="2" transform="rotate(-15 280 83)"/>
-  <line x1="286" y1="83" x2="286" y2="50" stroke="#0f172a" stroke-width="1.8"/>
+  <text x="105" y="96" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#475569">4</text>
+  <text x="105" y="118" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#475569">4</text>
 
-  <!-- PENTAGRAMA B -->
-  <g stroke="#334155" stroke-width="1.2">
-    <line x1="410" y1="65" x2="720" y2="65"/>
-    <line x1="410" y1="77" x2="720" y2="77"/>
-    <line x1="410" y1="89" x2="720" y2="89"/>
-    <line x1="410" y1="101" x2="720" y2="101"/>
-    <line x1="410" y1="113" x2="720" y2="113"/>
-    <!-- Barra inicial y final -->
-    <line x1="410" y1="65" x2="410" y2="113" stroke-width="2"/>
-    <line x1="720" y1="65" x2="720" y2="113" stroke-width="2"/>
+  <!-- Nota de Apoyatura (Re5 pequeña) -->
+  <ellipse cx="165" cy="81" rx="4.5" ry="3.5" fill="#b45309" transform="rotate(-15 165 81)"/>
+  <line x1="169" y1="81" x2="169" y2="58" stroke="#b45309" stroke-width="1.5"/>
+  <path d="M169 58 Q 175 62 178 68" stroke="#b45309" stroke-width="1.5" fill="none"/>
+  <line x1="163" y1="66" x2="175" y2="60" stroke="#b45309" stroke-width="1.2"/>
+  <path d="M 167 86 Q 185 96 210 90" stroke="#b45309" stroke-width="1.2" fill="none"/>
+  <!-- Textos explicativos A1 (centrados con text-anchor) -->
+  <text x="165" y="150" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#b45309">Apoyatura</text>
+  <text x="165" y="166" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#64748b">(Nota escrita breve)</text>
+
+  <!-- Nota Real (Do5 Blanca) -->
+  <ellipse cx="235" cy="87" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="2" transform="rotate(-15 235 87)"/>
+  <line x1="241" y1="87" x2="241" y2="55" stroke="#0f172a" stroke-width="1.8"/>
+  <!-- Textos explicativos A2 -->
+  <text x="235" y="150" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0f172a">Nota real</text>
+  <text x="235" y="166" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#64748b">(Consonancia)</text>
+
+  <!-- Nota Resolución (Si4 Blanca) -->
+  <ellipse cx="310" cy="93" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="2" transform="rotate(-15 310 93)"/>
+  <line x1="316" y1="93" x2="316" y2="60" stroke="#0f172a" stroke-width="1.8"/>
+  <!-- Textos explicativos A3 -->
+  <text x="310" y="150" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Resolución</text>
+
+
+  <!-- ==================== PENTAGRAMA B ==================== -->
+  <g stroke="#64748b" stroke-width="1.2">
+    <line x1="410" y1="75" x2="710" y2="75"/>
+    <line x1="410" y1="87" x2="710" y2="87"/>
+    <line x1="410" y1="99" x2="710" y2="99"/>
+    <line x1="410" y1="111" x2="710" y2="111"/>
+    <line x1="410" y1="123" x2="710" y2="123"/>
+    <line x1="410" y1="75" x2="410" y2="123" stroke-width="2"/>
+    <line x1="710" y1="75" x2="710" y2="123" stroke-width="2"/>
   </g>
   <!-- Clave de Sol B -->
-  <text x="420" y="106" font-family="serif" font-size="46" fill="#0f172a">𝄞</text>
-  <!-- Nota 1: Re5 (Negra con acento >) -->
-  <text x="480" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#059669">&gt;</text>
-  <ellipse cx="485" cy="71" rx="6" ry="4.5" fill="#059669" transform="rotate(-15 485 71)"/>
-  <line x1="490" y1="71" x2="490" y2="44" stroke="#059669" stroke-width="1.8"/>
-  <text x="468" y="134" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#059669">(Acento prosódico)</text>
-  <!-- Ligadura de articulación -->
-  <path d="M 490 64 Q 520 54 550 70" stroke="#059669" stroke-width="1.5" fill="none"/>
-  <!-- Nota 2: Do5 (Negra relajada) -->
-  <ellipse cx="550" cy="77" rx="6" ry="4.5" fill="#0f172a" transform="rotate(-15 550 77)"/>
-  <line x1="555" y1="77" x2="555" y2="50" stroke="#0f172a" stroke-width="1.8"/>
-  <text x="536" y="134" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">(Resolución suave)</text>
+  <text x="416" y="116" font-family="serif" font-size="44" fill="#0f172a">𝄞</text>
+
+  <!-- Nota 1: Re5 (Negra con acento) -->
+  <text x="485" y="66" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="900" fill="#047857">&gt;</text>
+  <ellipse cx="485" cy="81" rx="6" ry="4.5" fill="#047857" transform="rotate(-15 485 81)"/>
+  <line x1="490" y1="81" x2="490" y2="52" stroke="#047857" stroke-width="1.8"/>
+  <!-- Ligadura entre las dos notas -->
+  <path d="M 490 73 Q 525 61 565 80" stroke="#047857" stroke-width="1.5" fill="none"/>
+  <!-- Textos explicativos B1 -->
+  <text x="485" y="150" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#047857">Acento prosódico</text>
+  <text x="485" y="166" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#047857">(Toma mitad del valor)</text>
+
+  <!-- Nota 2: Do5 (Negra suave) -->
+  <ellipse cx="565" cy="87" rx="6" ry="4.5" fill="#0f172a" transform="rotate(-15 565 87)"/>
+  <line x1="570" y1="87" x2="570" y2="58" stroke="#0f172a" stroke-width="1.8"/>
+  <!-- Textos explicativos B2 (separados a 565, sin cruzar con 485) -->
+  <text x="565" y="150" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#475569">Resolución suave</text>
+  <text x="565" y="166" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#64748b">(Caída ligada)</text>
+
   <!-- Nota 3: Si4 (Blanca) -->
-  <ellipse cx="640" cy="83" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="2" transform="rotate(-15 640 83)"/>
-  <line x1="646" y1="83" x2="646" y2="50" stroke="#0f172a" stroke-width="1.8"/>
+  <ellipse cx="650" cy="93" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="2" transform="rotate(-15 650 93)"/>
+  <line x1="656" y1="93" x2="656" y2="60" stroke="#0f172a" stroke-width="1.8"/>
+  <!-- Textos explicativos B3 -->
+  <text x="650" y="150" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Reposo</text>
 </svg>
