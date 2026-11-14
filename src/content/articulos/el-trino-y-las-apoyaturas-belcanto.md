@@ -45,11 +45,11 @@ El trino consistía en la alternancia rápida, regular y perfectamente afinada e
 
 * **La Nota de Inicio:** Si bien la tradición más antigua aconsejaba comenzar la gracia invariablemente en la nota auxiliar superior para acentuar la disonancia armónica, hacia finales del siglo XVIII y principios del XIX existía una clara división de criterios; maestros como Gesualdo Lanza y el propio Corri reconocían que los trinos podían iniciarse tanto en la nota principal como en la auxiliar, dependiendo del afecto y del tempo de la pieza[^11].
 * **El Enlace Inicial con *Messa di Voce*:** Los cantantes de la "vieja escuela" (la generación dieciochesca de Corri y Tenducci) jamás atacaban un trino a pleno volumen de manera abrupta; la norma estilística prescribía iniciar la nota con un suave *crescendo* hasta el punto culminante y luego descender en *diminuendo*, vinculando la ornamentación al control dinámico del aliento[^12]. Hacia 1840, esta exigencia comenzó a relajarse en favor de ataques más directos y enérgicos propios del estilo de Donizetti y Verdi temprano.
-* **La Terminación Inferior o Giro Cadencial (*Turned Trill*):** La conclusión de un trino rara vez era estática. Se requería una resolución elegante mediante una terminación inferior (*la–si*) o giro cadencial, especialmente en los cierres de arias y recitativos, garantizando que la voz reposara en la tónica con perfecta estabilidad[^13].
+* **La Terminación con Giro (*Turned Trill*):** La conclusión de un trino rara vez era abrupta o estática. En la práctica histórica del Bel Canto, el cierre se articulaba mediante un *gruppetto* o terminación clásica: tras la oscilación entre la nota principal y la auxiliar superior, la voz descendía a la nota inferior para retornar de inmediato a la nota principal (formando la figura canónica nota principal → semitono/tono inferior → nota principal) antes de precipitar la resolución final sobre la tónica[^13].
 
 ![Ejemplo de Trino en Partitura](/ejemplos/trino.svg)
 
-> **Nota pedagógica:** *Realización ilustrativa de un trino iniciado en la nota principal, con terminación inferior y resolución ascendente. La ejecución histórica puede variar según el estilo, la época y el contexto armónico.*
+> **Nota pedagógica:** *Realización ilustrativa de un trino iniciado en la nota principal, con terminación en giro y resolución ascendente. La ejecución histórica puede variar según el estilo, la época y el contexto armónico.*
 
 ---
 
@@ -84,23 +84,23 @@ Para el cantante lírico del siglo XXI, el estudio del trino y de la apoyatura h
 
 ---
 
-[^1]: *Bel Canto: A Performed Guide* (Pág. 18).
-[^2]: *Bel Canto: A Performed Guide* (Págs. 17, 145).
+[^1]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 18).
+[^2]: Robert Toft, *Bel Canto: A Performer's Guide* (Págs. 17, 145).
 [^3]: Domenico Corri, *The Singer's Preceptor* (Págs. 138, 147).
 [^4]: Louis Lablache, *Méthode complète de chant* (Pág. 147).
 [^5]: Richard Mackenzie Bacon, *Elements of Vocal Science* (Págs. 108, 113–114).
 [^6]: Manuel García II, *Nouveau traité sommaire de l'art du chant* (Pág. 26).
-[^7]: *Bel Canto: A Performed Guide* (Pág. 135).
+[^7]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 135).
 [^8]: Domenico Corri, *The Singer's Preceptor* (Pág. 142).
-[^9]: *Bel Canto: A Performed Guide* (Págs. 135–136).
+[^9]: Robert Toft, *Bel Canto: A Performer's Guide* (Págs. 135–136).
 [^10]: Domenico Corri, *The Singer's Preceptor* (Pág. 138).
-[^11]: Gesualdo Lanza y Domenico Corri (Págs. 139, 147–148).
-[^12]: *Bel Canto: A Performed Guide* (Pág. 147).
-[^13]: *Bel Canto: A Performed Guide* (Pág. 147).
-[^14]: *Bel Canto: A Performed Guide* (Págs. 147, 149).
-[^15]: *Bel Canto: A Performed Guide* (Pág. 147).
+[^11]: Gesualdo Lanza y Domenico Corri, citados en Robert Toft, *Bel Canto: A Performer's Guide* (Págs. 139, 147–148).
+[^12]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 147).
+[^13]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 147).
+[^14]: Robert Toft, *Bel Canto: A Performer's Guide* (Págs. 147, 149).
+[^15]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 147).
 [^16]: Richard Mackenzie Bacon, *Elements of Vocal Science* (Págs. 145–146).
-[^17]: *Bel Canto: A Performed Guide* (Pág. 155).
+[^17]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 155).
 [^18]: G. H. Egestorf, *A Few Remarks on Singing* (Pág. 153).
-[^19]: *Bel Canto: A Performed Guide* (Pág. 155).
+[^19]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 155).
 [^20]: Richard Mackenzie Bacon, *Elements of Vocal Science* (Págs. 153, 157).
