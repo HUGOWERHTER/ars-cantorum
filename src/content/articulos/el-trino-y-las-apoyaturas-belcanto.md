@@ -12,7 +12,7 @@ readTime: "7 min"
 
 En la cultura musical del siglo XVIII y principios del XIX, la partitura impresa o manuscrita no representaba el fin último de la obra de arte, sino un mapa preliminar. La notación musical reducía inevitablemente la expresión a un conjunto limitado de símbolos que apenas aproximaban los matices no escritos de la interpretación viva[^1]. Para el cantante educado en la escuela italiana del *bel canto*, el texto poético y la línea melódica desnuda eran lienzos sobre los cuales debía desplegarse una oratoria sonora caracterizada por el afecto, la nobleza del tono y el dominio de la ornamentación.
 
-Dentro de este arsenal expresivo, dos gracias vocales ocuparon una posición de indiscutible primacía técnica y dramática: **la apoyatura** y **el trino** (conocido en los tratados anglosajones de la época como *shake*). Lejos de constituir meras acrobacias superficiales para impresionar al público, estos ornamentos operaban como vehículos retóricos indispensables: la apoyatura aportaba patetismo, tensión armónica y acento prosódico; el trino infundía brillo, culminación formal y clímax dramático a las cadencias y fermatas[^2].
+Dentro de este arsenal expresivo, dos gracias vocales ocuparon una posición de indiscutible primacía técnica y dramática según la escuela italiana: **l'appoggiatura** (la apoyatura) e **il trillo** (el trino). Como sentenciaba Giambattista Mancini en 1774, las gracias capitales sin las cuales todo canto resultaría insípido y desabrido son la apoyatura, la *messa di voce*, el trino y el mordente[^2]. Lejos de constituir meras acrobacias superficiales para impresionar al público, estos ornamentos operaban como vehículos retóricos indispensables: la apoyatura aportaba patetismo, tensión armónica y acento prosódico; el trino infundía brillo, culminación formal y clímax dramático a las cadencias y fermatas.
 
 ---
 
@@ -40,12 +40,12 @@ Los tratados distinguen claramente dos orientaciones melódicas:
 
 Los maestros prevenían rigurosamente contra el abuso mecánico: Corri advertía expresamente a sus alumnos que el exceso de apoyaturas debilitaba la estructura de la pieza y terminaba por saturar el oído del oyente[^10].
 
-### 2.2. El Trino (*Trillo / Shake*): Estructura, Entrada y Resolución
+### 2.2. Il Trillo (El Trino): Estructura, Entrada y Resolución
 El trino consistía en la alternancia rápida, regular y perfectamente afinada entre dos notas contiguas separadas por un tono o un semitono. Su ejecución, sin embargo, estaba sujeta a refinadas convenciones técnicas:
 
 * **La Nota de Inicio:** Si bien la tradición más antigua aconsejaba comenzar la gracia invariablemente en la nota auxiliar superior para acentuar la disonancia armónica, hacia finales del siglo XVIII y principios del XIX existía una clara división de criterios; maestros como Gesualdo Lanza y el propio Corri reconocían que los trinos podían iniciarse tanto en la nota principal como en la auxiliar, dependiendo del afecto y del tempo de la pieza[^11].
 * **El Enlace Inicial con *Messa di Voce*:** Los cantantes de la "vieja escuela" (la generación dieciochesca de Corri y Tenducci) jamás atacaban un trino a pleno volumen de manera abrupta; la norma estilística prescribía iniciar la nota con un suave *crescendo* hasta el punto culminante y luego descender en *diminuendo*, vinculando la ornamentación al control dinámico del aliento[^12]. Hacia 1840, esta exigencia comenzó a relajarse en favor de ataques más directos y enérgicos propios del estilo de Donizetti y Verdi temprano.
-* **La Terminación con Giro (*Turned Trill*):** La conclusión de un trino rara vez era abrupta o estática. En la práctica histórica del Bel Canto, el cierre se articulaba mediante un *gruppetto* o terminación clásica: tras la oscilación entre la nota principal y la auxiliar superior, la voz descendía a la nota inferior para retornar de inmediato a la nota principal (formando la figura canónica nota principal → semitono/tono inferior → nota principal) antes de precipitar la resolución final sobre la tónica[^13].
+* **La Terminación con Gruppetto (*Trillo con chiusa*):** La conclusión de un trino rara vez era abrupta o estática. En la doctrina histórica del Bel Canto codificada por tratadistas como Pier Francesco Tosi (1723), el cierre exigía una *terminazione* o *chiusa* articulada mediante un *gruppetto*: tras la oscilación entre la nota principal y la auxiliar superior, la voz descendía a la nota inferior para retornar de inmediato a la nota principal (formando la figura canónica nota principal → semitono/tono inferior → nota principal) antes de precipitar la resolución final sobre la tónica[^13].
 
 ![Ejemplo de Trino en Partitura](/ejemplos/trino.svg)
 
@@ -85,7 +85,7 @@ Para el cantante lírico del siglo XXI, el estudio del trino y de la apoyatura h
 ---
 
 [^1]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 18).
-[^2]: Robert Toft, *Bel Canto: A Performer's Guide* (Págs. 17, 145).
+[^2]: Giambattista Mancini, *Pensieri, e riflessioni pratiche sopra il canto figurato* (1774, Art. IX, Pág. 109). Véase también Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 17).
 [^3]: Domenico Corri, *The Singer's Preceptor* (Págs. 138, 147).
 [^4]: Louis Lablache, *Méthode complète de chant* (Pág. 147).
 [^5]: Richard Mackenzie Bacon, *Elements of Vocal Science* (Págs. 108, 113–114).
@@ -96,7 +96,7 @@ Para el cantante lírico del siglo XXI, el estudio del trino y de la apoyatura h
 [^10]: Domenico Corri, *The Singer's Preceptor* (Pág. 138).
 [^11]: Gesualdo Lanza y Domenico Corri, citados en Robert Toft, *Bel Canto: A Performer's Guide* (Págs. 139, 147–148).
 [^12]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 147).
-[^13]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 147).
+[^13]: Pier Francesco Tosi, *Opinioni de' cantori antichi, e moderni* (1723, Cap. III: «Del Trillo», Pág. 26). Véase también Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 147).
 [^14]: Robert Toft, *Bel Canto: A Performer's Guide* (Págs. 147, 149).
 [^15]: Robert Toft, *Bel Canto: A Performer's Guide* (Pág. 147).
 [^16]: Richard Mackenzie Bacon, *Elements of Vocal Science* (Págs. 145–146).
