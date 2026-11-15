@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 4px 20px rgba(15,23,42,0.06); display:block; margin:2.5rem auto;">
   <!-- Barra superior del título -->
   <rect x="10" y="8" width="860" height="34" rx="6" fill="#0f172a"/>
-  <text x="440" y="30" text-anchor="middle" font-family="'Cinzel', serif" font-size="12.5" font-weight="700" fill="#f8fafc" letter-spacing="0.06em">PERFIL ESPECTRAL Y RESONANCIA ACÚSTICA SEGÚN LA ESCUELA</text>
+  <text x="440" y="30" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12.5" font-weight="700" fill="#f8fafc" letter-spacing="0.06em">PERFIL ESPECTRAL Y RESONANCIA ACÚSTICA SEGÚN LA ESCUELA DE CANTO</text>
 
   <!-- ==================== TARJETA A (ESCUELA ITALIANA: CHIAROSCURO) ==================== -->
   <rect x="15" y="50" width="272" height="205" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
   <rect x="16" y="51" width="270" height="30" rx="7" fill="#f0fdf4"/>
-  <text x="28" y="71" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="11.5" fill="#15803d">A) Scuola Italiana (Chiaroscuro)</text>
+  <text x="28" y="71" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="11" fill="#15803d">A) Escuela Italiana (Chiaroscuro Clásico)</text>
 
   <!-- Gráfico de espectro acústico A -->
   <g transform="translate(30, 92)">
@@ -24,22 +24,22 @@
     
     <!-- Puntos de resonancia -->
     <circle cx="45" cy="40" r="3.5" fill="#16a34a"/>
-    <text x="45" y="28" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#15803d">Calidez (Scuro)</text>
+    <text x="45" y="28" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#15803d">Cuerpo y Calidez (Scuro)</text>
     
     <circle cx="150" cy="30" r="3.5" fill="#16a34a"/>
-    <text x="150" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#15803d">Singing Formant</text>
+    <text x="150" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#15803d">Formante del Cantante</text>
   </g>
 
   <!-- Píldora explicativa A -->
   <rect x="22" y="212" width="258" height="34" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
-  <text x="151" y="226" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#1e293b">Equilibrio acústico óptimo</text>
-  <text x="151" y="238" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#16a34a">Brillo en máscara (Chiaro) + cuerpo faríngeo (Scuro)</text>
+  <text x="151" y="226" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="10.5" fill="#1e293b">Equilibrio acústico supremo</text>
+  <text x="151" y="238" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#16a34a">Brillo incisivo (Chiaro) + resonancia faríngea (Scuro)</text>
 
 
   <!-- ==================== TARJETA B (ESCUELA ALEMANA: KEHLTIEFSTAND) ==================== -->
   <rect x="302" y="50" width="272" height="205" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
   <rect x="303" y="51" width="270" height="30" rx="7" fill="#fef2f2"/>
-  <text x="315" y="71" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="11.5" fill="#b91c1c">B) Deutsche Schule (Kehltiefstand)</text>
+  <text x="315" y="71" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="11" fill="#b91c1c">B) Escuela Alemana (Kehltiefstand / Dunkel)</text>
 
   <!-- Gráfico de espectro acústico B -->
   <g transform="translate(317, 92)">
@@ -56,21 +56,21 @@
     <path d="M 15 90 Q 40 15, 65 50 Q 95 85, 140 88 T 225 94" fill="none" stroke="#dc2626" stroke-width="2.4"/>
     
     <circle cx="45" cy="22" r="3.5" fill="#dc2626"/>
-    <text x="50" y="12" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#b91c1c">Exceso Dunkel (Graves)</text>
+    <text x="50" y="12" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#b91c1c">Sonido Cavernoso (Graves)</text>
     
-    <text x="165" y="70" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#991b1b">Sin squillo agudo</text>
+    <text x="165" y="70" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="9.5" fill="#991b1b">Carencia de Squillo agudo</text>
   </g>
 
   <!-- Píldora explicativa B -->
   <rect x="309" y="212" width="258" height="34" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
-  <text x="438" y="226" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#1e293b">Densidad y peso torácico</text>
-  <text x="438" y="238" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#b91c1c">Depresión laríngea rígida • Riesgo de Knödel</text>
+  <text x="438" y="226" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="10.5" fill="#1e293b">Densidad y sobrepresión torácica</text>
+  <text x="438" y="238" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#b91c1c">Depresión laríngea rígida • Riesgo de engolamiento</text>
 
 
   <!-- ==================== TARJETA C (CCM: TWANG & BELTING) ==================== -->
   <rect x="589" y="50" width="276" height="205" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
   <rect x="590" y="51" width="274" height="30" rx="7" fill="#eef2ff"/>
-  <text x="602" y="71" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="11.5" fill="#4338ca">C) Contemporáneo (Twang &amp; Belting)</text>
+  <text x="602" y="71" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="11" fill="#4338ca">C) Técnicas Contemporáneas (Twang y Belting)</text>
 
   <!-- Gráfico de espectro acústico C -->
   <g transform="translate(605, 92)">
@@ -87,12 +87,12 @@
     <path d="M 15 92 Q 50 85, 80 80 Q 120 75, 145 15 Q 160 75, 225 90" fill="none" stroke="#4f46e5" stroke-width="2.4"/>
     
     <circle cx="145" cy="18" r="3.5" fill="#4f46e5"/>
-    <text x="145" y="10" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#4338ca">Pico AES ~3 kHz</text>
-    <text x="80" y="65" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="9.5" fill="#475569">Boca bocina</text>
+    <text x="145" y="10" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#4338ca">Pico de Resonancia (~3 kHz)</text>
+    <text x="80" y="65" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="9.5" fill="#475569">Boca en megáfono</text>
   </g>
 
   <!-- Píldora explicativa C -->
   <rect x="598" y="212" width="258" height="34" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
-  <text x="727" y="226" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#1e293b">Penetración acústica incisiva</text>
-  <text x="727" y="238" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#4338ca">Tracto corto • Estrechamiento ariepiglótico</text>
+  <text x="727" y="226" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="10.5" fill="#1e293b">Penetración acústica incisiva</text>
+  <text x="727" y="238" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#4338ca">Tracto corto • Estrechamiento ariepiglótico</text>
 </svg>
