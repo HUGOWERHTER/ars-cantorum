@@ -76,8 +76,8 @@ const schemaData = {
 			<Content />
 		</article>
 
-		<!-- Módulo Editorial: Debate Académico, Consultas y Correspondencia -->
-		<section style="margin-top: 4rem; padding: 2.2rem 2.5rem; background: #ffffff; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);">
+		<!-- Módulo Editorial: Debate Académico, Consultas y Correspondencia Directa -->
+		<section style="margin-top: 4.5rem; padding: 2.5rem; background: #ffffff; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);">
 			<div class="font-sans" style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.75rem;">
 				<span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; background: #f4ede3; color: var(--accent-gold); padding: 0.2rem 0.6rem; border-radius: 4px;">
 					Coloquio Editorial
@@ -89,24 +89,115 @@ const schemaData = {
 				Tribuna de Debate Académico y Correspondencia
 			</h3>
 
-			<p style="font-size: 1.1rem; color: #475569; line-height: 1.7; margin-bottom: 1.6rem; font-style: italic;">
+			<p style="font-size: 1.1rem; color: #475569; line-height: 1.7; margin-bottom: 1.8rem; font-style: italic;">
 				«En Ars Cantorum concebimos la pedagogía vocal y la investigación musicológica como un diálogo riguroso y vivo. ¿Tiene alguna observación crítica sobre este ensayo, desea consultar pasajes de los tratados canónicos o compartir experiencias de su práctica en el aula o el escenario?»
 			</p>
 
-			<div class="font-sans" style="display: flex; gap: 1.2rem; flex-wrap: wrap; align-items: center; justify-content: space-between; border-top: 1px solid #f1f5f9; padding-top: 1.4rem;">
-				<a href={`mailto:contacto@arscantorum.com?subject=Consulta sobre: ${encodeURIComponent(title)}`} 
-				   style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--accent); color: #ffffff; padding: 0.7rem 1.4rem; border-radius: 6px; font-weight: 600; font-size: 0.95rem; text-decoration: none; box-shadow: 0 2px 8px rgba(136, 19, 55, 0.2);">
-					✉ Escribir a la Redacción
-				</a>
+			<!-- Formulario Integrado Directo (Cero Fricción) -->
+			<form id="form-consulta-editorial" class="font-sans" style="display: flex; flex-direction: column; gap: 1.2rem;">
+				<input type="hidden" name="articulo" value={title} />
+				<input type="hidden" name="_subject" value={`[Ars Cantorum] Consulta sobre: ${title}`} />
+				<input type="hidden" name="_template" value="table" />
+				<input type="hidden" name="_captcha" value="false" />
 
-				<div style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
-					<span style="font-size: 0.85rem; color: #64748b; font-weight: 600;">Participar en redes:</span>
-					<a href="https://www.instagram.com/arscantorum" target="_blank" rel="noopener noreferrer" style="color: #475569; font-size: 0.85rem; font-weight: 600; text-decoration: none; border: 1px solid #e2e8f0; padding: 0.4rem 0.8rem; border-radius: 4px; background: #f8fafc; transition: all 0.2s ease;">Instagram</a>
-					<a href="https://www.youtube.com/@arscantorum" target="_blank" rel="noopener noreferrer" style="color: #475569; font-size: 0.85rem; font-weight: 600; text-decoration: none; border: 1px solid #e2e8f0; padding: 0.4rem 0.8rem; border-radius: 4px; background: #f8fafc; transition: all 0.2s ease;">YouTube</a>
-					<a href="https://www.facebook.com/share/1LWBuePZJt/" target="_blank" rel="noopener noreferrer" style="color: #475569; font-size: 0.85rem; font-weight: 600; text-decoration: none; border: 1px solid #e2e8f0; padding: 0.4rem 0.8rem; border-radius: 4px; background: #f8fafc; transition: all 0.2s ease;">Facebook</a>
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+					<div>
+						<label for="autor-nombre" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 0.35rem;">
+							Su Nombre o Cargo <span style="color: #94a3b8; font-weight: 400;">(ej. Maestro de canto, cantante, investigador)</span>
+						</label>
+						<input type="text" id="autor-nombre" name="nombre" required placeholder="Nombre y apellido" 
+							style="width: 100%; padding: 0.7rem 0.9rem; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem; background: #f8fafc; font-family: inherit; box-sizing: border-box;" />
+					</div>
+					<div>
+						<label for="autor-email" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 0.35rem;">
+							Su Correo Electrónico <span style="color: #94a3b8; font-weight: 400;">(para responderle en privado)</span>
+						</label>
+						<input type="email" id="autor-email" name="email" required placeholder="correo@ejemplo.com" 
+							style="width: 100%; padding: 0.7rem 0.9rem; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem; background: #f8fafc; font-family: inherit; box-sizing: border-box;" />
+					</div>
 				</div>
-			</div>
+
+				<div>
+					<label for="autor-mensaje" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 0.35rem;">
+						Consulta, Crítica Documental o Aporte Pedagógico
+					</label>
+					<textarea id="autor-mensaje" name="mensaje" rows="4" required placeholder="Escriba aquí sus observaciones sobre las fuentes históricas, técnica o experiencias de canto..." 
+						style="width: 100%; padding: 0.75rem 0.9rem; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem; background: #f8fafc; font-family: inherit; resize: vertical; line-height: 1.5; box-sizing: border-box;"></textarea>
+				</div>
+
+				<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-top: 0.3rem;">
+					<button type="submit" id="btn-enviar-consulta" 
+						style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--accent); color: #ffffff; padding: 0.75rem 1.6rem; border-radius: 6px; font-weight: 600; font-size: 0.95rem; border: none; cursor: pointer; box-shadow: 0 2px 8px rgba(136, 19, 55, 0.25); transition: background-color 0.2s;">
+						✉ Enviar Mensaje a la Redacción
+					</button>
+
+					<div style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
+						<span style="font-size: 0.85rem; color: #64748b; font-weight: 600;">O debatir en redes:</span>
+						<a href="https://www.instagram.com/arscantorum" target="_blank" rel="noopener noreferrer" style="color: #475569; font-size: 0.85rem; font-weight: 600; text-decoration: none; border: 1px solid #e2e8f0; padding: 0.4rem 0.8rem; border-radius: 4px; background: #f8fafc;">Instagram</a>
+						<a href="https://www.youtube.com/@arscantorum" target="_blank" rel="noopener noreferrer" style="color: #475569; font-size: 0.85rem; font-weight: 600; text-decoration: none; border: 1px solid #e2e8f0; padding: 0.4rem 0.8rem; border-radius: 4px; background: #f8fafc;">YouTube</a>
+						<a href="https://www.facebook.com/share/1LWBuePZJt/" target="_blank" rel="noopener noreferrer" style="color: #475569; font-size: 0.85rem; font-weight: 600; text-decoration: none; border: 1px solid #e2e8f0; padding: 0.4rem 0.8rem; border-radius: 4px; background: #f8fafc;">Facebook</a>
+					</div>
+				</div>
+
+				<!-- Mensaje de estado -->
+				<div id="form-estado" style="display: none; padding: 1.1rem; border-radius: 6px; font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.5;"></div>
+			</form>
 		</section>
+
+		<script is:inline>
+			document.addEventListener('DOMContentLoaded', () => {
+				const form = document.getElementById('form-consulta-editorial');
+				const btn = document.getElementById('btn-enviar-consulta');
+				const estado = document.getElementById('form-estado');
+
+				if (!form || !btn || !estado) return;
+
+				form.addEventListener('submit', async (e) => {
+					e.preventDefault();
+					btn.disabled = true;
+					const textoOriginal = btn.innerHTML;
+					btn.innerHTML = 'Enviando mensaje...';
+					btn.style.opacity = '0.7';
+
+					const formData = new FormData(form);
+					const payload = Object.fromEntries(formData.entries());
+
+					try {
+						const res = await fetch('https://formsubmit.co/ajax/arscantorumoficial@gmail.com', {
+							method: 'POST',
+							headers: {
+								'Content-Type': 'application/json',
+								'Accept': 'application/json'
+							},
+							body: JSON.stringify(payload)
+						});
+
+						if (res.ok) {
+							estado.style.display = 'block';
+							estado.style.background = '#f0fdf4';
+							estado.style.color = '#166534';
+							estado.style.border = '1px solid #bbf7d0';
+							estado.innerHTML = '<strong>✓ Mensaje enviado con éxito.</strong> Muchas gracias por su aporte; la redacción de <em>Ars Cantorum</em> ha recibido su consulta y le responderá a su correo a la brevedad.';
+							form.reset();
+							btn.innerHTML = '✓ Mensaje Enviado';
+							btn.style.background = '#15803d';
+							btn.style.opacity = '1';
+						} else {
+							throw new Error('Error al procesar el mensaje');
+						}
+					} catch (err) {
+						estado.style.display = 'block';
+						estado.style.background = '#fef2f2';
+						estado.style.color = '#991b1b';
+						estado.style.border = '1px solid #fecaca';
+						estado.innerHTML = 'No se pudo enviar el mensaje por un inconveniente de red. Puede escribirnos directamente a <strong>arscantorumoficial@gmail.com</strong>.';
+						btn.disabled = false;
+						btn.innerHTML = textoOriginal;
+						btn.style.opacity = '1';
+					}
+				});
+			});
+		</script>
 
 		<!-- Pie de Artículo -->
 		<div class="font-sans" style="margin-top: 4.5rem; padding-top: 2rem; border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
