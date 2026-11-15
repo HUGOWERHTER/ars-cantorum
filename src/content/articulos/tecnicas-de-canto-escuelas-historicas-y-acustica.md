@@ -19,8 +19,6 @@ readTime: "15 min"
 
 Uno de los errores más perniciosos en la historia de la pedagogía vocal es la confusión sistemática entre **técnica**, **estilo** y **método**. Como advierte Cornelius L. Reid en su análisis terminológico canónico, la técnica no consiste en un conjunto de ornamentos superficiales ni en una preferencia estética, sino en la liberación de los mecanismos reflejos e involuntarios de la fonación para que respondan con perfecta fidelidad a la voluntad interpretativa del cantante[^2].
 
-![Diferenciación entre Técnica, Estilo y Método](/ejemplos/diagrama-tecnica-estilo-metodo.svg)
-
 En su exhaustivo estudio sobre la literatura pedagógica, Victor Alexander Fields clasifica los enfoques de entrenamiento vocal en tres grandes paradigmas históricos[^3]:
 1. **El Paradigma Empírico-Imitativo (Siglos XVII–XVIII):** La doctrina del *canta come si parla*. No existía disección anatómica en el aula; el maestro modelaba el sonido y el alumno aprendía mediante sensaciones propioceptivas de libertad, pureza tímbrica y afinación auditiva refleja.
 2. **El Paradigma Mecanicista Directo (Finales del Siglo XIX):** El intento positivista de controlar voluntariamente músculos involuntarios (deprimir la raíz de la lengua, descender la laringe con los dedos o endurecer deliberadamente el abdomen). La pedagogía contemporánea demostró que este enfoque genera rigidez crónica y fatiga vocal[^4].
@@ -79,12 +77,10 @@ Surgida en el siglo XX, representa un eclecticismo funcional. Por un lado, conse
 
 La comprensión moderna de la técnica vocal descansa sobre la interacción biomecánica de la laringe intrínseca. En *Principles of Voice Production*, Ingo R. Titze demuestra que la producción de altura tonal y timbre es el resultado de un antagonismo neuromuscular coordinado entre dos grupos musculares principales[^17]:
 
-![Plancha I: Anatomía Intrínseca y Biomecánica Laríngea](/ejemplos/plancha-laringe-biomecanica.svg)
+![Plancha I: Anatomía Intrínseca y Biomecánica Laríngea](/ejemplos/plancha-1-laringe-anatomia.webp)
 
 1. **El Músculo Tiroaritenoideo (TA):** Constituye el cuerpo principal de los pliegues vocales (músculo vocal). Su contracción acorta y engrosa la cuerda, aumentando la masa vibrante efectiva y prolongando la fase cerrada del ciclo glótico. Es el responsable biomecánico de la **voz de pecho** (Mecanismo 1 o M1).
 2. **El Músculo Cricotiroideo (CT):** Al contraerse, bascula el cartílago cricoides hacia el tiroides, elongando, adelgazando y tensando los pliegues vocales longitudinalmente. Es el motor primario del ascenso tonal y de la **voz de cabeza** (Mecanismo 2 o M2)[^18].
-
-![Coordinación Neuromuscular TA vs. CT y Voce Mista](/ejemplos/diagrama-biomecanica-ta-ct.svg)
 
 ### El *Passaggio*, la *Voce Mista* y la *Copertura*
 Cuando un cantante inexperto asciende en la escala manteniendo activa únicamente la masa tiroaritenoidea (TA), la laringe se eleva violentamente, la presión subglótica se dispara y la voz sufre un quiebre acústico (*crack* o *registro de falsete desvinculado*). 
@@ -106,7 +102,7 @@ En las voces masculinas, este fenómeno se consolida en el pasaje agudo mediante
 
 Sundberg demostró que el espectro medio de una orquesta sinfónica moderna concentra su máxima energía acústica entre los 400 y los 600 Hz, decayendo abruptamente a partir de los 2.000 Hz. La voz humana normal parlante decae en una pendiente similar. Sin embargo, el cantante clásico entrenado en la escuela del *chiaroscuro* modifica las cavidades de su tracto vocal de modo que genera un conglomerado extraordinario de resonancias agudas (la conjunción de los formantes tercero, cuarto y quinto) agrupadas estrechamente entre los **2.800 y los 3.200 Hz**[^22].
 
-![Plancha II: El Tracto Vocal Humano en Corte Sagital](/ejemplos/plancha-tracto-vocal-sagital.svg)
+![Plancha II: Corte Sagital del Tracto Vocal y los Resonadores](/ejemplos/plancha-2-tracto-vocal-sagital.webp)
 
 ![Perfil Espectral y Resonancia Acústica según la Escuela](/ejemplos/acustica-escuelas-canto.svg)
 
