@@ -1,34 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 145" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:10px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 170" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M 0 1 L 10 5 L 0 9 z" fill="#0f172a"/>
     </marker>
   </defs>
 
-  <!-- Nodo Principal: TÉCNICA VOCAL -->
-  <rect x="20" y="32" width="230" height="80" rx="8" fill="#f8fafc" stroke="#0f172a" stroke-width="2"/>
-  <text x="135" y="60" text-anchor="middle" font-family="'Cinzel', serif" font-weight="700" font-size="13" fill="#0f172a" letter-spacing="0.05em">TÉCNICA VOCAL</text>
-  <text x="135" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">Eficiencia de la fuente glótica</text>
-  <text x="135" y="93" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">y balance de resonancia del filtro</text>
+  <!-- ==================== NODO PRINCIPAL: TÉCNICA VOCAL ==================== -->
+  <rect x="20" y="38" width="235" height="92" rx="8" fill="#f8fafc" stroke="#0f172a" stroke-width="2"/>
+  <rect x="21" y="39" width="233" height="26" rx="7" fill="#0f172a"/>
+  <text x="137" y="56" text-anchor="middle" font-family="'Cinzel', serif" font-weight="700" font-size="12.5" fill="#f8fafc" letter-spacing="0.05em">TÉCNICA VOCAL</text>
+  
+  <text x="137" y="82" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="11" fill="#0f172a">Biomecánica y Eficiencia</text>
+  <text x="137" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">Coordinación de la fuente glótica</text>
+  <text x="137" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">y balance de resonancia del filtro</text>
 
-  <!-- Flechas que bifurcan -->
-  <!-- Hacia Estilo Musical (Arriba) -->
-  <path d="M 250 55 C 310 55, 330 38, 380 38" fill="none" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow)"/>
-  <text x="315" y="42" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#64748b">se aplica a</text>
+  <!-- ==================== CONEXIONES Y FLECHAS CON PÍLDORAS ==================== -->
+  <!-- Flecha Superior (hacia Estilo) -->
+  <path d="M 255 60 C 310 60, 330 35, 400 35" fill="none" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Píldora de texto Superior (con fondo blanco para evitar superposición) -->
+  <g transform="translate(280, 22)">
+    <rect x="0" y="0" width="88" height="22" rx="11" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="44" y="15" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#475569">se aplica al</text>
+  </g>
 
-  <!-- Hacia Método Pedagógico (Abajo) -->
-  <path d="M 250 88 C 310 88, 330 105, 380 105" fill="none" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow)"/>
-  <text x="315" y="102" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#64748b">se transmite vía</text>
+  <!-- Flecha Inferior (hacia Método) -->
+  <path d="M 255 108 C 310 108, 330 132, 400 132" fill="none" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Píldora de texto Inferior (con fondo blanco para evitar superposición) -->
+  <g transform="translate(276, 122)">
+    <rect x="0" y="0" width="96" height="22" rx="11" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="48" y="15" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#475569">se enseña vía</text>
+  </g>
 
-  <!-- Nodo Derivado 1: ESTILO MUSICAL -->
-  <rect x="390" y="12" width="330" height="52" rx="8" fill="#ffffff" stroke="#c2410c" stroke-width="1.6"/>
-  <rect x="391" y="13" width="328" height="20" rx="7" fill="#fff7ed"/>
-  <text x="555" y="27" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#c2410c">ESTILO MUSICAL</text>
-  <text x="555" y="50" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">Convenciones de época, retórica, fraseo y ornamentación</text>
+  <!-- ==================== NODO DERIVADO 1: ESTILO MUSICAL ==================== -->
+  <rect x="410" y="10" width="330" height="64" rx="8" fill="#ffffff" stroke="#c2410c" stroke-width="1.6"/>
+  <rect x="411" y="11" width="328" height="24" rx="7" fill="#fff7ed"/>
+  <text x="575" y="27" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#c2410c">ESTILO MUSICAL</text>
+  <text x="575" y="47" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#334155">Convenciones de época, retórica, fraseo y ornamentos</text>
+  <text x="575" y="60" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#64748b">(Bel Canto, Barroco, Verismo, Lied, Música Antigua)</text>
 
-  <!-- Nodo Derivado 2: MÉTODO PEDAGÓGICO -->
-  <rect x="390" y="80" width="330" height="52" rx="8" fill="#ffffff" stroke="#15803d" stroke-width="1.6"/>
-  <rect x="391" y="81" width="328" height="20" rx="7" fill="#f0fdf4"/>
-  <text x="555" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#15803d">MÉTODO PEDAGÓGICO</text>
-  <text x="555" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">Estrategia didáctica, metáforas y ejercicios del maestro</text>
+  <!-- ==================== NODO DERIVADO 2: MÉTODO PEDAGÓGICO ==================== -->
+  <rect x="410" y="96" width="330" height="64" rx="8" fill="#ffffff" stroke="#15803d" stroke-width="1.6"/>
+  <rect x="411" y="97" width="328" height="24" rx="7" fill="#f0fdf4"/>
+  <text x="575" y="113" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#15803d">MÉTODO PEDAGÓGICO</text>
+  <text x="575" y="133" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#334155">Estrategia didáctica, metáforas y ejercicios del maestro</text>
+  <text x="575" y="146" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#64748b">(Metáforas de colocación, sensaciones, ejercicios progresivos)</text>
 </svg>
