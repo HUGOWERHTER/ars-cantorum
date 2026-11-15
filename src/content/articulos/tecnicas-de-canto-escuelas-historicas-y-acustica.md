@@ -79,10 +79,12 @@ Surgida en el siglo XX, representa un eclecticismo funcional. Por un lado, conse
 
 La comprensión moderna de la técnica vocal descansa sobre la interacción biomecánica de la laringe intrínseca. En *Principles of Voice Production*, Ingo R. Titze demuestra que la producción de altura tonal y timbre es el resultado de un antagonismo neuromuscular coordinado entre dos grupos musculares principales[^17]:
 
-![Coordinación Neuromuscular TA vs. CT y Voce Mista](/ejemplos/diagrama-biomecanica-ta-ct.svg)
+![Plancha I: Anatomía Intrínseca y Biomecánica Laríngea](/ejemplos/plancha-laringe-biomecanica.svg)
 
 1. **El Músculo Tiroaritenoideo (TA):** Constituye el cuerpo principal de los pliegues vocales (músculo vocal). Su contracción acorta y engrosa la cuerda, aumentando la masa vibrante efectiva y prolongando la fase cerrada del ciclo glótico. Es el responsable biomecánico de la **voz de pecho** (Mecanismo 1 o M1).
 2. **El Músculo Cricotiroideo (CT):** Al contraerse, bascula el cartílago cricoides hacia el tiroides, elongando, adelgazando y tensando los pliegues vocales longitudinalmente. Es el motor primario del ascenso tonal y de la **voz de cabeza** (Mecanismo 2 o M2)[^18].
+
+![Coordinación Neuromuscular TA vs. CT y Voce Mista](/ejemplos/diagrama-biomecanica-ta-ct.svg)
 
 ### El *Passaggio*, la *Voce Mista* y la *Copertura*
 Cuando un cantante inexperto asciende en la escala manteniendo activa únicamente la masa tiroaritenoidea (TA), la laringe se eleva violentamente, la presión subglótica se dispara y la voz sufre un quiebre acústico (*crack* o *registro de falsete desvinculado*). 
@@ -104,7 +106,9 @@ En las voces masculinas, este fenómeno se consolida en el pasaje agudo mediante
 
 Sundberg demostró que el espectro medio de una orquesta sinfónica moderna concentra su máxima energía acústica entre los 400 y los 600 Hz, decayendo abruptamente a partir de los 2.000 Hz. La voz humana normal parlante decae en una pendiente similar. Sin embargo, el cantante clásico entrenado en la escuela del *chiaroscuro* modifica las cavidades de su tracto vocal de modo que genera un conglomerado extraordinario de resonancias agudas (la conjunción de los formantes tercero, cuarto y quinto) agrupadas estrechamente entre los **2.800 y los 3.200 Hz**[^22].
 
-![Configuración Biomecánica y Acústica según la Técnica Vocal](/ejemplos/acustica-escuelas-canto.svg)
+![Plancha II: El Tracto Vocal Humano en Corte Sagital](/ejemplos/plancha-tracto-vocal-sagital.svg)
+
+![Perfil Espectral y Resonancia Acústica según la Escuela](/ejemplos/acustica-escuelas-canto.svg)
 
 ### El Principio Acústico de Sundberg
 Para que este formante de resonancia se produzca, el tracto vocal debe cumplir una condición anatómica precisa descubierta por Sundberg: **la sección transversal de la faringe inferior debe ser al menos seis veces más amplia que la apertura del tubo epilaríngeo** (una proporción de área mayor o igual a 6 a 1).

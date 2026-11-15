@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 3px 12px rgba(0,0,0,0.06);">
+  <!-- Doble marco clásico enciclopédico -->
+  <rect x="8" y="8" width="844" height="604" rx="6" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+  <rect x="12" y="12" width="836" height="596" rx="4" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="6 3"/>
+
+  <!-- Encabezado monumental en estilo grabado de época -->
+  <rect x="18" y="18" width="824" height="42" rx="4" fill="#0f172a"/>
+  <text x="430" y="44" text-anchor="middle" font-family="'Cinzel', serif" font-weight="700" font-size="13" fill="#f8fafc" letter-spacing="0.08em">PLANCHA I: ANATOMÍA INTRÍNSECA Y BIOMECÁNICA LARÍNGEA</text>
+
+  <!-- ==================== FIGURA 1: VISTA LATERAL DE LOS MÚSCULOS ==================== -->
+  <g transform="translate(35, 75)">
+    <!-- Contenedor Fig 1 -->
+    <rect x="0" y="0" width="370" height="465" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <!-- Imagen del grabado histórico (Gray957) -->
+    <image href="/ejemplos/grabado-laringe-musculos.png" x="45" y="15" width="280" height="435" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Píldora de llamada al Músculo Cricotiroideo (CT) -->
+    <g transform="translate(195, 335)">
+      <rect x="0" y="0" width="165" height="26" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
+      <text x="82" y="17" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#1d4ed8">M. Cricotiroideo (CT)</text>
+    </g>
+
+    <!-- Píldora de llamada al Músculo Tiroaritenoideo (TA) -->
+    <g transform="translate(195, 175)">
+      <rect x="0" y="0" width="165" height="26" rx="5" fill="#fff7ed" stroke="#ea580c" stroke-width="1.3"/>
+      <text x="82" y="17" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#c2410c">M. Tiroaritenoideo (TA)</text>
+    </g>
+  </g>
+
+  <!-- Pie de la Figura 1 -->
+  <rect x="35" y="550" width="370" height="48" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="220" y="569" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#0f172a">Fig. 1. Músculos de la Laringe (Perfil)</text>
+  <text x="220" y="586" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#475569">Masa del TA (cuerpo/pecho) frente a la tensión del CT (cabeza)</text>
+
+
+  <!-- ==================== FIGURA 2: VISTA SUPERIOR DE LA GLOTIS ==================== -->
+  <g transform="translate(455, 75)">
+    <!-- Contenedor Fig 2 -->
+    <rect x="0" y="0" width="370" height="465" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <!-- Imagen del grabado histórico (Gray958) -->
+    <image href="/ejemplos/grabado-glotis-cuerdas-vocales.png" x="35" y="40" width="300" height="390" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Píldora de llamada a los Pliegues Vocales (Cuerdas Verdaderas) -->
+    <g transform="translate(10, 260)">
+      <rect x="0" y="0" width="150" height="26" rx="5" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+      <text x="75" y="17" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#15803d">Pliegues Vocales (Glotis)</text>
+    </g>
+
+    <!-- Píldora de llamada a los Cartílagos Aritenoides -->
+    <g transform="translate(210, 375)">
+      <rect x="0" y="0" width="150" height="26" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.3"/>
+      <text x="75" y="17" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#334155">Cartílagos Aritenoides</text>
+    </g>
+  </g>
+
+  <!-- Pie de la Figura 2 -->
+  <rect x="455" y="550" width="370" height="48" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="640" y="569" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#0f172a">Fig. 2. Interior de la Glotis (Vista Superior)</text>
+  <text x="640" y="586" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#475569">Aducción cordal elástica sin constricción ventricular</text>
+</svg>

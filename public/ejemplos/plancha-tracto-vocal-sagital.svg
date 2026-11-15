@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 640" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 3px 12px rgba(0,0,0,0.06);">
+  <!-- Doble marco clásico enciclopédico -->
+  <rect x="8" y="8" width="844" height="624" rx="6" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+  <rect x="12" y="12" width="836" height="616" rx="4" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="6 3"/>
+
+  <!-- Encabezado monumental en estilo grabado de época -->
+  <rect x="18" y="18" width="824" height="42" rx="4" fill="#0f172a"/>
+  <text x="430" y="44" text-anchor="middle" font-family="'Cinzel', serif" font-weight="700" font-size="13" fill="#f8fafc" letter-spacing="0.08em">PLANCHA II: EL TRACTO VOCAL HUMANO EN CORTE SAGITAL</text>
+
+  <!-- ==================== LADO IZQUIERDO: EL GRABADO SAGITAL HISTÓRICO ==================== -->
+  <g transform="translate(30, 75)">
+    <rect x="0" y="0" width="380" height="535" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <!-- Grabado Gray994 -->
+    <image href="/ejemplos/grabado-tracto-vocal-sagital.png" x="15" y="15" width="350" height="505" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <!-- ==================== LADO DERECHO: LEYENDAS ANATÓMICO-ACÚSTICAS ==================== -->
+  <g transform="translate(430, 75)">
+    <!-- Encabezado de la leyenda -->
+    <rect x="0" y="0" width="395" height="32" rx="5" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="197" y="21" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#0f172a">RESONADORES Y ARTICULACIÓN ACÚSTICA</text>
+
+    <!-- Tarjeta 1: Velo del Paladar -->
+    <g transform="translate(0, 42)">
+      <rect x="0" y="0" width="395" height="74" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+      <rect x="1" y="1" width="393" height="22" rx="5" fill="#f0fdf4"/>
+      <text x="15" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#15803d">1. Velo del Paladar (Paladar Blando)</text>
+      <text x="15" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#334155">En el Bel Canto se eleva de forma refleja (esfínter velofaríngeo),</text>
+      <text x="15" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">aislando la cavidad nasal e incrementando el volumen de la orofaringe.</text>
+      <text x="15" y="66" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#16a34a">Génesis del espacio abovedado del Chiaroscuro</text>
+    </g>
+
+    <!-- Tarjeta 2: Cavidad Bucal y Lengua -->
+    <g transform="translate(0, 126)">
+      <rect x="0" y="0" width="395" height="74" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+      <rect x="1" y="1" width="393" height="22" rx="5" fill="#fff7ed"/>
+      <text x="15" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#c2410c">2. Cavidad Bucal y Lengua</text>
+      <text x="15" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#334155">Resonador anterior primario que sintoniza los formantes F1 y F2.</text>
+      <text x="15" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">La embocadura noble (ovalada vertical) previene la estridencia</text>
+      <text x="15" y="66" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#c2410c">y permite el redondeo vocálico (aggiustamento) en el pasaje</text>
+    </g>
+
+    <!-- Tarjeta 3: Faringe Dilatada (Sundberg) -->
+    <g transform="translate(0, 210)">
+      <rect x="0" y="0" width="395" height="88" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+      <rect x="1" y="1" width="393" height="22" rx="5" fill="#eff6ff"/>
+      <text x="15" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#1d4ed8">3. Faringe Dilatada y Tubo Epilaríngeo (Sundberg)</text>
+      <text x="15" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#334155">La sección transversal faríngea debe ser al menos 6 veces más</text>
+      <text x="15" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">amplia que la salida epilaríngea (proporción ≥ 6:1).</text>
+      <text x="15" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">Permite que la epilaringe genere el Singing Formant (~3 kHz),</text>
+      <text x="15" y="80" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#1d4ed8">proyectando la voz acústica sobre una orquesta completa</text>
+    </g>
+
+    <!-- Tarjeta 4: Laringe Flotante Suspendida -->
+    <g transform="translate(0, 308)">
+      <rect x="0" y="0" width="395" height="88" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+      <rect x="1" y="1" width="393" height="22" rx="5" fill="#faf5ff"/>
+      <text x="15" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#7e22ce">4. Laringe Flotante Suspendida (Natural)</text>
+      <text x="15" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#334155">En reposo fisiológico bajo sin contracción de los depresores del cuello.</text>
+      <text x="15" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">A diferencia del Kehltiefstand alemán (que fija la laringe con rigidez),</text>
+      <text x="15" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">la escuela italiana permite la basculación libre del cartílago tiroides</text>
+      <text x="15" y="80" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#7e22ce">preservando el vibrato natural y la máxima agilidad</text>
+    </g>
+
+    <!-- Píldora inferior de resumen -->
+    <g transform="translate(0, 406)">
+      <rect x="0" y="0" width="395" height="129" rx="6" fill="#0f172a"/>
+      <text x="197" y="24" text-anchor="middle" font-family="'Cinzel', serif" font-weight="700" font-size="11" fill="#f8fafc" letter-spacing="0.05em">SÍNTESIS BIOACÚSTICA</text>
+      <text x="197" y="48" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#cbd5e1">El tracto vocal no es un tubo pasivo: actúa como un</text>
+      <text x="197" y="64" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#cbd5e1">filtro acústico activo que transforma los pulsos glóticos</text>
+      <text x="197" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#cbd5e1">en un sonido redondo, proyectado y con núcleo de squillo.</text>
+      <text x="197" y="108" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="12" fill="#38bdf8">«Canta colla gola aperta e la bocca composta»</text>
+    </g>
+  </g>
+</svg>
