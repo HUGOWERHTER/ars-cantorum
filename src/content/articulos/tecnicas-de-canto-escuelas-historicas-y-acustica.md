@@ -19,11 +19,7 @@ readTime: "15 min"
 
 Uno de los errores más perniciosos en la historia de la pedagogía vocal es la confusión sistemática entre **técnica**, **estilo** y **método**. Como advierte Cornelius L. Reid en su análisis terminológico canónico, la técnica no consiste en un conjunto de ornamentos superficiales ni en una preferencia estética, sino en la liberación de los mecanismos reflejos e involuntarios de la fonación para que respondan con perfecta fidelidad a la voluntad interpretativa del cantante[^2].
 
-```mermaid
-flowchart LR
-    A["TÉCNICA VOCAL<br>(Biomecánica / Eficiencia de la fuente y filtro)"] --> B["ESTILO MUSICAL<br>(Convenciones de época, fraseo y estética)"]
-    A --> C["MÉTODO PEDAGÓGICO<br>(Estrategia didáctica del maestro)"]
-```
+![Diferenciación entre Técnica, Estilo y Método](/ejemplos/diagrama-tecnica-estilo-metodo.svg)
 
 En su exhaustivo estudio sobre la literatura pedagógica, Victor Alexander Fields clasifica los enfoques de entrenamiento vocal en tres grandes paradigmas históricos[^3]:
 1. **El Paradigma Empírico-Imitativo (Siglos XVII–XVIII):** La doctrina del *canta come si parla*. No existía disección anatómica en el aula; el maestro modelaba el sonido y el alumno aprendía mediante sensaciones propioceptivas de libertad, pureza tímbrica y afinación auditiva refleja.
@@ -83,15 +79,7 @@ Surgida en el siglo XX, representa un eclecticismo funcional. Por un lado, conse
 
 La comprensión moderna de la técnica vocal descansa sobre la interacción biomecánica de la laringe intrínseca. En *Principles of Voice Production*, Ingo R. Titze demuestra que la producción de altura tonal y timbre es el resultado de un antagonismo neuromuscular coordinado entre dos grupos musculares principales[^17]:
 
-```mermaid
-flowchart TD
-    subgraph Mecanismo Cordal
-        TA["Músculo Tiroaritenoideo (TA)<br>Cuerpo de la cuerda / Masa profunda<br>Dominancia de PECHO (M1)"]
-        CT["Músculo Cricotiroideo (CT)<br>Tensor longitudinal / Adelgazamiento<br>Dominancia de CABEZA (M2)"]
-    end
-    TA <-->|"Coordinación Graduada"| VM["Voce Mista / Passaggio Equilibrado"]
-    CT <-->|"Coordinación Graduada"| VM
-```
+![Coordinación Neuromuscular TA vs. CT y Voce Mista](/ejemplos/diagrama-biomecanica-ta-ct.svg)
 
 1. **El Músculo Tiroaritenoideo (TA):** Constituye el cuerpo principal de los pliegues vocales (músculo vocal). Su contracción acorta y engrosa la cuerda, aumentando la masa vibrante efectiva y prolongando la fase cerrada del ciclo glótico. Es el responsable biomecánico de la **voz de pecho** (Mecanismo 1 o M1).
 2. **El Músculo Cricotiroideo (CT):** Al contraerse, bascula el cartílago cricoides hacia el tiroides, elongando, adelgazando y tensando los pliegues vocales longitudinalmente. Es el motor primario del ascenso tonal y de la **voz de cabeza** (Mecanismo 2 o M2)[^18].

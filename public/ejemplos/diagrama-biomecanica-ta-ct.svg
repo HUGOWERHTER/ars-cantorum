@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 175" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:10px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0f172a"/>
+    </marker>
+  </defs>
+
+  <!-- Contenedor Izquierdo: MECANISMO CORDAL INTRÍNSECO -->
+  <rect x="15" y="10" width="370" height="155" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="30" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#64748b" letter-spacing="0.08em">SISTEMA CORDAL ANTAGONISTA</text>
+
+  <!-- Tarjeta TA -->
+  <rect x="25" y="36" width="350" height="52" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="1.5"/>
+  <text x="40" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#c2410c">MÚSCULO TIROARITENOIDEO (TA)</text>
+  <text x="40" y="73" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#475569">Masa profunda / Cierre firme • Dominancia de Pecho (M1)</text>
+
+  <!-- Tarjeta CT -->
+  <rect x="25" y="98" width="350" height="52" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="40" y="117" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#1d4ed8">MÚSCULO CRICOTIROIDEO (CT)</text>
+  <text x="40" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#475569">Tensor longitudinal / Adelgazamiento • Dominancia de Cabeza (M2)</text>
+
+  <!-- Flechas convergentes de coordinación -->
+  <path d="M 375 62 C 420 62, 430 80, 465 80" fill="none" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow2)"/>
+  <path d="M 375 124 C 420 124, 430 95, 465 95" fill="none" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow2)"/>
+  <text x="420" y="92" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#64748b">balance</text>
+
+  <!-- Tarjeta Derecha: VOCE MISTA -->
+  <rect x="475" y="36" width="270" height="114" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.8"/>
+  <rect x="476" y="37" width="268" height="28" rx="7" fill="#f0fdf4"/>
+  <text x="610" y="56" text-anchor="middle" font-family="'Cinzel', serif" font-weight="700" font-size="12" fill="#15803d">VOCE MISTA (VOZ MIXTA)</text>
+
+  <text x="610" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="10.5" fill="#0f172a">Transición Neuromuscular Continua</text>
+  <text x="610" y="103" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#475569">El CT asume la tensión mientras el TA</text>
+  <text x="610" y="117" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#475569">cede masa gradualmente sin soltar aducción.</text>
+  <text x="610" y="138" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#15803d">Passaggio homogéneo sin quiebre</text>
+</svg>
