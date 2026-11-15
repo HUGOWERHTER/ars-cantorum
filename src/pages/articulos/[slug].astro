@@ -100,6 +100,12 @@ const schemaData = {
 				<input type="hidden" name="_template" value="table" />
 				<input type="hidden" name="_captcha" value="false" />
 
+				<!-- Campo Honeypot invisible para humanos (trampa anti-bot silenciosa) -->
+				<div style="opacity: 0; position: absolute; top: 0; left: 0; height: 0; width: 0; z-index: -1; overflow: hidden;" aria-hidden="true">
+					<label for="campo-seguridad-bot">No completar este campo</label>
+					<input type="text" id="campo-seguridad-bot" name="_honey" tabindex="-1" autocomplete="off" />
+				</div>
+
 				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
 					<div>
 						<label for="autor-nombre" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 0.35rem;">
@@ -161,6 +167,20 @@ const schemaData = {
 
 					const formData = new FormData(form);
 					const payload = Object.fromEntries(formData.entries());
+
+					// Intercepción silenciosa de bots: si el campo Honeypot fue completado, simular éxito y abortar envío
+					if (payload._honey && payload._honey.trim() !== '') {
+						estado.style.display = 'block';
+						estado.style.background = '#f0fdf4';
+						estado.style.color = '#166534';
+						estado.style.border = '1px solid #bbf7d0';
+						estado.innerHTML = '<strong>✓ Mensaje enviado con éxito.</strong> Muchas gracias por su aporte a la redacción.';
+						form.reset();
+						btn.innerHTML = '✓ Mensaje Enviado';
+						btn.style.background = '#15803d';
+						btn.style.opacity = '1';
+						return;
+					}
 
 					try {
 						const res = await fetch('https://formsubmit.co/ajax/arscantorumoficial@gmail.com', {
