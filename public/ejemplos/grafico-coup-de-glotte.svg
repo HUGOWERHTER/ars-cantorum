@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <!-- Título Superior -->
+  <rect x="10" y="8" width="880" height="36" rx="6" fill="#0f172a"/>
+  <text x="450" y="31" text-anchor="middle" font-family="'Cinzel', serif" font-size="14" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">ANATOMÍA DEL ATAQUE VOCAL: COMPARATIVA BIOMECÁNICA</text>
+
+  <!-- ==================== PANEL 1: ATAQUE SOPLADO ==================== -->
+  <rect x="15" y="54" width="275" height="240" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <rect x="16" y="55" width="273" height="32" rx="7" fill="#f1f5f9"/>
+  <text x="152" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#334155">1. Ataque Soplado (Aspirado)</text>
+
+  <!-- Esquema Glotis Entreabierta -->
+  <ellipse cx="152" cy="125" rx="38" ry="24" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <path d="M 125 125 Q 152 110 179 125" stroke="#94a3b8" stroke-width="4" fill="none"/>
+  <path d="M 125 125 Q 152 140 179 125" stroke="#94a3b8" stroke-width="4" fill="none"/>
+  <!-- Fuga de aire -->
+  <path d="M 142 95 L 142 112 M 152 90 L 152 112 M 162 95 L 162 112" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="2,2"/>
+  <text x="152" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#64748b">Escape previo de aire (/h/ inicial)</text>
+
+  <!-- Forma de onda (Acrecentamiento lento y ruidoso) -->
+  <path d="M 35 215 Q 60 215 80 212 T 120 205 T 160 195 T 200 180 T 240 170 T 270 170" stroke="#64748b" stroke-width="2" fill="none"/>
+  <rect x="25" y="240" width="255" height="42" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="152" y="257" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#0f172a">Falta de aducción firme</text>
+  <text x="152" y="272" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748b">Voz velada, fatiga por desperdicio aéreo</text>
+
+  <!-- ==================== PANEL 2: CHOQUE GLÓTICO TRAUMÁTICO ==================== -->
+  <rect x="305" y="54" width="285" height="240" rx="8" fill="#ffffff" stroke="#ef4444" stroke-width="1.4"/>
+  <rect x="306" y="55" width="283" height="32" rx="7" fill="#fef2f2"/>
+  <text x="448" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#dc2626">2. Choque Glótico Violento (Malentendido)</text>
+
+  <!-- Esquema Glotis con Hiperaducción -->
+  <ellipse cx="448" cy="125" rx="38" ry="24" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <line x1="420" y1="125" x2="476" y2="125" stroke="#dc2626" stroke-width="7"/>
+  <!-- Choque / Fuerza excesiva -->
+  <path d="M 435 110 L 442 120 M 461 110 L 454 120 M 435 140 L 442 130 M 461 140 L 454 130" stroke="#b91c1c" stroke-width="1.8"/>
+  <text x="448" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#dc2626">Hiperaducción espasmódica</text>
+
+  <!-- Forma de onda (Pico abrupto desmedido) -->
+  <path d="M 325 215 L 370 215 L 372 170 L 378 240 L 385 185 L 395 215 L 430 200 L 480 205 L 565 205" stroke="#ef4444" stroke-width="2" fill="none"/>
+  <rect x="315" y="240" width="265" height="42" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="448" y="257" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#991b1b">Explosión acústica percusiva</text>
+  <text x="448" y="272" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#b91c1c">Impacto traumático en borde libre cordal</text>
+
+  <!-- ==================== PANEL 3: COUP DE GLOTTE CANÓNICO ==================== -->
+  <rect x="605" y="54" width="280" height="240" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="606" y="55" width="278" height="32" rx="7" fill="#f0fdf4"/>
+  <text x="745" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#15803d">3. Coup de Glotte de García (Simultáneo)</text>
+
+  <!-- Esquema Glotis Perfectamente Aproximada -->
+  <ellipse cx="745" cy="125" rx="38" ry="24" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <line x1="718" y1="125" x2="772" y2="125" stroke="#16a34a" stroke-width="4.5"/>
+  <text x="745" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#15803d">Contacto limpio, elástico y preciso</text>
+
+  <!-- Forma de onda (Sonido pleno e instantáneo) -->
+  <path d="M 625 215 L 660 215 Q 665 185 675 215 T 695 215 T 715 215 T 745 215 T 785 215 T 865 215" stroke="#16a34a" stroke-width="2" fill="none"/>
+  <rect x="615" y="240" width="260" height="42" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="745" y="257" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#166534">Fonación de Flujo Inmediata</text>
+  <text x="745" y="272" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#15803d">Pizzicato vocal puro: cero aire residual</text>
+</svg>

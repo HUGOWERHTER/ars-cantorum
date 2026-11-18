@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <!-- Barra de Título -->
+  <rect x="10" y="8" width="880" height="36" rx="6" fill="#0f172a"/>
+  <text x="450" y="31" text-anchor="middle" font-family="'Cinzel', serif" font-size="14" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">EL ESPECTRO DEL CHIAROSCURO: LA SÍNTESIS ACÚSTICA DEL BEL CANTO</text>
+
+  <!-- ==================== PANEL IZQUIERDO: POLO SCURO ==================== -->
+  <rect x="15" y="54" width="275" height="240" rx="8" fill="#ffffff" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="16" y="55" width="273" height="32" rx="7" fill="#0f172a"/>
+  <text x="152" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#f8fafc">1. Polo Scuro (Profundidad / Cuerpo)</text>
+
+  <!-- Ilustración Polo Scuro -->
+  <g transform="translate(30, 95)">
+    <rect x="15" y="5" width="215" height="75" rx="5" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="25" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0f172a">Configuración Acústica Grave:</text>
+    <text x="25" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Faringe amplia y elástica (gola aperta)</text>
+    <text x="25" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Laringe baja de forma natural</text>
+    <text x="25" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Refuerzo de F1 (300 a 600 Hz)</text>
+  </g>
+  <rect x="25" y="185" width="255" height="95" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="152" y="205" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0f172a">Aporte al Timbre Vocal</text>
+  <text x="152" y="223" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#334155">Nobleza, redondez, calidez y peso</text>
+  <text x="152" y="243" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#475569">Si falta: la voz suena delgada, infantil o estridente</text>
+  <text x="152" y="258" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#dc2626">Si abusa: la voz se vuelve engolada y sorda (ingolata)</text>
+
+  <!-- ==================== PANEL CENTRAL: CURVA ESPECTRAL ENVOLVENTE ==================== -->
+  <rect x="305" y="54" width="285" height="240" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.4"/>
+  <rect x="306" y="55" width="283" height="32" rx="7" fill="#f0f9ff"/>
+  <text x="448" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#0369a1">2. Envolvente Espectral Equilibrada</text>
+
+  <!-- Eje de Frecuencias (Hz) -->
+  <g transform="translate(325, 100)">
+    <line x1="20" y1="80" x2="230" y2="80" stroke="#64748b" stroke-width="1.2"/>
+    <line x1="20" y1="80" x2="20" y2="10" stroke="#64748b" stroke-width="1.2"/>
+    <text x="50" y="93" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#64748b">500 Hz</text>
+    <text x="110" y="93" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#64748b">1.5 kHz</text>
+    <text x="180" y="93" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#0284c7">3 kHz</text>
+
+    <!-- Curva Chiaroscuro con dos picos armónicos -->
+    <!-- Pico Scuro (Graves) -->
+    <path d="M 25 75 Q 45 25 65 60 Q 95 72 130 68 Q 160 65 180 18 Q 195 40 220 78" stroke="#0284c7" stroke-width="2.5" fill="none"/>
+    <circle cx="50" cy="30" r="4" fill="#1e293b"/>
+    <text x="50" y="20" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#1e293b">Scuro</text>
+
+    <!-- Pico Chiaro (Formante Cantante) -->
+    <circle cx="180" cy="18" r="4" fill="#0284c7"/>
+    <text x="180" y="10" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#0284c7">Squillo (3 kHz)</text>
+  </g>
+
+  <!-- Píldora Conclusión Central -->
+  <rect x="315" y="185" width="265" height="95" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
+  <text x="448" y="205" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0369a1">La Síntesis Óptima</text>
+  <text x="448" y="223" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#0c4a6e">La luz dentro de la sombra</text>
+  <text x="448" y="243" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0369a1">El formante de 3 kHz viaja montado sobre</text>
+  <text x="448" y="258" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#0284c7">la riqueza tímbrica y aterciopelada de los graves</text>
+
+  <!-- ==================== PANEL DERECHO: POLO CHIARO ==================== -->
+  <rect x="605" y="54" width="280" height="240" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="1.2"/>
+  <rect x="606" y="55" width="278" height="32" rx="7" fill="#fffbeb"/>
+  <text x="745" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b45309">3. Polo Chiaro (Claridad / Squillo)</text>
+
+  <!-- Ilustración Polo Chiaro -->
+  <g transform="translate(630, 95)">
+    <rect x="15" y="5" width="215" height="75" rx="5" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="25" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#92400e">Configuración Acústica Aguda:</text>
+    <text x="25" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Estrechamiento del vestíbulo epilaríngeo</text>
+    <text x="25" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Elevación de la fascia cigomática (sonrisa)</text>
+    <text x="25" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Clúster resonancial F3-F4-F5 (3.000 Hz)</text>
+  </g>
+  <rect x="615" y="185" width="260" height="95" rx="6" fill="#fffbeb" stroke="#fef3c7"/>
+  <text x="745" y="205" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#b45309">Aporte al Timbre Vocal</text>
+  <text x="745" y="223" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#78350f">Brillo metálico, filo, mordiente y proyección</text>
+  <text x="745" y="243" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#92400e">Permite atravesar la orquesta sin gritar</text>
+  <text x="745" y="258" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#b45309">Si falta: la voz se pierde en la sala (voce velata)</text>
+</svg>

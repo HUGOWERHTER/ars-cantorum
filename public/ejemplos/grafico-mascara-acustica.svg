@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <!-- Título Superior -->
+  <rect x="10" y="8" width="880" height="36" rx="6" fill="#0f172a"/>
+  <text x="450" y="31" text-anchor="middle" font-family="'Cinzel', serif" font-size="14" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">"CANTAR EN LA MÁSCARA": ILUSIÓN SENSORIAL vs. REALIDAD ACÚSTICA</text>
+
+  <!-- ==================== PANEL IZQUIERDO: EL MITO DE LOS SENOS RESONADORES ==================== -->
+  <rect x="15" y="54" width="425" height="240" rx="8" fill="#ffffff" stroke="#ef4444" stroke-width="1.2"/>
+  <rect x="16" y="55" width="423" height="32" rx="7" fill="#fef2f2"/>
+  <text x="228" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b91c1c">A) El Mito Anatómico: Senos Paranasales como "Cajas de Resonancia"</text>
+
+  <!-- Esquema Cráneo y Senos -->
+  <g transform="translate(30, 95)">
+    <!-- Perfil esquemático cabeza -->
+    <path d="M 20 80 Q 20 10 70 10 Q 120 10 120 40 L 135 60 L 115 65 L 125 80 L 100 85 L 95 105" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    
+    <!-- Senos Paranasales (Falso mito) -->
+    <ellipse cx="95" cy="30" rx="12" ry="8" fill="#fecaca" stroke="#ef4444" stroke-width="1.2"/>
+    <text x="95" y="33" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#991b1b">Frontal</text>
+    <ellipse cx="102" cy="55" rx="14" ry="9" fill="#fecaca" stroke="#ef4444" stroke-width="1.2"/>
+    <text x="102" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#991b1b">Maxilar</text>
+
+    <!-- Caja de Explicación Científica -->
+    <rect x="150" y="5" width="225" height="85" rx="5" fill="#fef2f2" stroke="#fca5a5"/>
+    <text x="160" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#991b1b">Imposibilidad Física (Sundberg):</text>
+    <text x="160" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Los senos tienen orificios minúsculos (ostia &lt; 2mm)</text>
+    <text x="160" y="51" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Tapizados de mucosa absorbente (cero rebote)</text>
+    <text x="160" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Radiación acústica al exterior: 0 decibelios</text>
+    <text x="160" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#b91c1c">No pueden amplificar el sonido hacia la sala</text>
+  </g>
+
+  <!-- Píldora Conclusión A -->
+  <rect x="25" y="200" width="405" height="80" rx="6" fill="#fef2f2" stroke="#fee2e2"/>
+  <text x="228" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#991b1b">El Riesgo Pedagógico: La Voz Nasalizada</text>
+  <text x="228" y="238" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#7f1d1d">Intentar "meter la voz en la nariz" hace descender el velo del paladar,</text>
+  <text x="228" y="254" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7f1d1d">generando una emisión gangosa, opaca y desprovista de armónicos nobles.</text>
+  <text x="228" y="268" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#b91c1c">Tosi (1723): 'Il difetto del naso è fra i più abominevoli'</text>
+
+  <!-- ==================== PANEL DERECHO: LA REALIDAD BIOMECÁNICA ==================== -->
+  <rect x="460" y="54" width="425" height="240" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+  <rect x="461" y="55" width="423" height="32" rx="7" fill="#f0fdf4"/>
+  <text x="672" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#15803d">B) La Realidad Científica: Retroalimentación Vibrotáctil</text>
+
+  <!-- Esquema Velo Elevado y Resonancia Ósea -->
+  <g transform="translate(475, 95)">
+    <!-- Tracto vocal eficiente -->
+    <path d="M 20 80 Q 20 10 70 10 Q 120 10 120 40 L 135 60 L 115 65 L 125 80 L 100 85 L 95 105" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+    <!-- Paladar duro y velo cerrado -->
+    <path d="M 80 50 Q 95 50 110 52" stroke="#15803d" stroke-width="3" fill="none"/>
+    <path d="M 80 50 Q 75 42 70 42" stroke="#22c55e" stroke-width="3" fill="none"/>
+    <text x="62" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#15803d">Velo Alto</text>
+
+    <!-- Ondas de presión vibrotáctil en huesos faciales -->
+    <path d="M 112 45 Q 118 45 120 52 M 115 40 Q 124 40 127 50" stroke="#16a34a" stroke-width="2" fill="none" stroke-dasharray="2,2"/>
+    <text x="126" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#15803d">Vibración</text>
+
+    <!-- Caja de Explicación Científica -->
+    <rect x="150" y="5" width="225" height="85" rx="5" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="160" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#166534">Conducción Ósea y Presión Acústica:</text>
+    <text x="160" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• El paladar duro recibe ondas de gran energía</text>
+    <text x="160" y="51" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• Conducción ósea hacia maxilar y hueso nasal</text>
+    <text x="160" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• Formante del cantante (2.8–3.2 kHz) resonando</text>
+    <text x="160" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#15803d">La vibración facial es síntoma, no causa</text>
+  </g>
+
+  <!-- Píldora Conclusión B -->
+  <rect x="470" y="200" width="405" height="80" rx="6" fill="#f0fdf4" stroke="#dcfce7"/>
+  <text x="672" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#15803d">La Regla Canónica: Sensación vs. Emisión</text>
+  <text x="672" y="238" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#14532d">"Canta en la máscara, pero jamás a través de la nariz."</text>
+  <text x="672" y="254" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#14532d">El velo del paladar sella la nasofaringe; todo el sonido irradia por la boca,</text>
+  <text x="672" y="268" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#166534">mientras los huesos faciales confirman el equilibrio acústico perfecto.</text>
+</svg>
