@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <!-- Barra superior del título -->
+  <rect x="10" y="8" width="880" height="36" rx="6" fill="#0f172a"/>
+  <text x="450" y="31" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">EL REGISTRO DE PECHO FEMENINO: BEL CANTO CLÁSICO vs. LA CONTROVERSIA DEL BELTING</text>
+
+  <!-- ==================== PANEL IZQUIERDO: PECHO CLÁSICO LÍRICO ==================== -->
+  <rect x="15" y="54" width="425" height="252" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.3"/>
+  <rect x="16" y="55" width="423" height="32" rx="7" fill="#f0f9ff"/>
+  <text x="228" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#0369a1">A) Bel Canto Clásico: Marchesi y García (Pecho Integrado)</text>
+
+  <g transform="translate(25, 95)">
+    <!-- Pentagrama con rango de pecho clásico -->
+    <rect x="10" y="5" width="385" height="100" rx="6" fill="#f8fafc" stroke="#bae6fd"/>
+    <text x="20" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Zona de Pecho (M1): Do3 a Mi4 / Fa4</text>
+    
+    <!-- Barra visual de extensión -->
+    <rect x="20" y="35" width="220" height="18" rx="4" fill="#0284c7"/>
+    <text x="130" y="48" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#ffffff">M1 (Pecho Lírico)</text>
+    
+    <!-- Límite estricto de Marchesi -->
+    <line x1="240" y1="28" x2="240" y2="60" stroke="#dc2626" stroke-width="2" stroke-dasharray="3,3"/>
+    <text x="245" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#dc2626">Límite: Fa4</text>
+    
+    <text x="20" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Transición obligada al registro medio (M2) en Fa4</text>
+    <text x="20" y="88" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Masa cordal plena que se aligera antes del pasaje</text>
+    <text x="20" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Preservación absoluta de la voz de cabeza y agudos</text>
+  </g>
+
+  <!-- Cita Marchesi -->
+  <rect x="25" y="210" width="405" height="85" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="228" y="228" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#1e293b">Doctrina de Mathilde Marchesi (Op. 31)</text>
+  <text x="228" y="246" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#475569">"Desarrollar el pecho en la mujer es vital; pero llevarlo más allá de Fa4 es el camino más directo a la ruina de la voz."</text>
+  <text x="228" y="266" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748b">Homogeneidad tímbrica • Sin quiebres bruscos</text>
+  <text x="228" y="282" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#0284c7">El Modelo de Melba y Calvé</text>
+
+  <!-- ==================== PANEL DERECHO: BELTING CONTEMPORÁNEO ==================== -->
+  <rect x="460" y="54" width="425" height="252" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.3"/>
+  <rect x="461" y="55" width="423" height="32" rx="7" fill="#fffbeb"/>
+  <text x="672" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b45309">B) La Revolución del Belting (Teatro Musical y Pop)</text>
+
+  <g transform="translate(475, 95)">
+    <!-- Barra visual de extensión Belting -->
+    <rect x="10" y="5" width="385" height="100" rx="6" fill="#f8fafc" stroke="#fde68a"/>
+    <text x="20" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#b45309">Extensión de M1 hacia el Agudo (hasta Do5 / Mi5)</text>
+    
+    <rect x="20" y="35" width="340" height="18" rx="4" fill="#d97706"/>
+    <text x="180" y="48" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#ffffff">M1 Extendido / Acoplamiento F1~f0</text>
+    
+    <text x="20" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Cociente de contacto glótico elevado en zona sobreaguda</text>
+    <text x="20" y="88" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Presión subglótica alta y laringe fisiológicamente elevada</text>
+    <text x="20" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Acústica de habla proyectada (Speech-like quality)</text>
+  </g>
+
+  <!-- Análisis Científico Titze y LeBorgne -->
+  <rect x="470" y="210" width="405" height="85" rx="6" fill="#fffbeb" stroke="#fef3c7"/>
+  <text x="672" y="228" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#92400e">Ciencia Acústica Contemporánea (Titze y LeBorgne)</text>
+  <text x="672" y="246" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#78350f">"El belting no es una patología per se, sino un ajuste acústico extremo que requiere un entrenamiento atlético riguroso."</text>
+  <text x="672" y="266" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#92400e">Riesgo si no hay técnica: Fatiga crónica y nódulos vocales</text>
+  <text x="672" y="282" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#b45309">Diferenciación Estilística Vital</text>
+</svg>

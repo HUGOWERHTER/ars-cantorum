@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#111e38" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#f3e5ab" />
+    </linearGradient>
+  </defs>
+
+  <rect width="950" height="560" fill="url(#bgDark)" rx="12" />
+
+  <!-- TITULO -->
+  <text x="475" y="42" text-anchor="middle" fill="url(#goldGrad)" font-family="Georgia, serif" font-size="24" font-weight="bold" letter-spacing="1">FISIOLOGÍA Y ACÚSTICA DEL PORTAMENTO BELCANTISTA</text>
+  <text x="475" y="70" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">Mecánica de ligadura aerodinámica continua frente a la fragmentación moderna</text>
+
+  <!-- PANEL 1: PORTAMENTO CLASICO BELCANTISTA -->
+  <g transform="translate(40, 100)">
+    <rect width="415" height="410" fill="#0f172a" stroke="#d4af37" stroke-width="1.5" rx="10" />
+    <rect width="415" height="38" fill="#d4af37" rx="8" />
+    <text x="207" y="25" text-anchor="middle" fill="#0f172a" font-family="Georgia, serif" font-size="15" font-weight="bold">1. PORTAMENTO BELCANTISTA (García / Vaccai)</text>
+
+    <!-- Grafico Curva de Frecuencia y Presion -->
+    <rect x="25" y="55" width="365" height="150" fill="#1e293b" stroke="#334155" rx="6" />
+    <!-- Ejes -->
+    <line x1="45" y1="180" x2="370" y2="180" stroke="#64748b" stroke-width="1.5" />
+    <line x1="45" y1="180" x2="45" y2="70" stroke="#64748b" stroke-width="1.5" />
+    <text x="365" y="195" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">Tiempo (t)</text>
+    <text x="40" y="66" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Tono (f0)</text>
+
+    <!-- Curva continua elegante -->
+    <line x1="60" y1="150" x2="160" y2="150" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+    <path d="M 160,150 Q 210,135 240,90" stroke="#f59e0b" stroke-width="3" fill="none" stroke-linecap="round" />
+    <line x1="240" y1="90" x2="350" y2="90" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Puntos de Nota -->
+    <circle cx="160" cy="150" r="4" fill="#38bdf8" />
+    <circle cx="240" cy="90" r="4" fill="#38bdf8" />
+    <text x="110" y="140" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Nota Inicial</text>
+    <text x="280" y="82" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Nota Destino</text>
+    <text x="215" y="125" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">Glissando veloz</text>
+
+    <!-- Presion Subglotica Flotante -->
+    <path d="M 60,170 C 150,170 200,165 350,170" stroke="#10b981" stroke-width="2" stroke-dasharray="3,3" fill="none" />
+    <text x="207" y="177" text-anchor="middle" fill="#10b981" font-family="system-ui, sans-serif" font-size="9">Presión Subglótica Ininterrumpida (Legato Real)</text>
+
+    <!-- Características Técnicas -->
+    <g transform="translate(25, 230)">
+      <text x="0" y="18" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Anticipación Vocal:</text>
+      <text x="145" y="18" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Se liga con la vocal de partida</text>
+
+      <text x="0" y="42" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Acción Muscular:</text>
+      <text x="145" y="42" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Transición gradual CT / TA fluida</text>
+
+      <text x="0" y="66" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Apoyo Respiratorio:</text>
+      <text x="145" y="66" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Appoggio constante sin micro-cortes</text>
+
+      <text x="0" y="90" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Efecto Estético:</text>
+      <text x="145" y="90" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Nobleza afectiva, alma de la melodía</text>
+
+      <text x="0" y="114" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Velocidad:</text>
+      <text x="145" y="114" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Rápida, imperceptible en afinaciones intermedias</text>
+    </g>
+  </g>
+
+  <!-- PANEL 2: DEGENERACION MODERNA (SCOOPING / CORTE) -->
+  <g transform="translate(495, 100)">
+    <rect width="415" height="410" fill="#0f172a" stroke="#ef4444" stroke-width="1.5" rx="10" />
+    <rect width="415" height="38" fill="#7f1d1d" rx="8" />
+    <text x="207" y="25" text-anchor="middle" fill="#f8fafc" font-family="Georgia, serif" font-size="15" font-weight="bold">2. DEGENERACIÓN MODERNA (Slur / Salto Rígido)</text>
+
+    <!-- Grafico Curva de Frecuencia y Presion -->
+    <rect x="25" y="55" width="365" height="150" fill="#1e293b" stroke="#334155" rx="6" />
+    <!-- Ejes -->
+    <line x1="45" y1="180" x2="370" y2="180" stroke="#64748b" stroke-width="1.5" />
+    <line x1="45" y1="180" x2="45" y2="70" stroke="#64748b" stroke-width="1.5" />
+    <text x="365" y="195" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">Tiempo (t)</text>
+    <text x="40" y="66" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Tono (f0)</text>
+
+    <!-- Salto seco con corte O arrastre lento empastado -->
+    <line x1="60" y1="150" x2="180" y2="150" stroke="#ef4444" stroke-width="3" stroke-linecap="round" />
+    <!-- Hueco / Corte -->
+    <line x1="180" y1="150" x2="220" y2="150" stroke="#64748b" stroke-width="1" stroke-dasharray="2,2" />
+    <path d="M 220,135 Q 240,110 260,90" stroke="#ef4444" stroke-width="3" stroke-linecap="round" />
+    <line x1="260" y1="90" x2="350" y2="90" stroke="#ef4444" stroke-width="3" stroke-linecap="round" />
+
+    <circle cx="180" cy="150" r="4" fill="#ef4444" />
+    <circle cx="260" cy="90" r="4" fill="#ef4444" />
+    <text x="200" y="138" fill="#f87171" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">Colapso / Golpe</text>
+
+    <!-- Caida de Presion en el Salto -->
+    <path d="M 60,170 L 175,170 L 195,178 L 225,165 L 350,170" stroke="#f87171" stroke-width="2" stroke-dasharray="3,3" fill="none" />
+    <text x="207" y="177" text-anchor="middle" fill="#f87171" font-family="system-ui, sans-serif" font-size="9">Micro-apnea o Golpe Glótico en la llegada</text>
+
+    <!-- Características Técnicas -->
+    <g transform="translate(25, 230)">
+      <text x="0" y="18" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Degeneración 1 (Slur):</text>
+      <text x="145" y="18" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Arrastre gutural viscoso ("scooping")</text>
+
+      <text x="0" y="42" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Degeneración 2 (Corte):</text>
+      <text x="145" y="42" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Salto seco desconectado, anti-vocal</text>
+
+      <text x="0" y="66" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Falla Laríngea:</text>
+      <text x="145" y="66" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Golpe glótico compensatorio en el agudo</text>
+
+      <text x="0" y="90" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Prejuicio Moderno:</text>
+      <text x="145" y="90" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Terror al arrastre confunde portamento con vicio</text>
+
+      <text x="0" y="114" fill="#f87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Pérdida Estética:</text>
+      <text x="145" y="114" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Canto instrumentalizado, frío e impersonal</text>
+    </g>
+  </g>
+
+  <!-- PIE DE PAGINA -->
+  <text x="475" y="535" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Ars Cantorum © 2026 • Análisis Musicológico e Histórico del Bel Canto</text>
+</svg>

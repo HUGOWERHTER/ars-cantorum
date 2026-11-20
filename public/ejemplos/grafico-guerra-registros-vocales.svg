@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <!-- Barra superior del título -->
+  <rect x="10" y="8" width="880" height="36" rx="6" fill="#0f172a"/>
+  <text x="450" y="31" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">LA GUERRA DE LOS REGISTROS: DEL BEL CANTO HISTÓRICO A LA FONIATRÍA MODERNA</text>
+
+  <!-- ==================== PANEL IZQUIERDO: TRADICIÓN HISTÓRICA ==================== -->
+  <rect x="15" y="54" width="425" height="252" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <rect x="16" y="55" width="423" height="32" rx="7" fill="#f8fafc"/>
+  <text x="228" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#334155">A) Evolución Pedagógica Histórica (Siglos XVIII–XIX)</text>
+
+  <g transform="translate(25, 95)">
+    <!-- Bloque 1: Escuela Antigua (2 registros) -->
+    <rect x="10" y="5" width="385" height="30" rx="4" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="20" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0f172a">Tosi (1723) y Mancini (1774):</text>
+    <text x="180" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#334155">2 Registros (Voce di Petto / Voce di Testa)</text>
+
+    <!-- Bloque 2: Manuel García II (3 registros) -->
+    <rect x="10" y="42" width="385" height="30" rx="4" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="20" y="61" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Manuel García II (1841):</text>
+    <text x="165" y="61" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#0c4a6e">3 Registros (Pecho / Falsete-Medio / Cabeza)</text>
+
+    <!-- Bloque 3: Escuela Victoriana (5-7 registros) -->
+    <rect x="10" y="79" width="385" height="30" rx="4" fill="#fef2f2" stroke="#fecaca"/>
+    <text x="20" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#b91c1c">Browne, Behnke, Curwen:</text>
+    <text x="180" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7f1d1d">5 a 7 Registros (Thick, Thin, Small...)</text>
+  </g>
+
+  <!-- Valoración Histórica -->
+  <rect x="25" y="215" width="405" height="80" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="228" y="233" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#1e293b">El Conflicto Semántico</text>
+  <text x="228" y="250" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#475569">"García denominó 'falsete' al registro central femenino, desatando un siglo de litigios con la medicina inglesa."</text>
+  <text x="228" y="270" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#0284c7">Meta: Unión perfecta de registros sin quiebras audibles</text>
+
+  <!-- ==================== PANEL DERECHO: FONIATRÍA MODERNA ==================== -->
+  <rect x="460" y="54" width="425" height="252" rx="8" fill="#ffffff" stroke="#059669" stroke-width="1.3"/>
+  <rect x="461" y="55" width="423" height="32" rx="7" fill="#ecfdf5"/>
+  <text x="672" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#047857">B) La Fisiología Contemporánea: Mecanismos Laríngeos (M0–M3)</text>
+
+  <g transform="translate(470, 95)">
+    <!-- Mecanismo M1 -->
+    <rect x="10" y="5" width="385" height="32" rx="4" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="20" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803d">Mecanismo M1 (Voz de Pecho):</text>
+    <text x="205" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">Dominancia tiroaritenoidea, masa cordal gruesa</text>
+
+    <!-- Mecanismo M2 -->
+    <rect x="10" y="42" width="385" height="32" rx="4" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="20" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803d">Mecanismo M2 (Voz de Cabeza):</text>
+    <text x="210" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">Dominancia cricotiroidea, vibración delgada libre</text>
+
+    <!-- Mecanismos Auxiliares M0 y M3 -->
+    <rect x="10" y="79" width="385" height="32" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="20" y="99" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#475569">M0 (Vocal Fry) &amp; M3 (Whistle):</text>
+    <text x="205" y="99" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#475569">Registros extremos (hiperlaxitud o amortiguación)</text>
+  </g>
+
+  <!-- Valoración Científica -->
+  <rect x="470" y="215" width="405" height="80" rx="6" fill="#ecfdf5" stroke="#d1fae5"/>
+  <text x="672" y="233" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#065f46">Consenso Acústico y Fisiológico (Titze y Hirano)</text>
+  <text x="672" y="250" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#047857">"Dos mecanismos mecánicos cardinales (M1 y M2) combinados con transiciones de formantes en el tracto vocal."</text>
+  <text x="672" y="270" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#059669">Fusión biomecánica: El secreto del pasaje continuo</text>
+</svg>
