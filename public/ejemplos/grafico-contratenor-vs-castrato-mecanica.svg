@@ -1,105 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 680" width="100%" height="auto" style="background:#fdfbf7; border:1px solid #dcd6cd; border-radius:4px; padding:6px; box-shadow: 0 4px 18px rgba(0,0,0,0.06); font-family: 'Cinzel', 'Baskerville', 'Georgia', serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 560" width="100%" height="100%">
   <defs>
-    <pattern id="laidPaper_PLANCHE_XV" width="100" height="4" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="100" y2="0" stroke="#f4efe6" stroke-width="0.6"/>
-    </pattern>
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#111e38" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#f3e5ab" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
   </defs>
 
-  <!-- Fondo de papel antiguo verjurado -->
-  <rect x="0" y="0" width="1040" height="680" fill="#fdfbf7"/>
-  <rect x="0" y="0" width="1040" height="680" fill="url(#laidPaper_PLANCHE_XV)"/>
+  <rect width="950" height="560" fill="url(#bgDark)" rx="12" />
 
-  <!-- Doble marco clásico tipográfico estilo Diderot -->
-  <rect x="12" y="12" width="1016" height="656" fill="none" stroke="#1e293b" stroke-width="2.5"/>
-  <rect x="17" y="17" width="1006" height="646" fill="none" stroke="#475569" stroke-width="0.8"/>
-  <rect x="21" y="21" width="998" height="638" fill="none" stroke="#94a3b8" stroke-width="0.5" stroke-dasharray="6,3"/>
+  <!-- TITULO -->
+  <text x="475" y="42" text-anchor="middle" fill="url(#goldGrad)" font-family="Georgia, serif" font-size="24" font-weight="bold" letter-spacing="1">DISYUNTIVA BIOMECÁNICA: CASTRATO HISTÓRICO VS. CONTRATENOR MODERNO</text>
+  <text x="475" y="70" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">Comparativa laríngea, capacidad torácica y mecanismo fonatorio de masa cordal</text>
 
-  <!-- Viñetas en las esquinas -->
-  <path d="M 23 35 L 35 23 M 23 23 L 35 35" stroke="#475569" stroke-width="0.8"/>
-  <path d="M 1017 35 L 1005 23 M 1017 23 L 1005 35" stroke="#475569" stroke-width="0.8"/>
-  <path d="M 23 645 L 35 657 M 23 657 L 35 645" stroke="#475569" stroke-width="0.8"/>
-  <path d="M 1017 645 L 1005 657 M 1017 657 L 1005 645" stroke="#475569" stroke-width="0.8"/>
+  <!-- PANEL IZQUIERDO: CASTRATO HISTORICO -->
+  <g transform="translate(40, 100)">
+    <rect width="415" height="410" fill="#0f172a" stroke="#d4af37" stroke-width="1.5" rx="10" />
+    <rect width="415" height="38" fill="#d4af37" rx="8" />
+    <text x="207" y="25" text-anchor="middle" fill="#0f172a" font-family="Georgia, serif" font-size="16" font-weight="bold">1. CASTRATO HISTÓRICO (Siglos XVII-XVIII)</text>
 
-  <!-- Encabezado monumental enciclopédico -->
-  <text x="520.0" y="44" text-anchor="middle" font-size="11" letter-spacing="0.2em" fill="#64748b" font-weight="600">ENCYCLOPÉDIE ANATOMIQUE ET MUSICOLOGIQUE DU BEL CANTO</text>
-  <line x1="180" y1="52" x2="860" y2="52" stroke="#475569" stroke-width="0.8"/>
-  <line x1="280" y1="55" x2="760" y2="55" stroke="#94a3b8" stroke-width="0.5"/>
+    <!-- Esquema Laringe y Torax -->
+    <circle cx="207" cy="110" r="45" fill="none" stroke="#d4af37" stroke-width="2" stroke-dasharray="4,3" />
+    <path d="M 185,110 Q 207,95 229,110" stroke="#f59e0b" stroke-width="4" fill="none" />
+    <text x="207" y="115" text-anchor="middle" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Laringe Prepuberal Femenil</text>
+    <text x="207" y="130" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10">(Cuerdas de 11 a 14 mm)</text>
 
-  <text x="520.0" y="76" text-anchor="middle" font-size="15.5" letter-spacing="0.08em" fill="#0f172a" font-weight="700">PLANCHE XV. — DES CASTRATS HISTORIQUES &amp; DES CONTRE-TÉNORS</text>
-  <text x="520.0" y="95" text-anchor="middle" font-size="11.5" font-style="italic" fill="#475569">Disyunción biomecánica entre el fuelle eunucoide y el falsete postpuberal moderno</text>
+    <!-- Fuelle Torácico Gigante -->
+    <rect x="90" y="175" width="235" height="65" fill="#1e293b" stroke="#f59e0b" stroke-width="1" rx="6" />
+    <text x="207" y="198" text-anchor="middle" fill="#fde047" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Fuelle Hipertrófico (Eunucoide)</text>
+    <text x="207" y="216" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Caja torácica desarrollada de varón adulto</text>
+    <text x="207" y="230" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Presión subglótica masiva + flujo laminar mínimo</text>
 
-  <!-- ==================== ÁREA DE ILUSTRACIÓN DEL GRABADO HISTÓRICO ==================== -->
-  <g id="illustration">
-    <!-- Marco del grabado -->
-    <rect x="35" y="110" width="370" height="490" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
-    <rect x="39" y="114" width="362" height="482" fill="none" stroke="#cbd5e1" stroke-width="0.6"/>
+    <!-- Características Fonatorias -->
+    <g transform="translate(25, 260)">
+      <text x="0" y="18" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Mecanismo Vocal:</text>
+      <text x="135" y="18" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">M1 modal natural (no falsete)</text>
 
-    <!-- Imagen calcográfica auténtica -->
-    <image href="/ejemplos/grabado-jaula-toracica.png" x="45" y="120" width="350" height="470" preserveAspectRatio="xMidYMid meet"/>
+      <text x="0" y="42" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Masa Glótica:</text>
+      <text x="135" y="42" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Vibración de cuerpo y cubierta completa</text>
 
-    <!-- Rótulo de figura histórica -->
-    <text x="220.0" y="613" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="0.05em" fill="#334155">FIG. 1. — DÉTAIL ANATOMIQUE AU BURIN</text>
+      <text x="0" y="66" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Salida Acústica:</text>
+      <text x="135" y="66" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Penetración sonora colosal y squillo puro</text>
 
-    <!-- Línea de llamada A -->
-    <line x1="190" y1="210" x2="70" y2="180" stroke="#0f172a" stroke-width="1" stroke-dasharray="2,2"/>
-    <circle cx="190" cy="210" r="3" fill="#0f172a"/>
-    <circle cx="70" cy="180" r="9" fill="#fdfbf7" stroke="#0f172a" stroke-width="1.2"/>
-    <text x="70" y="183.5" text-anchor="middle" font-size="10" font-weight="700" fill="#0f172a">A</text>
+      <text x="0" y="90" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Resistencia Aérea:</text>
+      <text x="135" y="90" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Fraseo ininterrumpido &gt; 60 segundos</text>
 
-    <!-- Línea de llamada B -->
-    <line x1="190" y1="310" x2="70" y2="300" stroke="#0f172a" stroke-width="1" stroke-dasharray="2,2"/>
-    <circle cx="190" cy="310" r="3" fill="#0f172a"/>
-    <circle cx="70" cy="300" r="9" fill="#fdfbf7" stroke="#0f172a" stroke-width="1.2"/>
-    <text x="70" y="303.5" text-anchor="middle" font-size="10" font-weight="700" fill="#0f172a">B</text>
-
-    <!-- Línea de llamada C -->
-    <line x1="190" y1="420" x2="70" y2="420" stroke="#0f172a" stroke-width="1" stroke-dasharray="2,2"/>
-    <circle cx="190" cy="420" r="3" fill="#0f172a"/>
-    <circle cx="70" cy="420" r="9" fill="#fdfbf7" stroke="#0f172a" stroke-width="1.2"/>
-    <text x="70" y="423.5" text-anchor="middle" font-size="10" font-weight="700" fill="#0f172a">C</text>
+      <text x="0" y="114" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Huella Espectral:</text>
+      <text x="135" y="114" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Agudos brillantes con resonancia torácica</text>
+    </g>
   </g>
 
-  <!-- ==================== COLUMNA DEDICADA DE LEYENDA CLÁSICA ==================== -->
-  <g transform="translate(430, 110)">
-    <!-- Marco de leyenda -->
-    <rect x="0" y="0" width="580" height="508" fill="#fcfbfa" stroke="#475569" stroke-width="1"/>
-    <rect x="4" y="4" width="572" height="500" fill="none" stroke="#e2e8f0" stroke-width="0.6"/>
+  <!-- PANEL DERECHO: CONTRATENOR MODERNO -->
+  <g transform="translate(495, 100)">
+    <rect width="415" height="410" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" rx="10" />
+    <rect width="415" height="38" fill="#1e3a8a" rx="8" />
+    <text x="207" y="25" text-anchor="middle" fill="#f8fafc" font-family="Georgia, serif" font-size="16" font-weight="bold">2. CONTRATENOR MODERNO (Siglos XX-XXI)</text>
 
-    <!-- Título de la leyenda -->
-    <text x="290.0" y="24" text-anchor="middle" font-size="11.5" font-weight="700" letter-spacing="0.08em" fill="#0f172a">EXPLICATION DES FIGURES &amp; PHYSIOLOGIE</text>
-    <line x1="20" y1="32" x2="560" y2="32" stroke="#64748b" stroke-width="0.8"/>
+    <!-- Esquema Laringe y Torax -->
+    <circle cx="207" cy="110" r="45" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,3" />
+    <path d="M 175,110 Q 207,95 239,110" stroke="#60a5fa" stroke-width="2" fill="none" />
+    <text x="207" y="115" text-anchor="middle" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Laringe Masculina Postpuberal</text>
+    <text x="207" y="130" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10">(Cuerdas de 17 a 22 mm en falsete)</text>
 
-    <!-- Ítem A -->
-    <circle cx="18" cy="46" r="8" fill="#0f172a"/>
-    <text x="18" y="50" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">A</text>
-    <text x="32" y="50" font-size="10.5" font-weight="700" fill="#0f172a">El Milagro Biomecánico del Castrato Histórico</text>
-    <text x="32" y="66" font-size="9.5" fill="#334155">La castración prepuberal impedía la osificación de las epífisis costales,</text>
-    <text x="32" y="80" font-size="9.5" fill="#334155">desarrollando una jaula torácica descomunal unida a cuerdas vocales infantiles (11-14 mm).</text>
+    <!-- Fuelle Torácico Normal -->
+    <rect x="90" y="175" width="235" height="65" fill="#1e293b" stroke="#38bdf8" stroke-width="1" rx="6" />
+    <text x="207" y="198" text-anchor="middle" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Fuelle Masculino Estándar</text>
+    <text x="207" y="216" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Capacidad vital media de varón barítono/tenor</text>
+    <text x="207" y="230" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Mayor escape aéreo por cierre glótico parcial</text>
 
-    <!-- Ítem B -->
-    <circle cx="18" cy="96" r="8" fill="#0f172a"/>
-    <text x="18" y="100" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">B</text>
-    <text x="32" y="100" font-size="10.5" font-weight="700" fill="#0f172a">Mecanismo Modal Puro (M1) a Alturas Extremas</text>
-    <text x="32" y="116" font-size="9.5" fill="#334155">El castrato cantaba con masa muscular completa, combinando la agilidad de una soprano</text>
-    <text x="32" y="130" font-size="9.5" fill="#334155">con la potencia y resistencia aérea de un varón atlético adulto.</text>
+    <!-- Características Fonatorias -->
+    <g transform="translate(25, 260)">
+      <text x="0" y="18" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Mecanismo Vocal:</text>
+      <text x="135" y="18" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">M2 (falsete reforzado / voz de cabeza)</text>
 
-    <!-- Ítem C -->
-    <circle cx="18" cy="146" r="8" fill="#0f172a"/>
-    <text x="18" y="150" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">C</text>
-    <text x="32" y="150" font-size="10.5" font-weight="700" fill="#0f172a">El Contratenor Moderno: Mecanismo de Falsete (M2)</text>
-    <text x="32" y="166" font-size="9.5" fill="#334155">Laringe masculina postpuberal virilizada (18-22 mm) que utiliza el mecanismo ligamentoso M2.</text>
-    <text x="32" y="180" font-size="9.5" fill="#334155">Su espectro sonoro está dominado por el armónico fundamental, con menor penetración sonora.</text>
+      <text x="0" y="42" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Masa Glótica:</text>
+      <text x="135" y="42" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Vibración aislada del borde libre (mucosa)</text>
 
-    <!-- Ítem D -->
-    <circle cx="18" cy="196" r="8" fill="#0f172a"/>
-    <text x="18" y="200" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">D</text>
-    <text x="32" y="200" font-size="10.5" font-weight="700" fill="#0f172a">Divergencia Estética e Histórica</text>
-    <text x="32" y="216" font-size="9.5" fill="#334155">El falsetista barroco era confinado al coro eclesiástico; la ópera exigía la corpulencia</text>
-    <text x="32" y="230" font-size="9.5" fill="#334155">y el squillo cortante del castrato, que hoy únicamente las mezzosopranos pueden emular.</text>
+      <text x="0" y="66" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Salida Acústica:</text>
+      <text x="135" y="66" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Timbre etéreo, flautado; menor presión sonora</text>
+
+      <text x="0" y="90" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Resistencia Aérea:</text>
+      <text x="135" y="90" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Gasto fonatorio acelerado por hiatus posterior</text>
+
+      <text x="0" y="114" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">• Huella Espectral:</text>
+      <text x="135" y="114" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">Rico en fundamental (H1), formantes altos atenuados</text>
+    </g>
   </g>
 
-  <!-- Pie de imprenta de la lámina -->
-  <line x1="30" y1="642" x2="1010" y2="642" stroke="#cbd5e1" stroke-width="0.8"/>
-  <text x="35" y="656" font-size="9" font-style="italic" fill="#64748b">Ars Cantorum Archivo Histórico • Diderot, Bourgery &amp; Gray calcographie</text>
-  <text x="1005" y="656" text-anchor="end" font-size="9" letter-spacing="0.05em" fill="#64748b">EXEMPLAIRE ACADÉMIQUE DE RÉFÉRENCE</text>
+  <!-- PIE DE PAGINA -->
+  <text x="475" y="535" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Ars Cantorum © 2026 • Análisis Musicológico y Fisiológico Comparativo</text>
 </svg>
