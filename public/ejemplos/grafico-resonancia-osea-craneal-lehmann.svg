@@ -1,75 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <!-- Barra superior del título -->
-  <rect x="10" y="8" width="880" height="36" rx="6" fill="#0f172a"/>
-  <text x="450" y="31" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">LA ILUSIÓN DE LA RESONANCIA ÓSEA: LOS VECTORES DE LILLI LEHMANN vs. LA ACÚSTICA REAL</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 680" width="100%" height="auto" style="background:#fdfbf7; border:1px solid #dcd6cd; border-radius:4px; padding:6px; box-shadow: 0 4px 18px rgba(0,0,0,0.06); font-family: 'Cinzel', 'Baskerville', 'Georgia', serif;">
+  <defs>
+    <pattern id="laidPaper_PLANCHE_XIII" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#f4efe6" stroke-width="0.6"/>
+    </pattern>
+  </defs>
 
-  <!-- ==================== PANEL IZQUIERDO: DIAGRAMAS DE LILLI LEHMANN ==================== -->
-  <rect x="15" y="54" width="425" height="252" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
-  <rect x="16" y="55" width="423" height="32" rx="7" fill="#f8fafc"/>
-  <text x="228" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#334155">A) La Concepción Geométrica de Lilli Lehmann (1902)</text>
+  <!-- Fondo de papel antiguo verjurado -->
+  <rect x="0" y="0" width="1040" height="680" fill="#fdfbf7"/>
+  <rect x="0" y="0" width="1040" height="680" fill="url(#laidPaper_PLANCHE_XIII)"/>
 
-  <g transform="translate(30, 95)">
-    <!-- Silueta Craneal con rayos de proyección imaginaria -->
-    <rect x="10" y="5" width="150" height="100" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
-    <text x="85" y="22" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0f172a">Vectores Sensoriales</text>
-    
-    <!-- Perfil de cabeza estilizado -->
-    <path d="M 40 85 Q 30 50 60 35 Q 95 30 115 50 Q 130 65 125 85" stroke="#64748b" stroke-width="1.5" fill="none"/>
-    <!-- Flechas que se dirigen a la nariz, frente y coronilla -->
-    <line x1="75" y1="75" x2="115" y2="55" stroke="#dc2626" stroke-width="2" stroke-dasharray="2,2"/>
-    <line x1="75" y1="75" x2="95" y2="35" stroke="#dc2626" stroke-width="2" stroke-dasharray="2,2"/>
-    <line x1="75" y1="75" x2="60" y2="40" stroke="#dc2626" stroke-width="2" stroke-dasharray="2,2"/>
-    <circle cx="115" cy="55" r="3.5" fill="#dc2626"/>
-    <circle cx="95" cy="35" r="3.5" fill="#dc2626"/>
-    <circle cx="60" cy="40" r="3.5" fill="#dc2626"/>
-    
-    <text x="85" y="96" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#b91c1c">"Focalización física en el hueso"</text>
+  <!-- Doble marco clásico tipográfico estilo Diderot -->
+  <rect x="12" y="12" width="1016" height="656" fill="none" stroke="#1e293b" stroke-width="2.5"/>
+  <rect x="17" y="17" width="1006" height="646" fill="none" stroke="#475569" stroke-width="0.8"/>
+  <rect x="21" y="21" width="998" height="638" fill="none" stroke="#94a3b8" stroke-width="0.5" stroke-dasharray="6,3"/>
 
-    <!-- Parámetros -->
-    <rect x="175" y="5" width="205" height="100" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
-    <text x="185" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0f172a">Doctrina de Meine Gesangskunst</text>
-    <text x="185" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Enviar el tono hacia la raíz nasal o la frente</text>
-    <text x="185" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Sensación de vibración ósea tomada como causa</text>
-    <text x="185" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Riesgo de colocación artificial y rigidez</text>
-    <text x="185" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Útil solo como imagen subjetiva interna</text>
+  <!-- Viñetas en las esquinas -->
+  <path d="M 23 35 L 35 23 M 23 23 L 35 35" stroke="#475569" stroke-width="0.8"/>
+  <path d="M 1017 35 L 1005 23 M 1017 23 L 1005 35" stroke="#475569" stroke-width="0.8"/>
+  <path d="M 23 645 L 35 657 M 23 657 L 35 645" stroke="#475569" stroke-width="0.8"/>
+  <path d="M 1017 645 L 1005 657 M 1017 657 L 1005 645" stroke="#475569" stroke-width="0.8"/>
+
+  <!-- Encabezado monumental enciclopédico -->
+  <text x="520.0" y="44" text-anchor="middle" font-size="11" letter-spacing="0.2em" fill="#64748b" font-weight="600">ENCYCLOPÉDIE ANATOMIQUE ET MUSICOLOGIQUE DU BEL CANTO</text>
+  <line x1="180" y1="52" x2="860" y2="52" stroke="#475569" stroke-width="0.8"/>
+  <line x1="280" y1="55" x2="760" y2="55" stroke="#94a3b8" stroke-width="0.5"/>
+
+  <text x="520.0" y="76" text-anchor="middle" font-size="15.5" letter-spacing="0.08em" fill="#0f172a" font-weight="700">PLANCHE XIII. — DE LA RÉSONANCE CRÂNIENNE ET DE L'ACOUSTIQUE VOCALE</text>
+  <text x="520.0" y="95" text-anchor="middle" font-size="11.5" font-style="italic" fill="#475569">Conducción propioceptiva ósea frente a física acústica del tracto vocal en la pedagogía de Lilli Lehmann</text>
+
+  <!-- ==================== ÁREA DE ILUSTRACIÓN DEL GRABADO HISTÓRICO ==================== -->
+  <g id="illustration">
+    <!-- Marco del grabado -->
+    <rect x="35" y="110" width="380" height="490" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+    <rect x="39" y="114" width="372" height="482" fill="none" stroke="#cbd5e1" stroke-width="0.6"/>
+
+    <!-- Imagen calcográfica auténtica -->
+    <image href="/ejemplos/grabado-craneo-senos-sagital.png" x="45" y="120" width="360" height="470" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Rótulo de figura histórica -->
+    <text x="225.0" y="613" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="0.05em" fill="#334155">FIG. 1. — DÉTAIL ANATOMIQUE AU BURIN</text>
+
+    <!-- Línea de llamada A -->
+    <line x1="230" y1="190" x2="75" y2="170" stroke="#0f172a" stroke-width="1" stroke-dasharray="2,2"/>
+    <circle cx="230" cy="190" r="3" fill="#0f172a"/>
+    <circle cx="75" cy="170" r="9" fill="#fdfbf7" stroke="#0f172a" stroke-width="1.2"/>
+    <text x="75" y="173.5" text-anchor="middle" font-size="10" font-weight="700" fill="#0f172a">A</text>
+
+    <!-- Línea de llamada B -->
+    <line x1="270" y1="280" x2="75" y2="270" stroke="#0f172a" stroke-width="1" stroke-dasharray="2,2"/>
+    <circle cx="270" cy="280" r="3" fill="#0f172a"/>
+    <circle cx="75" cy="270" r="9" fill="#fdfbf7" stroke="#0f172a" stroke-width="1.2"/>
+    <text x="75" y="273.5" text-anchor="middle" font-size="10" font-weight="700" fill="#0f172a">B</text>
+
+    <!-- Línea de llamada C -->
+    <line x1="200" y1="400" x2="75" y2="410" stroke="#0f172a" stroke-width="1" stroke-dasharray="2,2"/>
+    <circle cx="200" cy="400" r="3" fill="#0f172a"/>
+    <circle cx="75" cy="410" r="9" fill="#fdfbf7" stroke="#0f172a" stroke-width="1.2"/>
+    <text x="75" y="413.5" text-anchor="middle" font-size="10" font-weight="700" fill="#0f172a">C</text>
   </g>
 
-  <!-- Valoración -->
-  <rect x="25" y="210" width="405" height="85" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
-  <text x="228" y="228" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#1e293b">La Confusión Sensorial</text>
-  <text x="228" y="246" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#475569">"Lehmann intentó traducir sus admirables sensaciones somatosensoriales en leyes físicas, creando un mapa anatómico imposible."</text>
-  <text x="228" y="266" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748b">La vibración ósea es un síntoma pasivo, no un resonador activo</text>
-  <text x="228" y="282" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#0284c7">Propiocepción vs. Física Acústica</text>
+  <!-- ==================== COLUMNA DEDICADA DE LEYENDA CLÁSICA ==================== -->
+  <g transform="translate(440, 110)">
+    <!-- Marco de leyenda -->
+    <rect x="0" y="0" width="570" height="508" fill="#fcfbfa" stroke="#475569" stroke-width="1"/>
+    <rect x="4" y="4" width="562" height="500" fill="none" stroke="#e2e8f0" stroke-width="0.6"/>
 
-  <!-- ==================== PANEL DERECHO: ACÚSTICA REAL ==================== -->
-  <rect x="460" y="54" width="425" height="252" rx="8" fill="#ffffff" stroke="#059669" stroke-width="1.3"/>
-  <rect x="461" y="55" width="423" height="32" rx="7" fill="#ecfdf5"/>
-  <text x="672" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#047857">B) La Acústica Real del Tracto Vocal (Sundberg y Vennard)</text>
+    <!-- Título de la leyenda -->
+    <text x="285.0" y="24" text-anchor="middle" font-size="11.5" font-weight="700" letter-spacing="0.08em" fill="#0f172a">EXPLICATION DES FIGURES &amp; ANATOMIE</text>
+    <line x1="20" y1="32" x2="550" y2="32" stroke="#64748b" stroke-width="0.8"/>
 
-  <g transform="translate(475, 95)">
-    <!-- Esquema Acústico: Tracto como columna de aire y ondas estacionarias -->
-    <rect x="10" y="5" width="150" height="100" rx="6" fill="#f8fafc" stroke="#bbf7d0"/>
-    <text x="85" y="22" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803d">Ondas Estacionarias</text>
-    
-    <!-- Onda sinusoidal en el tubo aéreo -->
-    <path d="M 40 75 Q 65 35 85 75 T 130 75" stroke="#059669" stroke-width="2.5" fill="none"/>
-    <path d="M 40 75 Q 65 115 85 75 T 130 75" stroke="#059669" stroke-width="1" stroke-dasharray="2,2" fill="none"/>
-    <text x="85" y="88" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#15803d">Columna de aire en faringe</text>
-    <text x="85" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#64748b">El hueso absorbe energía</text>
+    <!-- Ítem A -->
+    <circle cx="18" cy="46" r="8" fill="#0f172a"/>
+    <text x="18" y="50" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">A</text>
+    <text x="32" y="50" font-size="10.5" font-weight="700" fill="#0f172a">La Falsa Resonancia de los Senos Paranasales</text>
+    <text x="32" y="66" font-size="9.5" fill="#334155">Los senos frontal y maxilar son cavidades rígidas revestidas de mucosa húmeda,</text>
+    <text x="32" y="80" font-size="9.5" fill="#334155">conectadas por orificios diminutos (ostia) que impiden la resonancia del sonido aéreo.</text>
 
-    <!-- Parámetros Científicos -->
-    <rect x="175" y="5" width="205" height="100" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
-    <text x="185" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803d">Física Comprobada</text>
-    <text x="185" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• El aire en el tracto vocal es el único resonador</text>
-    <text x="185" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• Los huesos y senos amortiguan el sonido</text>
-    <text x="185" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• Presión acústica genera vibración somatosensorial</text>
-    <text x="185" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• La voz se proyecta por la boca, no por el cráneo</text>
+    <!-- Ítem B -->
+    <circle cx="18" cy="96" r="8" fill="#0f172a"/>
+    <text x="18" y="100" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">B</text>
+    <text x="32" y="100" font-size="10.5" font-weight="700" fill="#0f172a">El Legado Sensorial de Lilli Lehmann (1902)</text>
+    <text x="32" y="116" font-size="9.5" fill="#334155">Lehmann describió sensaciones vibratorias que viajaban hacia la frente o coronilla.</text>
+    <text x="32" y="130" font-size="9.5" fill="#334155">Dichas sensaciones son reales propioceptivamente, pero no son fuentes de sonido exterior.</text>
+
+    <!-- Ítem C -->
+    <circle cx="18" cy="146" r="8" fill="#0f172a"/>
+    <text x="18" y="150" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">C</text>
+    <text x="32" y="150" font-size="10.5" font-weight="700" fill="#0f172a">Física Acústica vs. Conducción Somatosensorial</text>
+    <text x="32" y="166" font-size="9.5" fill="#334155">El 99.9% de la energía acústica se refleja en las paredes de los tejidos blandos;</text>
+    <text x="32" y="180" font-size="9.5" fill="#334155">la vibración ósea viaja hacia el oído interno del propio cantante por conducción sólida.</text>
+
+    <!-- Ítem D -->
+    <circle cx="18" cy="196" r="8" fill="#0f172a"/>
+    <text x="18" y="200" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">D</text>
+    <text x="32" y="200" font-size="10.5" font-weight="700" fill="#0f172a">El Único Resonador Real: El Tracto Vocal</text>
+    <text x="32" y="216" font-size="9.5" fill="#334155">La faringe, la boca y los labios moldean la columna aérea.</text>
+    <text x="32" y="230" font-size="9.5" fill="#334155">Confundir la sensación en los huesos con el resonador acústico arruina la afinación formántica.</text>
   </g>
 
-  <!-- Valoración -->
-  <rect x="470" y="210" width="405" height="85" rx="6" fill="#ecfdf5" stroke="#d1fae5"/>
-  <text x="672" y="228" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#065f46">Consenso de la Foniatría Moderna</text>
-  <text x="672" y="246" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#047857">"Sentir vibrar el entrecejo confirma una impedancia acústica óptima; intentar 'colocar' la voz en el hueso solo crea tensión laríngea."</text>
-  <text x="672" y="266" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#059669">Impedancia pasiva • Clúster de formantes libre</text>
-  <text x="672" y="282" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#047857">La Realidad de la Resonancia Aérea</text>
+  <!-- Pie de imprenta de la lámina -->
+  <line x1="30" y1="642" x2="1010" y2="642" stroke="#cbd5e1" stroke-width="0.8"/>
+  <text x="35" y="656" font-size="9" font-style="italic" fill="#64748b">Ars Cantorum Archivo Histórico • Diderot, Bourgery &amp; Gray calcographie</text>
+  <text x="1005" y="656" text-anchor="end" font-size="9" letter-spacing="0.05em" fill="#64748b">EXEMPLAIRE ACADÉMIQUE DE RÉFÉRENCE</text>
 </svg>

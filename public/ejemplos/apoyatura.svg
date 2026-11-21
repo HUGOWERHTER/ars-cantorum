@@ -1,76 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 215" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <!-- Barra superior del título -->
-  <rect x="10" y="8" width="740" height="34" rx="6" fill="#e2e8f0"/>
-  <text x="380" y="30" text-anchor="middle" font-family="'Cinzel', serif" font-size="13.5" font-weight="700" fill="#0f172a" letter-spacing="0.05em">EJEMPLO 1: APOYATURA DESCENDENTE</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 270" width="100%" height="auto" style="background:#fdfbf7; border:1px solid #dcd6cd; border-radius:4px; padding:6px; box-shadow: 0 4px 18px rgba(0,0,0,0.06); font-family: 'Cinzel', 'Baskerville', 'Georgia', serif;">
+  <!-- Doble marco clásico tipográfico estilo Diderot -->
+  <rect x="10" y="10" width="840" height="250" fill="none" stroke="#1e293b" stroke-width="2"/>
+  <rect x="14" y="14" width="832" height="242" fill="none" stroke="#475569" stroke-width="0.8"/>
+  <rect x="18" y="18" width="824" height="234" fill="none" stroke="#94a3b8" stroke-width="0.5" stroke-dasharray="6,3"/>
 
-  <!-- ==================== TARJETA A (CÓMO SE ESCRIBE) ==================== -->
-  <rect x="15" y="50" width="355" height="152" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-  <rect x="16" y="51" width="353" height="28" rx="7" fill="#fff7ed"/>
-  <text x="30" y="70" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="13" fill="#c2410c">A) Cómo se escribe</text>
+  <!-- Encabezado de la lámina -->
+  <text x="430" y="40" text-anchor="middle" font-size="10.5" letter-spacing="0.2em" fill="#64748b" font-weight="600">ENCYCLOPÉDIE MUSICOLOGIQUE DU BEL CANTO</text>
+  <line x1="200" y1="46" x2="660" y2="46" stroke="#475569" stroke-width="0.8"/>
+  <text x="430" y="64" text-anchor="middle" font-size="13.5" letter-spacing="0.08em" fill="#0f172a" font-weight="700">PLANCHE XIV-A. — DE L'APPUYATURE DESCENDANTE</text>
 
-  <!-- Pentagrama A (5 líneas) -->
-  <g stroke="#64748b" stroke-width="1.2">
-    <line x1="35" y1="98" x2="350" y2="98"/>
-    <line x1="35" y1="108" x2="350" y2="108"/>
-    <line x1="35" y1="118" x2="350" y2="118"/>
-    <line x1="35" y1="128" x2="350" y2="128"/>
-    <line x1="35" y1="138" x2="350" y2="138"/>
+  <!-- ==================== FIGURA 1: NOTATION ÉCRITE ==================== -->
+  <g transform="translate(30, 80)">
+    <rect x="0" y="0" width="380" height="135" fill="#fcfbfa" stroke="#475569" stroke-width="1"/>
+    <rect x="3" y="3" width="374" height="129" fill="none" stroke="#e2e8f0" stroke-width="0.6"/>
+    <text x="190" y="22" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="0.05em" fill="#0f172a">FIG. 1. — NOTATION ÉCRITE (NOTATION ORNÉE)</text>
+    <line x1="30" y1="28" x2="350" y2="28" stroke="#cbd5e1" stroke-width="0.6"/>
+
+    <!-- Pentagrama (5 líneas) -->
+    <g stroke="#334155" stroke-width="1">
+      <line x1="25" y1="52" x2="355" y2="52"/>
+      <line x1="25" y1="62" x2="355" y2="62"/>
+      <line x1="25" y1="72" x2="355" y2="72"/>
+      <line x1="25" y1="82" x2="355" y2="82"/>
+      <line x1="25" y1="92" x2="355" y2="92"/>
+    </g>
+    <!-- Clave de Sol -->
+    <text x="30" y="87" font-family="serif" font-size="42" fill="#0f172a">𝄞</text>
+
+    <!-- Apoyatura pequeña Mi5 -->
+    <ellipse cx="145" cy="57" rx="4.2" ry="3.2" fill="#0f172a" transform="rotate(-15 145 57)"/>
+    <line x1="149" y1="57" x2="149" y2="36" stroke="#0f172a" stroke-width="1.3"/>
+    <path d="M 149 36 Q 155 40 158 46" stroke="#0f172a" stroke-width="1.3" fill="none"/>
+    <path d="M 148 62 Q 182 75 214 67" stroke="#0f172a" stroke-width="1.3" fill="none"/>
+
+    <!-- Nota principal Re5 (Blanca) -->
+    <ellipse cx="220" cy="62" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="1.8" transform="rotate(-15 220 62)"/>
+    <line x1="214" y1="62" x2="214" y2="90" stroke="#0f172a" stroke-width="1.6"/>
+
+    <!-- Nota de resolución Do5 (Blanca) -->
+    <ellipse cx="305" cy="67" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="1.8" transform="rotate(-15 305 67)"/>
+    <line x1="299" y1="67" x2="299" y2="95" stroke="#0f172a" stroke-width="1.6"/>
+
+    <text x="190" y="118" text-anchor="middle" font-size="9.5" font-style="italic" fill="#475569">Apoyatura indicada en carácter diminuto antes de la consonancia.</text>
   </g>
-  <!-- Clave de Sol A -->
-  <text x="40" y="133" font-family="serif" font-size="44" fill="#0f172a">𝄞</text>
 
-  <!-- Apoyatura pequeña Mi5 (4to espacio) -->
-  <ellipse cx="145" cy="103" rx="4.2" ry="3.2" fill="#0f172a" transform="rotate(-15 145 103)"/>
-  <line x1="149" y1="103" x2="149" y2="82" stroke="#0f172a" stroke-width="1.4"/>
-  <path d="M 149 82 Q 155 86 158 92" stroke="#0f172a" stroke-width="1.4" fill="none"/>
-  <!-- Ligadura de expresión entre apoyatura y nota principal -->
-  <path d="M 148 108 Q 182 121 214 113" stroke="#0f172a" stroke-width="1.4" fill="none"/>
+  <!-- ==================== FIGURA 2: EXÉCUTION RÉELLE ==================== -->
+  <g transform="translate(450, 80)">
+    <rect x="0" y="0" width="380" height="135" fill="#fcfbfa" stroke="#475569" stroke-width="1"/>
+    <rect x="3" y="3" width="374" height="129" fill="none" stroke="#e2e8f0" stroke-width="0.6"/>
+    <text x="190" y="22" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="0.05em" fill="#0f172a">FIG. 2. — EXÉCUTION RÉELLE (VALEUR DU TEMPS)</text>
+    <line x1="30" y1="28" x2="350" y2="28" stroke="#cbd5e1" stroke-width="0.6"/>
 
-  <!-- Nota principal Re5 (4ta línea, Blanca) -->
-  <ellipse cx="220" cy="108" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="2" transform="rotate(-15 220 108)"/>
-  <line x1="214" y1="108" x2="214" y2="136" stroke="#0f172a" stroke-width="1.8"/>
+    <!-- Pentagrama (5 líneas) -->
+    <g stroke="#334155" stroke-width="1">
+      <line x1="25" y1="52" x2="355" y2="52"/>
+      <line x1="25" y1="62" x2="355" y2="62"/>
+      <line x1="25" y1="72" x2="355" y2="72"/>
+      <line x1="25" y1="82" x2="355" y2="82"/>
+      <line x1="25" y1="92" x2="355" y2="92"/>
+    </g>
+    <!-- Clave de Sol -->
+    <text x="30" y="87" font-family="serif" font-size="42" fill="#0f172a">𝄞</text>
 
-  <!-- Nota de llegada Do5 (3er espacio, Blanca) -->
-  <ellipse cx="305" cy="113" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="2" transform="rotate(-15 305 113)"/>
-  <line x1="299" y1="113" x2="299" y2="141" stroke="#0f172a" stroke-width="1.8"/>
+    <!-- Ligadura de apoyatura a resolución -->
+    <path d="M 125 45 Q 165 32 205 50" stroke="#0f172a" stroke-width="1.4" fill="none"/>
 
-  <!-- Píldora explicativa A -->
-  <rect x="25" y="162" width="335" height="28" rx="5" fill="#f1f5f9"/>
-  <text x="192" y="180" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="12.5" fill="#334155">apoyatura escrita como nota pequeña</text>
+    <!-- Mi5 Negra (mitad de valor) -->
+    <ellipse cx="125" cy="57" rx="6" ry="4.5" fill="#0f172a" transform="rotate(-15 125 57)"/>
+    <line x1="119" y1="57" x2="119" y2="85" stroke="#0f172a" stroke-width="1.6"/>
 
+    <!-- Re5 Negra (segunda mitad) -->
+    <ellipse cx="205" cy="62" rx="6" ry="4.5" fill="#0f172a" transform="rotate(-15 205 62)"/>
+    <line x1="199" y1="62" x2="199" y2="90" stroke="#0f172a" stroke-width="1.6"/>
 
-  <!-- ==================== TARJETA B (CÓMO SE REALIZA) ==================== -->
-  <rect x="390" y="50" width="355" height="152" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-  <rect x="391" y="51" width="353" height="28" rx="7" fill="#f0fdf4"/>
-  <text x="405" y="70" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="13" fill="#15803d">B) Cómo se realiza</text>
+    <!-- Do5 Blanca (resolución) -->
+    <ellipse cx="290" cy="67" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="1.8" transform="rotate(-15 290 67)"/>
+    <line x1="284" y1="67" x2="284" y2="95" stroke="#0f172a" stroke-width="1.6"/>
 
-  <!-- Pentagrama B (5 líneas) -->
-  <g stroke="#64748b" stroke-width="1.2">
-    <line x1="410" y1="98" x2="725" y2="98"/>
-    <line x1="410" y1="108" x2="725" y2="108"/>
-    <line x1="410" y1="118" x2="725" y2="118"/>
-    <line x1="410" y1="128" x2="725" y2="128"/>
-    <line x1="410" y1="138" x2="725" y2="138"/>
+    <text x="190" y="118" text-anchor="middle" font-size="9.5" font-style="italic" fill="#475569">La apoyatura toma la mitad exacta del valor métrico principal.</text>
   </g>
-  <!-- Clave de Sol B -->
-  <text x="415" y="133" font-family="serif" font-size="44" fill="#0f172a">𝄞</text>
 
-  <!-- Ligadura de apoyatura a resolución -->
-  <path d="M 495 91 Q 535 78 575 96" stroke="#0f172a" stroke-width="1.5" fill="none"/>
-
-  <!-- Mi5 Negra (Toma la mitad del valor de Re5) -->
-  <ellipse cx="495" cy="103" rx="6" ry="4.5" fill="#0f172a" transform="rotate(-15 495 103)"/>
-  <line x1="489" y1="103" x2="489" y2="131" stroke="#0f172a" stroke-width="1.8"/>
-
-  <!-- Re5 Negra (Segunda mitad) -->
-  <ellipse cx="575" cy="108" rx="6" ry="4.5" fill="#0f172a" transform="rotate(-15 575 108)"/>
-  <line x1="569" y1="108" x2="569" y2="136" stroke="#0f172a" stroke-width="1.8"/>
-
-  <!-- Do5 Blanca (Resolución) -->
-  <ellipse cx="660" cy="113" rx="6.5" ry="5" fill="none" stroke="#0f172a" stroke-width="2" transform="rotate(-15 660 113)"/>
-  <line x1="654" y1="113" x2="654" y2="141" stroke="#0f172a" stroke-width="1.8"/>
-
-  <!-- Píldora explicativa B -->
-  <rect x="400" y="162" width="335" height="28" rx="5" fill="#f1f5f9"/>
-  <text x="567" y="180" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="12.5" fill="#334155">la apoyatura toma la mitad del valor de la nota principal</text>
+  <!-- Pie de imprenta -->
+  <line x1="30" y1="236" x2="830" y2="236" stroke="#cbd5e1" stroke-width="0.8"/>
+  <text x="35" y="249" font-size="9" font-style="italic" fill="#64748b">Ars Cantorum Archivo • Traités historiques de Tosi, Mancini et Agricola</text>
+  <text x="825" y="249" text-anchor="end" font-size="9" letter-spacing="0.05em" fill="#64748b">GRAVURE MUSICALE SUR CUIVRE</text>
 </svg>
