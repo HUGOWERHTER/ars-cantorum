@@ -1,98 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 4px 20px rgba(15,23,42,0.06); display:block; margin:2.5rem auto;">
-  <!-- Barra superior del título -->
-  <rect x="10" y="8" width="860" height="34" rx="6" fill="#0f172a"/>
-  <text x="440" y="30" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12.5" font-weight="700" fill="#f8fafc" letter-spacing="0.06em">PERFIL ESPECTRAL Y RESONANCIA ACÚSTICA SEGÚN LA ESCUELA DE CANTO</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 370" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 4px 20px rgba(15,23,42,0.06); display:block; margin:2.5rem auto;">
+  <rect x="15" y="10" width="910" height="36" rx="6" fill="#0f172a"/>
+  <text x="470" y="33" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.06em">PERFIL ESPECTRAL Y RESONANCIA ACÚSTICA SEGÚN LA ESCUELA DE CANTO</text>
 
-  <!-- ==================== TARJETA A (ESCUELA ITALIANA: CHIAROSCURO) ==================== -->
-  <rect x="15" y="50" width="272" height="205" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
-  <rect x="16" y="51" width="270" height="30" rx="7" fill="#f0fdf4"/>
-  <text x="28" y="71" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="11" fill="#15803d">A) Escuela Italiana (Chiaroscuro Clásico)</text>
+  <!-- TARJETA A: ITALIANA -->
+  <rect x="15" y="56" width="290" height="300" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="16" y="57" width="288" height="32" rx="7" fill="#f0fdf4"/>
+  <text x="160" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#15803d">A) Escuela Italiana (Chiaroscuro)</text>
 
-  <!-- Gráfico de espectro acústico A -->
-  <g transform="translate(30, 92)">
-    <!-- Ejes -->
-    <line x1="15" y1="95" x2="225" y2="95" stroke="#94a3b8" stroke-width="1.2"/>
-    <line x1="15" y1="15" x2="15" y2="95" stroke="#94a3b8" stroke-width="1.2"/>
-    <!-- Etiquetas de frecuencia -->
-    <text x="15" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">0</text>
-    <text x="75" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">1 kHz</text>
-    <text x="145" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">2.8-3.2k</text>
-    <text x="210" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
+  <g transform="translate(30, 102)">
+    <line x1="20" y1="120" x2="245" y2="120" stroke="#94a3b8" stroke-width="1.2"/>
+    <line x1="20" y1="15" x2="20" y2="120" stroke="#94a3b8" stroke-width="1.2"/>
+    <text x="20" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">0</text>
+    <text x="85" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">1 kHz</text>
+    <text x="160" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#15803d">2.8–3.2k</text>
+    <text x="235" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
 
-    <!-- Curva espectral Chiaroscuro (Doble pico: Calidez grave + Formante del Cantante) -->
-    <path d="M 15 90 Q 40 30, 65 65 T 115 80 Q 145 20, 165 75 T 225 92" fill="none" stroke="#16a34a" stroke-width="2.4"/>
-    
-    <!-- Puntos de resonancia -->
-    <circle cx="45" cy="40" r="3.5" fill="#16a34a"/>
-    <text x="45" y="28" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#15803d">Cuerpo y Calidez (Scuro)</text>
-    
-    <circle cx="150" cy="30" r="3.5" fill="#16a34a"/>
-    <text x="150" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#15803d">Formante del Cantante</text>
+    <path d="M 20 115 Q 50 40, 80 80 T 135 100 Q 165 20, 190 90 T 245 117" fill="none" stroke="#16a34a" stroke-width="2.6"/>
+    <circle cx="58" cy="50" r="4" fill="#16a34a"/>
+    <text x="58" y="34" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#15803d">Cuerpo y Calidez</text>
+
+    <circle cx="175" cy="35" r="4" fill="#16a34a"/>
+    <text x="175" y="19" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#15803d">Singing Formant</text>
   </g>
 
-  <!-- Píldora explicativa A -->
-  <rect x="22" y="212" width="258" height="34" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
-  <text x="151" y="226" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="10.5" fill="#1e293b">Equilibrio acústico supremo</text>
-  <text x="151" y="238" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#16a34a">Brillo incisivo (Chiaro) + resonancia faríngea (Scuro)</text>
+  <rect x="25" y="262" width="270" height="82" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="160" y="280" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#1e293b">Equilibrio acústico supremo</text>
+  <text x="160" y="298" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#16a34a">
+    <tspan x="160" dy="0">Brillo incisivo (Chiaro) +</tspan>
+    <tspan x="160" dy="13">resonancia faríngea (Scuro)</tspan>
+  </text>
+  <text x="160" y="330" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">Penetración acústica y salud neuromuscular</text>
 
+  <!-- TARJETA B: ALEMANA -->
+  <rect x="325" y="56" width="290" height="300" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="326" y="57" width="288" height="32" rx="7" fill="#fef2f2"/>
+  <text x="470" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#b91c1c">B) Escuela Alemana (Kehltiefstand)</text>
 
-  <!-- ==================== TARJETA B (ESCUELA ALEMANA: KEHLTIEFSTAND) ==================== -->
-  <rect x="302" y="50" width="272" height="205" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
-  <rect x="303" y="51" width="270" height="30" rx="7" fill="#fef2f2"/>
-  <text x="315" y="71" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="11" fill="#b91c1c">B) Escuela Alemana (Kehltiefstand / Dunkel)</text>
+  <g transform="translate(340, 102)">
+    <line x1="20" y1="120" x2="245" y2="120" stroke="#94a3b8" stroke-width="1.2"/>
+    <line x1="20" y1="15" x2="20" y2="120" stroke="#94a3b8" stroke-width="1.2"/>
+    <text x="20" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">0</text>
+    <text x="85" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">1 kHz</text>
+    <text x="160" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">2.8k</text>
+    <text x="235" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
 
-  <!-- Gráfico de espectro acústico B -->
-  <g transform="translate(317, 92)">
-    <!-- Ejes -->
-    <line x1="15" y1="95" x2="225" y2="95" stroke="#94a3b8" stroke-width="1.2"/>
-    <line x1="15" y1="15" x2="15" y2="95" stroke="#94a3b8" stroke-width="1.2"/>
-    <!-- Etiquetas de frecuencia -->
-    <text x="15" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">0</text>
-    <text x="75" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">1 kHz</text>
-    <text x="145" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">2.8k</text>
-    <text x="210" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
-
-    <!-- Curva espectral Dunkel (Gran energía en graves, caída en agudos) -->
-    <path d="M 15 90 Q 40 15, 65 50 Q 95 85, 140 88 T 225 94" fill="none" stroke="#dc2626" stroke-width="2.4"/>
-    
-    <circle cx="45" cy="22" r="3.5" fill="#dc2626"/>
-    <text x="50" y="12" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#b91c1c">Sonido Cavernoso (Graves)</text>
-    
-    <text x="165" y="70" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="9.5" fill="#991b1b">Carencia de Squillo agudo</text>
+    <path d="M 20 115 Q 55 15, 85 60 Q 120 105, 165 110 T 245 119" fill="none" stroke="#dc2626" stroke-width="2.6"/>
+    <circle cx="58" cy="25" r="4" fill="#dc2626"/>
+    <text x="65" y="13" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#b91c1c">Sonido Cavernoso</text>
+    <text x="185" y="90" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#991b1b">Caída del Squillo</text>
   </g>
 
-  <!-- Píldora explicativa B -->
-  <rect x="309" y="212" width="258" height="34" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
-  <text x="438" y="226" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="10.5" fill="#1e293b">Densidad y sobrepresión torácica</text>
-  <text x="438" y="238" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#b91c1c">Depresión laríngea rígida • Riesgo de engolamiento</text>
+  <rect x="335" y="262" width="270" height="82" rx="6" fill="#fef2f2" stroke="#fee2e2"/>
+  <text x="470" y="280" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#7f1d1d">Densidad y fijación laríngea</text>
+  <text x="470" y="298" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#b91c1c">
+    <tspan x="470" dy="0">Depresión laríngea rígida •</tspan>
+    <tspan x="470" dy="13">Riesgo severo de engolamiento</tspan>
+  </text>
+  <text x="470" y="330" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#991b1b">Pérdida de flexibilidad y fatiga muscular precoz</text>
 
+  <!-- TARJETA C: CONTEMPORANEA -->
+  <rect x="635" y="56" width="290" height="300" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="636" y="57" width="288" height="32" rx="7" fill="#eef2ff"/>
+  <text x="780" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#4338ca">C) Técnicas CCM (Twang / Belting)</text>
 
-  <!-- ==================== TARJETA C (CCM: TWANG & BELTING) ==================== -->
-  <rect x="589" y="50" width="276" height="205" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
-  <rect x="590" y="51" width="274" height="30" rx="7" fill="#eef2ff"/>
-  <text x="602" y="71" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="11" fill="#4338ca">C) Técnicas Contemporáneas (Twang y Belting)</text>
+  <g transform="translate(650, 102)">
+    <line x1="20" y1="120" x2="245" y2="120" stroke="#94a3b8" stroke-width="1.2"/>
+    <line x1="20" y1="15" x2="20" y2="120" stroke="#94a3b8" stroke-width="1.2"/>
+    <text x="20" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">0</text>
+    <text x="85" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">1 kHz</text>
+    <text x="160" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#4338ca">3 kHz</text>
+    <text x="235" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
 
-  <!-- Gráfico de espectro acústico C -->
-  <g transform="translate(605, 92)">
-    <!-- Ejes -->
-    <line x1="15" y1="95" x2="225" y2="95" stroke="#94a3b8" stroke-width="1.2"/>
-    <line x1="15" y1="15" x2="15" y2="95" stroke="#94a3b8" stroke-width="1.2"/>
-    <!-- Etiquetas de frecuencia -->
-    <text x="15" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">0</text>
-    <text x="75" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">1 kHz</text>
-    <text x="145" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">3 kHz</text>
-    <text x="210" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
-
-    <!-- Curva espectral Twang (Pico incisivo en 3 kHz por estrechamiento AES) -->
-    <path d="M 15 92 Q 50 85, 80 80 Q 120 75, 145 15 Q 160 75, 225 90" fill="none" stroke="#4f46e5" stroke-width="2.4"/>
-    
-    <circle cx="145" cy="18" r="3.5" fill="#4f46e5"/>
-    <text x="145" y="10" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#4338ca">Pico de Resonancia (~3 kHz)</text>
-    <text x="80" y="65" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="9.5" fill="#475569">Boca en megáfono</text>
+    <path d="M 20 117 Q 60 110, 95 103 Q 135 97, 160 15 Q 180 97, 245 115" fill="none" stroke="#4f46e5" stroke-width="2.6"/>
+    <circle cx="160" cy="19" r="4" fill="#4f46e5"/>
+    <text x="160" y="9" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#4338ca">Pico AES (~3 kHz)</text>
+    <text x="90" y="80" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#475569">Boca en megáfono</text>
   </g>
 
-  <!-- Píldora explicativa C -->
-  <rect x="598" y="212" width="258" height="34" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
-  <text x="727" y="226" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="10.5" fill="#1e293b">Penetración acústica incisiva</text>
-  <text x="727" y="238" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#4338ca">Tracto corto • Estrechamiento ariepiglótico</text>
+  <rect x="645" y="262" width="270" height="82" rx="6" fill="#eef2ff" stroke="#e0e7ff"/>
+  <text x="780" y="280" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="11" fill="#3730a3">Penetración acústica incisiva</text>
+  <text x="780" y="298" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#4338ca">
+    <tspan x="780" dy="0">Tracto corto vocal •</tspan>
+    <tspan x="780" dy="13">Estrechamiento ariepiglótico</tspan>
+  </text>
+  <text x="780" y="330" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#4f46e5">Sonido comercial potente sin cobertura clásica</text>
 </svg>

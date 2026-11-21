@@ -41,7 +41,7 @@
     <image href="/ejemplos/grabado-glotis-cuerdas-vocales.png" x="35" y="40" width="300" height="390" preserveAspectRatio="xMidYMid meet"/>
 
     <!-- Píldora de llamada a los Pliegues Vocales (Cuerdas Verdaderas) -->
-    <g transform="translate(10, 260)">
+    <g transform="translate(25, 260)">
       <rect x="0" y="0" width="150" height="26" rx="5" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
       <text x="75" y="17" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#15803d">Pliegues Vocales (Glotis)</text>
     </g>
