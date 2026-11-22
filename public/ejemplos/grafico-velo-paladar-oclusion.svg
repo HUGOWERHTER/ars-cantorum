@@ -1,29 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <!-- Barra superior del título -->
   <rect x="15" y="10" width="890" height="36" rx="6" fill="#0f172a"/>
   <text x="460" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">EL VELO DEL PALADAR EN EL CANTO: ELEVACIÓN ELÁSTICA vs. CONSTRICCIÓN FARÍNGEA</text>
 
-  <!-- ==================== PANEL IZQUIERDO: ELEVACIÓN ELÁSTICA ==================== -->
+  <!-- PANEL IZQUIERDO -->
   <rect x="15" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.3"/>
   <rect x="16" y="57" width="433" height="32" rx="7" fill="#f0f9ff"/>
   <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#0369a1">A) Cierre Velofaríngeo Elástico y Saludable</text>
 
   <g transform="translate(25, 100)">
-    <!-- Diagrama Anatómico Sagital -->
     <rect x="0" y="0" width="150" height="115" rx="6" fill="#f8fafc" stroke="#bae6fd"/>
-    <text x="75" y="20" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Esquema Sagital</text>
-    
-    <!-- Conducto nasal y faringe -->
-    <path d="M 25 35 Q 65 30 105 35" stroke="#94a3b8" stroke-width="2" fill="none"/>
-    <!-- Velo del paladar cerrando suavemente contra pared posterior -->
-    <path d="M 45 55 Q 85 45 125 50" stroke="#0284c7" stroke-width="3" fill="none"/>
-    <circle cx="125" cy="50" r="4" fill="#0284c7"/>
-    <!-- Pared faríngea posterior elástica y amplia -->
-    <line x1="130" y1="30" x2="130" y2="90" stroke="#64748b" stroke-width="2"/>
-    <text x="75" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#0369a1">Oclusión Hermética</text>
-    <text x="75" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">Faringe elástica y libre</text>
+    <text x="75" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Esquema Sagital</text>
+    <path d="M 25 35 Q 65 33 115 40" stroke="#94a3b8" stroke-width="2" fill="none"/>
+    <path d="M 35 60 Q 80 48 120 50" stroke="#0284c7" stroke-width="3.5" fill="none"/>
+    <line x1="120" y1="30" x2="120" y2="70" stroke="#0284c7" stroke-width="2"/>
+    <circle cx="120" cy="50" r="3.5" fill="#0284c7"/>
+    <text x="75" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0369a1">Oclusión Hermética</text>
+    <text x="75" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">Faringe elástica y libre</text>
 
-    <!-- Parámetros Biomecánicos -->
     <rect x="162" y="0" width="250" height="115" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
     <text x="174" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Fisiología Óptima</text>
     <text x="174" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Sellado velofaríngeo sin tensión</text>
@@ -33,49 +26,39 @@
     <text x="174" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Sintonía acústica del tracto libre</text>
   </g>
 
-  <!-- Valoración -->
   <g transform="translate(25, 228)">
     <rect x="0" y="0" width="414" height="185" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
     <text x="207" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#1e293b">Efecto Tímbrico: Resonancia Oral Pura</text>
-    
     <text x="207" y="46" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#475569">
       <tspan x="207" dy="0">"El velo se eleva como un reflejo involuntario</tspan>
-      <tspan x="207" dy="16">de la inhalación profunda y de la intención acústica</tspan>
-      <tspan x="207" dy="16">de un timbre brillante y flexible."</tspan>
+      <tspan x="207" dy="16">de la inhalación profunda y de la intención</tspan>
+      <tspan x="207" dy="16">acústica de un timbre brillante y flexible."</tspan>
     </text>
-
-    <line x1="40" y1="95" x2="374" y2="95" stroke="#e2e8f0" stroke-width="1"/>
-
-    <text x="207" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#64748b">
+    <line x1="40" y1="92" x2="374" y2="92" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="207" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748b">
       <tspan x="207" dy="0">Beneficio en la Articulación:</tspan>
-      <tspan x="207" dy="15" font-weight="600" fill="#0369a1">Tracto libre de constricciones y dicción diáfana</tspan>
+      <tspan x="207" dy="14" font-weight="600" fill="#0369a1">Tracto libre de constricciones y dicción diáfana</tspan>
     </text>
-
-    <text x="207" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#0284c7">
+    <text x="207" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0284c7">
       <tspan x="207" dy="0">Doctrina Clásica de la Gola Aperta</tspan>
-      <tspan x="207" dy="15" font-weight="500" fill="#334155">Apertura faríngea elástica sin rigidez mecánica</tspan>
+      <tspan x="207" dy="14" font-weight="500" fill="#334155">Apertura faríngea elástica sin rigidez mecánica</tspan>
     </text>
   </g>
 
-  <!-- ==================== PANEL DERECHO: HIPER-ELEVACIÓN FORZADA ==================== -->
+  <!-- PANEL DERECHO -->
   <rect x="470" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1.3"/>
   <rect x="471" y="57" width="433" height="32" rx="7" fill="#fef2f2"/>
   <text x="687" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b91c1c">B) Hiper-Elevación Rígida (Tensión Constrictora)</text>
 
   <g transform="translate(480, 100)">
-    <!-- Diagrama Sagital -->
     <rect x="0" y="0" width="150" height="115" rx="6" fill="#f8fafc" stroke="#fecaca"/>
-    <text x="75" y="20" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#b91c1c">Esquema Sagital</text>
-    
-    <path d="M 25 35 Q 65 30 105 35" stroke="#94a3b8" stroke-width="2" fill="none"/>
-    <!-- Velo forzado violentamente hacia arriba y atrás -->
-    <path d="M 45 65 Q 95 25 120 35" stroke="#dc2626" stroke-width="3.5" fill="none"/>
-    <!-- Pared faríngea espasmódica, estrechada hacia adelante -->
-    <path d="M 120 30 Q 110 60 120 90" stroke="#b91c1c" stroke-width="2.5" fill="none"/>
-    <text x="75" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#b91c1c">Constricción en Cadena</text>
-    <text x="75" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#7f1d1d">Faringe estrangulada</text>
+    <text x="75" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#b91c1c">Esquema Sagital</text>
+    <!-- Curva contenida en mitad superior sin colisionar con texto -->
+    <path d="M 25 35 Q 60 33 100 40" stroke="#94a3b8" stroke-width="2" fill="none"/>
+    <path d="M 35 60 Q 75 25 105 32 L 105 58" stroke="#dc2626" stroke-width="3.5" fill="none"/>
+    <text x="75" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#b91c1c">Constricción en Cadena</text>
+    <text x="75" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#7f1d1d">Faringe estrangulada</text>
 
-    <!-- Parámetros Biomecánicos -->
     <rect x="162" y="0" width="250" height="115" rx="6" fill="#fef2f2" stroke="#fecaca"/>
     <text x="174" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#991b1b">Patología Funcional</text>
     <text x="174" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Activación violenta del palatofaríngeo</text>
@@ -85,27 +68,22 @@
     <text x="174" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Fatiga y pérdida del brillo armónico</text>
   </g>
 
-  <!-- Valoración -->
   <g transform="translate(480, 228)">
     <rect x="0" y="0" width="414" height="185" rx="6" fill="#fef2f2" stroke="#fee2e2"/>
     <text x="207" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#991b1b">Advertencia de Vennard y McKinney</text>
-    
     <text x="207" y="46" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#7f1d1d">
       <tspan x="207" dy="0">"Intentar levantar conscientemente el paladar</tspan>
       <tspan x="207" dy="16">como una compuerta rígida paraliza la faringe</tspan>
       <tspan x="207" dy="16">y ahoga la riqueza de los armónicos vocales."</tspan>
     </text>
-
-    <line x1="40" y1="95" x2="374" y2="95" stroke="#fecaca" stroke-width="1"/>
-
-    <text x="207" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7f1d1d">
+    <line x1="40" y1="92" x2="374" y2="92" stroke="#fecaca" stroke-width="1"/>
+    <text x="207" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">
       <tspan x="207" dy="0">Consecuencia Acústica Inevitable:</tspan>
-      <tspan x="207" dy="15" font-weight="600" fill="#b91c1c">Pérdida de penetración y tensión muscular crónica</tspan>
+      <tspan x="207" dy="14" font-weight="600" fill="#b91c1c">Pérdida de penetración y tensión muscular crónica</tspan>
     </text>
-
-    <text x="207" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#991b1b">
+    <text x="207" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#991b1b">
       <tspan x="207" dy="0">El Error del Bostezo Forzado Permanente</tspan>
-      <tspan x="207" dy="15" font-weight="500" fill="#7f1d1d">Confusión entre espacio resonante y rigidez motora</tspan>
+      <tspan x="207" dy="14" font-weight="500" fill="#7f1d1d">Confusión entre espacio resonante y rigidez motora</tspan>
     </text>
   </g>
 </svg>

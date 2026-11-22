@@ -3,20 +3,21 @@
   <text x="460" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">LA ILUSIÓN DE LA RESONANCIA ÓSEA: LOS VECTORES DE LILLI LEHMANN vs. LA ACÚSTICA REAL</text>
 
   <!-- PANEL IZQUIERDO -->
-  <rect x="15" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.3"/>
-  <rect x="16" y="57" width="433" height="32" rx="7" fill="#f8fafc"/>
-  <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#334155">A) La Concepción Geométrica de Lilli Lehmann (1902)</text>
+  <rect x="15" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#c2410c" stroke-width="1.3"/>
+  <rect x="16" y="57" width="433" height="32" rx="7" fill="#fff7ed"/>
+  <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#c2410c">A) La Concepción Geométrica de Lilli Lehmann (1902)</text>
 
   <g transform="translate(25, 100)">
-    <rect x="0" y="0" width="150" height="115" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
-    <text x="75" y="20" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#334155">Vectores Mentales</text>
-    <path d="M 40 85 Q 75 35 110 30" stroke="#b91c1c" stroke-width="2.5" fill="none"/>
-    <circle cx="110" cy="30" r="4" fill="#b91c1c"/>
-    <text x="75" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#b91c1c">Enfoque a la Frente</text>
-    <text x="75" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">Vórtice imaginario</text>
+    <rect x="0" y="0" width="150" height="115" rx="6" fill="#f8fafc" stroke="#fed7aa"/>
+    <text x="75" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#c2410c">Vectores Mentales</text>
+    <!-- Arco en parte superior sin colisión con texto -->
+    <path d="M 35 60 Q 65 35 110 25" stroke="#ea580c" stroke-width="3" fill="none"/>
+    <circle cx="110" cy="25" r="4.5" fill="#ea580c"/>
+    <text x="75" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#c2410c">Enfoque a la Frente</text>
+    <text x="75" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#7c2d12">Vórtice imaginario</text>
 
-    <rect x="162" y="0" width="250" height="115" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
-    <text x="174" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0f172a">Descripción Empírica</text>
+    <rect x="162" y="0" width="250" height="115" rx="6" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="174" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#9a3412">Descripción Empírica</text>
     <text x="174" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Enviar el tono hacia la raíz nasal o la frente</text>
     <text x="174" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Sensación de vibración ósea tomada como causa</text>
     <text x="174" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Riesgo de colocación estridente si se exagera</text>
@@ -32,14 +33,14 @@
       <tspan x="207" dy="16">a una ciencia anatómica que no existía;</tspan>
       <tspan x="207" dy="16">sus dibujos son poemas de propiocepción, no acústica."</tspan>
     </text>
-    <line x1="40" y1="95" x2="374" y2="95" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="207" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#64748b">
+    <line x1="40" y1="92" x2="374" y2="92" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="207" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748b">
       <tspan x="207" dy="0">Diferencia Epistemológica:</tspan>
-      <tspan x="207" dy="15" font-weight="600" fill="#334155">Sensación interna individual vs. propagación sonora exterior</tspan>
+      <tspan x="207" dy="14" font-weight="600" fill="#334155">Sensación interna individual vs. propagación exterior</tspan>
     </text>
-    <text x="207" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#0284c7">
+    <text x="207" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0284c7">
       <tspan x="207" dy="0">El Valor Didáctico de la Metáfora</tspan>
-      <tspan x="207" dy="15" font-weight="500" fill="#334155">Válida para el alumno si no provoca tensión en la laringe</tspan>
+      <tspan x="207" dy="14" font-weight="500" fill="#334155">Válida para el alumno si no provoca tensión laríngea</tspan>
     </text>
   </g>
 
@@ -50,37 +51,38 @@
 
   <g transform="translate(480, 100)">
     <rect x="0" y="0" width="150" height="115" rx="6" fill="#f8fafc" stroke="#bbf7d0"/>
-    <text x="75" y="20" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#047857">Física Ondulatoria</text>
-    <path d="M 30 75 Q 75 70 120 40" stroke="#059669" stroke-width="3" fill="none"/>
-    <circle cx="120" cy="40" r="5" fill="#059669"/>
-    <text x="75" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#047857">Onda Aérea Vocal</text>
-    <text x="75" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">Tracto oro-faríngeo</text>
+    <text x="75" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#047857">Física Ondulatoria</text>
+    <!-- Curva en parte superior sin colisión -->
+    <path d="M 30 55 Q 70 38 115 28" stroke="#059669" stroke-width="3" fill="none"/>
+    <circle cx="115" cy="28" r="4.5" fill="#059669"/>
+    <text x="75" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#047857">Onda Aérea Vocal</text>
+    <text x="75" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">Tracto oro-faríngeo</text>
 
     <rect x="162" y="0" width="250" height="115" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
     <text x="174" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803d">Física Acústica Demostrada</text>
     <text x="174" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• El aire en el tracto vocal es el único resonador</text>
     <text x="174" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• Los huesos y senos amortiguan el sonido</text>
     <text x="174" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• Presión acústica generada en la columna aérea</text>
-    <text x="174" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• La voz se proyecta por boca y labios, no por huesos</text>
+    <text x="174" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• La voz se proyecta por boca y labios</text>
     <text x="174" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• La vibración craneal es síntoma, jamás causa</text>
   </g>
 
   <g transform="translate(480, 228)">
-    <rect x="0" y="0" width="414" height="185" rx="6" fill="#ecfdf5" stroke="#d1fae5"/>
-    <text x="207" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#065f46">Conclusión de Johan Sundberg</text>
-    <text x="207" y="46" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#047857">
-      <tspan x="207" dy="0">"Menos del 0.1% de la energía sonora radiada al teatro</tspan>
+    <rect x="0" y="0" width="414" height="185" rx="6" fill="#f0fdf4" stroke="#dcfce7"/>
+    <text x="207" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#047857">Conclusión de Johan Sundberg</text>
+    <text x="207" y="46" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#065f46">
+      <tspan x="207" dy="0">"Menos del 0.1% de la energía sonora radiada</tspan>
       <tspan x="207" dy="16">proviene de la vibración ósea; el 99.9% nace</tspan>
-      <tspan x="207" dy="16">del acoplamiento aéreo de la orofaringe y los labios."</tspan>
+      <tspan x="207" dy="16">del acoplamiento aéreo de la faringe y labios."</tspan>
     </text>
-    <line x1="40" y1="95" x2="374" y2="95" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="207" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#065f46">
+    <line x1="40" y1="92" x2="374" y2="92" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="207" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#047857">
       <tspan x="207" dy="0">Realidad Física Ineludible:</tspan>
-      <tspan x="207" dy="15" font-weight="600" fill="#059669">El cantante se escucha por hueso, el público por aire</tspan>
+      <tspan x="207" dy="14" font-weight="600" fill="#065f46">El cantante se escucha por hueso, el público por aire</tspan>
     </text>
-    <text x="207" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#047857">
+    <text x="207" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#059669">
       <tspan x="207" dy="0">Sintonización de Formantes</tspan>
-      <tspan x="207" dy="15" font-weight="500" fill="#14532d">El espacio libre en la faringe crea la verdadera potencia vocal</tspan>
+      <tspan x="207" dy="14" font-weight="500" fill="#047857">El espacio faríngeo libre crea la verdadera potencia</tspan>
     </text>
   </g>
 </svg>

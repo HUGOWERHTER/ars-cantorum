@@ -5,15 +5,16 @@
   <!-- PANEL IZQUIERDO -->
   <rect x="15" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.3"/>
   <rect x="16" y="57" width="433" height="32" rx="7" fill="#f0f9ff"/>
-  <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#0369a1">A) Bel Canto: Suspensión Mandibular Libre y Elástica</text>
+  <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#0369a1">A) Bel Canto: Suspensión Mandibular Libre</text>
 
   <g transform="translate(25, 100)">
     <rect x="0" y="0" width="150" height="115" rx="6" fill="#f8fafc" stroke="#bae6fd"/>
-    <text x="75" y="20" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Apertura Libre</text>
-    <path d="M 40 40 Q 60 75 110 80" stroke="#0284c7" stroke-width="3" fill="none"/>
-    <circle cx="40" cy="40" r="5" fill="#0284c7"/>
-    <text x="75" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#0369a1">Rotación Condilar Pura</text>
-    <text x="75" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">ATM libre de tensión</text>
+    <text x="75" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Apertura Libre</text>
+    <!-- Curva en tercio superior sin tocar texto -->
+    <path d="M 35 30 Q 55 52 105 55" stroke="#0284c7" stroke-width="3" fill="none"/>
+    <circle cx="35" cy="30" r="4.5" fill="#0284c7"/>
+    <text x="75" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0369a1">Rotación Condilar Pura</text>
+    <text x="75" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">ATM libre de tensión</text>
 
     <rect x="162" y="0" width="250" height="115" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
     <text x="174" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Mecánica Fisiológica</text>
@@ -32,29 +33,30 @@
       <tspan x="207" dy="16">debe colgar libremente por su propio peso,</tspan>
       <tspan x="207" dy="16">sin violencia en las articulaciones ni rigidez."</tspan>
     </text>
-    <line x1="40" y1="95" x2="374" y2="95" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="207" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#64748b">
+    <line x1="40" y1="92" x2="374" y2="92" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="207" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748b">
       <tspan x="207" dy="0">Beneficio Acústico:</tspan>
-      <tspan x="207" dy="15" font-weight="600" fill="#0369a1">Preservación del formante del cantante y agilidad</tspan>
+      <tspan x="207" dy="14" font-weight="600" fill="#0369a1">Preservación del formante del cantante y agilidad</tspan>
     </text>
-    <text x="207" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#0284c7">
+    <text x="207" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0284c7">
       <tspan x="207" dy="0">Apertura Diferenciada por Vocal y Rango</tspan>
-      <tspan x="207" dy="15" font-weight="500" fill="#334155">Apertura moderada en graves, mayor holgura en agudos</tspan>
+      <tspan x="207" dy="14" font-weight="500" fill="#334155">Apertura moderada en graves, mayor holgura en agudos</tspan>
     </text>
   </g>
 
   <!-- PANEL DERECHO -->
   <rect x="470" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1.3"/>
   <rect x="471" y="57" width="433" height="32" rx="7" fill="#fef2f2"/>
-  <text x="687" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b91c1c">B) La Trampa del Jaw Drop Extremo (Tensión Isométrica)</text>
+  <text x="687" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b91c1c">B) La Trampa del Jaw Drop Extremo</text>
 
   <g transform="translate(480, 100)">
     <rect x="0" y="0" width="150" height="115" rx="6" fill="#f8fafc" stroke="#fecaca"/>
-    <text x="75" y="20" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#b91c1c">Subluxación Rígida</text>
-    <path d="M 40 40 L 40 85 L 110 95" stroke="#dc2626" stroke-width="3" fill="none"/>
-    <circle cx="40" cy="40" r="5" fill="#dc2626"/>
-    <text x="75" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#b91c1c">Mandíbula Forzada</text>
-    <text x="75" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#7f1d1d">Tracción sobre el hioides</text>
+    <text x="75" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#b91c1c">Subluxación Rígida</text>
+    <!-- Dibujo en tercio superior sin tocar texto -->
+    <path d="M 40 28 L 40 55 L 95 62" stroke="#dc2626" stroke-width="3" fill="none"/>
+    <circle cx="40" cy="28" r="4.5" fill="#dc2626"/>
+    <text x="75" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#b91c1c">Mandíbula Forzada</text>
+    <text x="75" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#7f1d1d">Tracción sobre el hioides</text>
 
     <rect x="162" y="0" width="250" height="115" rx="6" fill="#fef2f2" stroke="#fecaca"/>
     <text x="174" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#991b1b">Efectos Patológicos</text>
@@ -73,14 +75,14 @@
       <tspan x="207" dy="16">no crea verdadero espacio; introduce una ancla</tspan>
       <tspan x="207" dy="16">de rigidez muscular en el cuello y la lengua."</tspan>
     </text>
-    <line x1="40" y1="95" x2="374" y2="95" stroke="#fecaca" stroke-width="1"/>
-    <text x="207" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7f1d1d">
+    <line x1="40" y1="92" x2="374" y2="92" stroke="#fecaca" stroke-width="1"/>
+    <text x="207" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">
       <tspan x="207" dy="0">Consecuencia Técnica Crónica:</tspan>
-      <tspan x="207" dy="15" font-weight="600" fill="#b91c1c">Pérdida de flexibilidad en el passaggio agudo</tspan>
+      <tspan x="207" dy="14" font-weight="600" fill="#b91c1c">Pérdida de flexibilidad en el passaggio agudo</tspan>
     </text>
-    <text x="207" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#991b1b">
+    <text x="207" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#991b1b">
       <tspan x="207" dy="0">El Mito de la Boca en Caverna</tspan>
-      <tspan x="207" dy="15" font-weight="500" fill="#7f1d1d">Apertura desmesurada que desactiva los resonadores naturales</tspan>
+      <tspan x="207" dy="14" font-weight="500" fill="#7f1d1d">Apertura desmesurada que desactiva los formantes</tspan>
     </text>
   </g>
 </svg>

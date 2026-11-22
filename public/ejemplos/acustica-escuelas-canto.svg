@@ -13,9 +13,10 @@
     <text x="20" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">0</text>
     <text x="85" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">1 kHz</text>
     <text x="160" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#15803d">2.8–3.2k</text>
-    <text x="235" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
+    <text x="230" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
 
-    <path d="M 20 115 Q 50 40, 80 80 T 135 100 Q 165 20, 190 90 T 245 117" fill="none" stroke="#16a34a" stroke-width="2.6"/>
+    <!-- Curva que termina limpia en el eje sin cortar el texto 4 kHz -->
+    <path d="M 20 115 Q 50 40, 80 80 T 135 100 Q 165 20, 190 90 Q 210 115, 235 119" fill="none" stroke="#16a34a" stroke-width="2.6"/>
     <circle cx="58" cy="50" r="4" fill="#16a34a"/>
     <text x="58" y="34" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#15803d">Cuerpo y Calidez</text>
 
@@ -42,12 +43,12 @@
     <text x="20" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">0</text>
     <text x="85" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">1 kHz</text>
     <text x="160" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">2.8k</text>
-    <text x="235" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
+    <text x="230" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
 
-    <path d="M 20 115 Q 55 15, 85 60 Q 120 105, 165 110 T 245 119" fill="none" stroke="#dc2626" stroke-width="2.6"/>
+    <path d="M 20 115 Q 55 15, 85 60 Q 120 105, 165 110 T 235 119" fill="none" stroke="#dc2626" stroke-width="2.6"/>
     <circle cx="58" cy="25" r="4" fill="#dc2626"/>
     <text x="65" y="13" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#b91c1c">Sonido Cavernoso</text>
-    <text x="185" y="90" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#991b1b">Caída del Squillo</text>
+    <text x="185" y="85" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#991b1b">Caída del Squillo</text>
   </g>
 
   <rect x="335" y="262" width="270" height="82" rx="6" fill="#fef2f2" stroke="#fee2e2"/>
@@ -69,12 +70,13 @@
     <text x="20" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">0</text>
     <text x="85" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">1 kHz</text>
     <text x="160" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#4338ca">3 kHz</text>
-    <text x="235" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
+    <text x="230" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">4 kHz</text>
 
-    <path d="M 20 117 Q 60 110, 95 103 Q 135 97, 160 15 Q 180 97, 245 115" fill="none" stroke="#4f46e5" stroke-width="2.6"/>
+    <!-- Curva Twang y texto sin colisión -->
+    <path d="M 20 117 Q 60 110, 95 103 Q 135 97, 160 15 Q 180 97, 235 118" fill="none" stroke="#4f46e5" stroke-width="2.6"/>
     <circle cx="160" cy="19" r="4" fill="#4f46e5"/>
     <text x="160" y="9" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#4338ca">Pico AES (~3 kHz)</text>
-    <text x="90" y="80" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#475569">Boca en megáfono</text>
+    <text x="80" y="60" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#475569">Boca en megáfono</text>
   </g>
 
   <rect x="645" y="262" width="270" height="82" rx="6" fill="#eef2ff" stroke="#e0e7ff"/>
