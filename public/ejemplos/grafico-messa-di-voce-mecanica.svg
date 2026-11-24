@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <rect x="15" y="10" width="890" height="36" rx="6" fill="#0f172a"/>
+  <text x="460" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">LA MESSA DI VOCE PERDIDA: DE CACCINI Y TOSI A LA CRISIS DEL CANTO MODERNO</text>
+
+  <!-- PANEL A: MESSA DI VOCE CANÓNICA -->
+  <rect x="15" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.3"/>
+  <rect x="16" y="57" width="433" height="32" rx="7" fill="#f0fdf4"/>
+  <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#15803d">A) Messa di Voce Canónica (pp → ff → pp)</text>
+
+  <g transform="translate(28, 102)">
+    <rect x="0" y="0" width="160" height="118" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="80" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803d">Curva Dinámica Pura</text>
+    <!-- Rombo dinámico < > -->
+    <path d="M 22 52 L 80 36 L 138 52 L 80 68 Z" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="24" y="85" font-family="'Newsreader', serif" font-style="italic" font-size="10" font-weight="700" fill="#15803d">pp</text>
+    <text x="80" y="85" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" font-weight="700" fill="#15803d">ff</text>
+    <text x="136" y="85" text-anchor="end" font-family="'Newsreader', serif" font-style="italic" font-size="10" font-weight="700" fill="#15803d">pp</text>
+    <text x="80" y="103" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#166534">f0 y timbre estables</text>
+
+    <rect x="172" y="0" width="236" height="118" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="184" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803d">Coordinación Muscular:</text>
+    <text x="184" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#166534">• Ataque pp en M2 fino (borde libre)</text>
+    <text x="184" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#166534">• Crescendo: suma masa TA gradualmente</text>
+    <text x="184" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#166534">• Diminuendo: cede masa TA sin soltar CT</text>
+    <text x="184" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#166534">• Afinación inalterable en todo el arco</text>
+    <text x="184" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#15803d">• Prueba suprema de Tosi y García II</text>
+  </g>
+
+  <g transform="translate(28, 232)">
+    <rect x="0" y="0" width="408" height="180" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="204" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#15803d">Doctrina de Caccini (1601) y Tosi (1723)</text>
+    <text x="204" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#166534">
+      <tspan x="204" dy="0">"El crecer y menguar de la voz sobre una misma</tspan>
+      <tspan x="204" dy="16">nota es el fundamento del afecto y la prueba</tspan>
+      <tspan x="204" dy="16">inequívoca de una garganta verdaderamente libre."</tspan>
+    </text>
+    <line x1="35" y1="94" x2="373" y2="94" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="204" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#166534">
+      <tspan x="204" dy="0">Condición Aerodinámica:</tspan>
+      <tspan x="204" dy="14" font-weight="700" fill="#15803d">Ajuste milimétrico entre presión subglótica y aducción</tspan>
+    </text>
+    <text x="204" y="154" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#16a34a">
+      <tspan x="204" dy="0">Valor Artístico</tspan>
+      <tspan x="204" dy="14" font-weight="500" fill="#166534">Dominio absoluto del chiaroscuro en cada frase</tspan>
+    </text>
+  </g>
+
+  <!-- PANEL B: FALLO MODERNO -->
+  <rect x="470" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1.3"/>
+  <rect x="471" y="57" width="433" height="32" rx="7" fill="#fef2f2"/>
+  <text x="687" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b91c1c">B) Por qué Fracasa en el Cantante Moderno</text>
+
+  <g transform="translate(483, 102)">
+    <rect x="0" y="0" width="160" height="118" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+    <text x="80" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#991b1b">Quiebre o Bloqueo</text>
+    <path d="M 22 50 L 72 36 L 78 58 L 138 56" stroke="#dc2626" stroke-width="2.5" fill="none"/>
+    <circle cx="78" cy="58" r="4" fill="#dc2626"/>
+    <text x="80" y="88" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#b91c1c">Salto M1 ↔ M2</text>
+    <text x="80" y="103" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#7f1d1d">Aire escapa al menguar</text>
+
+    <rect x="172" y="0" width="236" height="118" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+    <text x="184" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#991b1b">Causas del Colapso:</text>
+    <text x="184" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Emisión fijada en un solo volumen (f–ff)</text>
+    <text x="184" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Incapacidad de sostener pp con núcleo</text>
+    <text x="184" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Al bajar volumen, la cuerda se desengancha</text>
+    <text x="184" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Desafinación (cala al hacer diminuendo)</text>
+    <text x="184" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#b91c1c">• Sustituida por un vibrato ancho o corte</text>
+  </g>
+
+  <g transform="translate(483, 232)">
+    <rect x="0" y="0" width="408" height="180" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+    <text x="204" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#991b1b">Diagnóstico de James Stark y García II</text>
+    <text x="204" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#7f1d1d">
+      <tspan x="204" dy="0">"Quien solo sabe cantar fuerte carece de técnica:</tspan>
+      <tspan x="204" dy="16">en cuanto intenta reducir la presión para filar,</tspan>
+      <tspan x="204" dy="16">su laringe pierde el cierre y el sonido se apaga."</tspan>
+    </text>
+    <line x1="35" y1="94" x2="373" y2="94" stroke="#fecaca" stroke-width="1"/>
+    <text x="204" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">
+      <tspan x="204" dy="0">Solución Técnica:</tspan>
+      <tspan x="204" dy="14" font-weight="700" fill="#b91c1c">Entrenar el filato y la transición M2↔M1 sin quiebres</tspan>
+    </text>
+    <text x="204" y="154" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#991b1b">
+      <tspan x="204" dy="0">Efecto en el Teatro</tspan>
+      <tspan x="204" dy="14" font-weight="500" fill="#7f1d1d">Recuperar el piano flotante que hipnotiza al auditorio</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <rect x="15" y="10" width="890" height="36" rx="6" fill="#0f172a"/>
+  <text x="460" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">¿QUIÉN MANDA EN LA PARTITURA?: URTEXT LITERAL vs. IMPROVISACIÓN BELCANTISTA</text>
+
+  <!-- PANEL A: LITERALISMO -->
+  <rect x="15" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.3"/>
+  <rect x="16" y="57" width="433" height="32" rx="7" fill="#f1f5f9"/>
+  <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#334155">A) Dogma Moderno: Literalismo Urtext (Siglo XX)</text>
+
+  <g transform="translate(28, 102)">
+    <rect x="0" y="0" width="160" height="118" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="80" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#334155">Repetición Idéntica</text>
+    <line x1="25" y1="48" x2="135" y2="48" stroke="#64748b" stroke-width="2.5"/>
+    <line x1="25" y1="62" x2="135" y2="62" stroke="#94a3b8" stroke-width="2.5"/>
+    <text x="80" y="88" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#475569">A → B → A (Literal)</text>
+    <text x="80" y="103" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#64748b">Prohibición de adornar</text>
+
+    <rect x="172" y="0" width="236" height="118" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="184" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#334155">Anacronismo Estilístico:</text>
+    <text x="184" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#475569">• Confunde Rossini/Händel con Brahms</text>
+    <text x="184" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#475569">• Ignora que el papel era un boceto</text>
+    <text x="184" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#475569">• Anula la retórica dramática del Da Capo</text>
+    <text x="184" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#475569">• Convierte al cantante en autómata</text>
+    <text x="184" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#334155">• Violación de la praxis histórica real</text>
+  </g>
+
+  <g transform="translate(28, 232)">
+    <rect x="0" y="0" width="408" height="180" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="204" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#334155">La Ilusión de la "Fidelidad Absoluta"</text>
+    <text x="204" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#475569">
+      <tspan x="204" dy="0">"Cantar un Da Capo de Händel o una cabaletta</tspan>
+      <tspan x="204" dy="16">de Rossini exactamente como la primera vez</tspan>
+      <tspan x="204" dy="16">era considerado en 1770 signo de ignorancia."</tspan>
+    </text>
+    <line x1="35" y1="94" x2="373" y2="94" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="204" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#475569">
+      <tspan x="204" dy="0">Advertencia de Philip Gossett:</tspan>
+      <tspan x="204" dy="14" font-weight="700" fill="#334155">La notación del Bel Canto presuponía co-creación</tspan>
+    </text>
+    <text x="204" y="154" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#475569">
+      <tspan x="204" dy="0">Consecuencia Estética</tspan>
+      <tspan x="204" dy="14" font-weight="500" fill="#64748b">Monotonía retórica y pérdida de espontaneidad afectiva</tspan>
+    </text>
+  </g>
+
+  <!-- PANEL B: PRAXIS HISTÓRICA -->
+  <rect x="470" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.3"/>
+  <rect x="471" y="57" width="433" height="32" rx="7" fill="#fffbeb"/>
+  <text x="687" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b45309">B) Praxis Canónica: Variación con Discrezione</text>
+
+  <g transform="translate(483, 102)">
+    <rect x="0" y="0" width="160" height="118" rx="6" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="80" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#b45309">Arquitectura Viva</text>
+    <line x1="25" y1="45" x2="135" y2="45" stroke="#92400e" stroke-width="1.8"/>
+    <path d="M 25 65 Q 45 50 65 65 T 105 60 T 135 55" stroke="#d97706" stroke-width="2.2" fill="none"/>
+    <text x="80" y="88" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#b45309">A (Puro) → A' (Variado)</text>
+    <text x="80" y="103" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#92400e">Intensificación afectiva</text>
+
+    <rect x="172" y="0" width="236" height="118" rx="6" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="184" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#b45309">Leyes de Tosi, Corri y Rossini:</text>
+    <text x="184" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#92400e">• Primera exposición siempre fiel y clara</text>
+    <text x="184" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#92400e">• Variaciones respetando la armonía base</text>
+    <text x="184" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#92400e">• Adornos acordes al afecto del texto</text>
+    <text x="184" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#92400e">• Cadencias en un solo aliento (Mancini)</text>
+    <text x="184" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#b45309">• Buen gusto (discrezione) sobre exhibición</text>
+  </g>
+
+  <g transform="translate(483, 232)">
+    <rect x="0" y="0" width="408" height="180" rx="6" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="204" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#b45309">Regla de Oro de Rossini y Luigi Ricci</text>
+    <text x="204" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#92400e">
+      <tspan x="204" dy="0">"El compositor proporciona el esqueleto armónico</tspan>
+      <tspan x="204" dy="16">y el contorno melódico; el cantante culto lo viste</tspan>
+      <tspan x="204" dy="16">con los matices que exige la pasión de la escena."</tspan>
+    </text>
+    <line x1="35" y1="94" x2="373" y2="94" stroke="#fde68a" stroke-width="1"/>
+    <text x="204" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#92400e">
+      <tspan x="204" dy="0">Límite Histórico:</tspan>
+      <tspan x="204" dy="14" font-weight="700" fill="#b45309">Ornamentar nunca es desfigurar la estructura métrica</tspan>
+    </text>
+    <text x="204" y="154" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#d97706">
+      <tspan x="204" dy="0">Ideal Interpretativo</tspan>
+      <tspan x="204" dy="14" font-weight="500" fill="#92400e">Fusión de rigor filológico y libertad creadora del Bel Canto</tspan>
+    </text>
+  </g>
+</svg>

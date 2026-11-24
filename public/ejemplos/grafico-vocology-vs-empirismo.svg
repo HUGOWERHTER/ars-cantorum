@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <rect x="15" y="10" width="890" height="36" rx="6" fill="#0f172a"/>
+  <text x="460" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">CIENCIA VOCAL (VOCOLOGY) vs. EMPIRISMO AUDITIVO: ¿PUEDE EL ESPECTROGRAMA SUPLIR AL OÍDO?</text>
+
+  <!-- PANEL A: EXCESO CIENTIFICISTA -->
+  <rect x="15" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.3"/>
+  <rect x="16" y="57" width="433" height="32" rx="7" fill="#f0f9ff"/>
+  <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#0369a1">A) Paradigma Vocology (Análisis Cuantitativo)</text>
+
+  <g transform="translate(28, 102)">
+    <rect x="0" y="0" width="160" height="118" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
+    <text x="80" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Datos Objetivos</text>
+    <rect x="28" y="34" width="104" height="36" rx="4" fill="#e0f2fe" stroke="#0284c7"/>
+    <path d="M 34 58 L 48 44 L 62 60 L 78 40 L 95 56 L 112 42 L 126 58" stroke="#0369a1" stroke-width="1.8" fill="none"/>
+    <text x="80" y="88" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#0369a1">EGG y Espectrograma</text>
+    <text x="80" y="103" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#0c4a6e">Mide Hz, dB y contacto</text>
+
+    <rect x="172" y="0" width="236" height="118" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
+    <text x="184" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Aportes y Riesgos:</text>
+    <text x="184" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">+ Desmiente mitos anatómicos falsos</text>
+    <text x="184" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">+ Diagnóstico objetivo del fonotrauma</text>
+    <text x="184" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">+ Clarifica acústica de los formantes</text>
+    <text x="184" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#b91c1c">− Riesgo: Paralysis by analysis</text>
+    <text x="184" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#b91c1c">− El control muscular consciente bloquea</text>
+  </g>
+
+  <g transform="translate(28, 232)">
+    <rect x="0" y="0" width="408" height="180" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
+    <text x="204" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0369a1">El Límite de la Ciencia (Ingo Titze)</text>
+    <text x="204" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#0c4a6e">
+      <tspan x="204" dy="0">"La ciencia explica el porqué físico de una</tspan>
+      <tspan x="204" dy="16">emisión sana, pero el cantante no puede</tspan>
+      <tspan x="204" dy="16">dirigir músculos intrínsecos por voluntad directa."</tspan>
+    </text>
+    <line x1="35" y1="94" x2="373" y2="94" stroke="#bae6fd" stroke-width="1"/>
+    <text x="204" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">
+      <tspan x="204" dy="0">Alerta de David C. Taylor:</tspan>
+      <tspan x="204" dy="14" font-weight="700" fill="#0369a1">La técnica vocal se aprende por imitación y oído</tspan>
+    </text>
+    <text x="204" y="154" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0284c7">
+      <tspan x="204" dy="0">Función del Maestro Científico</tspan>
+      <tspan x="204" dy="14" font-weight="500" fill="#0c4a6e">Traducir la física en sensaciones claras, no en jerga médica</tspan>
+    </text>
+  </g>
+
+  <!-- PANEL B: EMPIRISMO AUDITIVO -->
+  <rect x="470" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.3"/>
+  <rect x="471" y="57" width="433" height="32" rx="7" fill="#f0fdf4"/>
+  <text x="687" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#15803d">B) Síntesis Superior: Oído + Fundamento Acústico</text>
+
+  <g transform="translate(483, 102)">
+    <rect x="0" y="0" width="160" height="118" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="80" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803d">Integración Real</text>
+    <circle cx="62" cy="52" r="18" fill="none" stroke="#0284c7" stroke-width="2"/>
+    <circle cx="98" cy="52" r="18" fill="none" stroke="#16a34a" stroke-width="2"/>
+    <text x="80" y="88" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#15803d">Ciencia + Arte</text>
+    <text x="80" y="103" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#166534">Criterio verificado</text>
+
+    <rect x="172" y="0" width="236" height="118" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="184" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803d">Lo Mejor de Ambos Mundos:</text>
+    <text x="184" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#166534">• El oído entrena la belleza y el legato</text>
+    <text x="184" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#166534">• La ciencia filtra consignas dañinas</text>
+    <text x="184" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#166534">• Metáforas válidas sin dogma falso</text>
+    <text x="184" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#166534">• Prevención de lesiones por fonotrauma</text>
+    <text x="184" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#15803d">• Libertad artística guiada por verdad física</text>
+  </g>
+
+  <g transform="translate(483, 232)">
+    <rect x="0" y="0" width="408" height="180" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="204" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#15803d">Axioma de García II y Herbert-Caesari</text>
+    <text x="204" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#166534">
+      <tspan x="204" dy="0">"El maestro debe conocer a fondo la anatomía</tspan>
+      <tspan x="204" dy="16">para no dañar al alumno, pero en el aula enseña</tspan>
+      <tspan x="204" dy="16">con el oído, la sensibilidad y la música viva."</tspan>
+    </text>
+    <line x1="35" y1="94" x2="373" y2="94" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="204" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#166534">
+      <tspan x="204" dy="0">Regla de Oro en el Estudio:</tspan>
+      <tspan x="204" dy="14" font-weight="700" fill="#15803d">La ciencia es la brújula del maestro, no la carga del cantante</tspan>
+    </text>
+    <text x="204" y="154" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#16a34a">
+      <tspan x="204" dy="0">Resultado Final</tspan>
+      <tspan x="204" dy="14" font-weight="500" fill="#166534">Cantantes libres, expresivos y técnicamente longevos</tspan>
+    </text>
+  </g>
+</svg>
