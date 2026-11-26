@@ -1,124 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <rect x="15" y="10" width="930" height="36" rx="6" fill="#0f172a"/>
-  <text x="480" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">ANATOMÍA DEL VIBRATO: MODULACIÓN FISIOLÓGICA vs. DEFECTOS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" role="img" aria-label="Modulación de frecuencia fundamental f0: Straight-tone, Vibrato fisiológico, Wobble y Trémolo caprino">
+  <defs>
+    <style>
+      .title { font-family: 'Cinzel', Georgia, serif; font-size: 19px; font-weight: 700; fill: #1C1B19; letter-spacing: 0.6px; }
+      .subtitle { font-family: 'Newsreader', Georgia, serif; font-size: 13px; font-style: italic; fill: #1C1B19; opacity: 0.78; }
+      .plate-num { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1.8px; fill: #881337; text-transform: uppercase; }
+      .sec-head { font-family: 'Cinzel', Georgia, serif; font-size: 13px; font-weight: 700; fill: #1C1B19; letter-spacing: 0.4px; }
+      .sec-head-acc { font-family: 'Cinzel', Georgia, serif; font-size: 13px; font-weight: 700; fill: #881337; letter-spacing: 0.4px; }
+      .lbl { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; fill: #1C1B19; }
+      .lbl-b { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; font-weight: 700; fill: #1C1B19; }
+      .lbl-acc { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; font-weight: 700; fill: #881337; }
+      .lbl-sm { font-family: 'Newsreader', Georgia, serif; font-size: 11px; fill: #1C1B19; opacity: 0.85; }
+      .mag { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10.5px; font-weight: 600; fill: #1C1B19; }
+      .mag-acc { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10.5px; font-weight: 700; fill: #881337; }
+      .mag-muted { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 9.5px; fill: #1C1B19; opacity: 0.65; }
+      .caption { font-family: 'Newsreader', Georgia, serif; font-size: 11.5px; fill: #1C1B19; opacity: 0.86; }
+      .caption-b { font-family: 'Newsreader', Georgia, serif; font-size: 11.5px; font-weight: 700; fill: #1C1B19; }
+      .hair { stroke: #1C1B19; stroke-width: 1; fill: none; }
+      .hair-light { stroke: #1C1B19; stroke-width: 0.7; stroke-opacity: 0.35; fill: none; }
+      .hair-dash { stroke: #1C1B19; stroke-width: 1.1; stroke-dasharray: 4 3; fill: none; }
+      .ink-line { stroke: #1C1B19; stroke-width: 1.4; fill: none; }
+      .acc-line { stroke: #881337; stroke-width: 1.8; fill: none; }
+      .acc-dash { stroke: #881337; stroke-width: 1.2; stroke-dasharray: 4 3; fill: none; }
+      .leader { stroke: #1C1B19; stroke-width: 0.85; stroke-opacity: 0.65; fill: none; }
+    </style>
+    <pattern id="hatch-ink" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1C1B19" stroke-width="0.7" stroke-opacity="0.22"/>
+    </pattern>
+    <pattern id="hatch-acc" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#881337" stroke-width="0.8" stroke-opacity="0.24"/>
+    </pattern>
+    <marker id="arr-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 2 L 8 5 L 1 8 z" fill="#1C1B19"/>
+    </marker>
+    <marker id="arr-acc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 2 L 8 5 L 1 8 z" fill="#881337"/>
+    </marker>
+  </defs>
+  <rect width="880" height="500" fill="#FAF8F5"/>
+  <rect x="12" y="12" width="856" height="476" fill="none" stroke="#DCD6CD" stroke-width="1"/>
+  <text x="36" y="42" class="plate-num">LÁMINA XX · NEUROFISIOLOGÍA DE LA OSCILACIÓN</text>
+  <text x="36" y="66" class="title">Contorno Temporal de Frecuencia Fundamental (f₀): 4 Emisiones</text>
+  <text x="36" y="85" class="subtitle">Comparación de frecuencia de ciclo (Hz) y excursión tonal (± semitonos) durante 1,0 segundo</text>
+  <line x1="36" y1="98" x2="844" y2="98" stroke="#1C1B19" stroke-width="0.8" stroke-opacity="0.3"/>
 
-  <!-- COL 1: STRAIGHT TONE -->
-  <rect x="15" y="56" width="220" height="370" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.3"/>
-  <rect x="16" y="57" width="218" height="32" rx="7" fill="#f8fafc"/>
-  <text x="125" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#334155">1. Voz Recta (Straight-Tone)</text>
+  <!-- Vertical time grid (0.0 to 1.0 s) -->
+  <line x1="90" y1="120" x2="90" y2="435" stroke="#1C1B19" stroke-width="1"/>
+  <line x1="265" y1="120" x2="265" y2="435" class="hair-light"/>
+  <line x1="440" y1="120" x2="440" y2="435" class="hair-light"/>
+  <line x1="615" y1="120" x2="615" y2="435" class="hair-light"/>
+  <line x1="790" y1="120" x2="790" y2="435" class="hair-light"/>
+  <text x="90" y="114" text-anchor="middle" class="mag-muted">0.0 s</text>
+  <text x="265" y="114" text-anchor="middle" class="mag-muted">0.25 s</text>
+  <text x="440" y="114" text-anchor="middle" class="mag-muted">0.50 s</text>
+  <text x="615" y="114" text-anchor="middle" class="mag-muted">0.75 s</text>
+  <text x="790" y="114" text-anchor="middle" class="mag-muted">1.00 s</text>
 
-  <g transform="translate(25, 100)">
-    <rect x="0" y="0" width="200" height="115" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
-    <line x1="20" y1="58" x2="180" y2="58" stroke="#64748b" stroke-width="3"/>
-    <text x="100" y="30" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#64748b">Cero modulación (0 Hz)</text>
-    <text x="100" y="88" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#475569">Rigidez muscular fija</text>
-    <text x="100" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">Inhibición refleja</text>
-  </g>
+  <!-- Band 1: Straight-Tone -->
+  <line x1="90" y1="175" x2="790" y2="175" class="hair-light"/>
+  <path d="M 90,175 L 790,175" class="hair-dash"/>
+  <text x="96" y="156" class="lbl-b">1. Straight-Tone (Voz plana · 0 Hz)</text>
+  <text x="624" y="156" class="mag-muted">Contracción isométrica cricotiroidea</text>
 
-  <g transform="translate(25, 228)">
-    <rect x="0" y="0" width="200" height="185" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
-    <text x="100" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#1e293b">Dogma Historicista</text>
-    <text x="100" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#475569">
-      <tspan x="100" dy="0">Sonido blanco y frío:</tspan>
-      <tspan x="100" dy="15">la inmovilización rígida</tspan>
-      <tspan x="100" dy="15">del reflejo acústico natural.</tspan>
-    </text>
-    <line x1="20" y1="95" x2="180" y2="95" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="100" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#475569">
-      <tspan x="100" dy="0" font-weight="700" fill="#334155">Consecuencias:</tspan>
-      <tspan x="100" dy="14">• Sobrecarga laríngea</tspan>
-      <tspan x="100" dy="14">• Timbre desvitalizado</tspan>
-      <tspan x="100" dy="14">• Fatiga fonatoria</tspan>
-    </text>
-  </g>
+  <!-- Band 2: Vibrato Fisiológico (Highlighted) -->
+  <rect x="90" y="220" width="700" height="50" fill="url(#hatch-acc)" opacity="0.55"/>
+  <line x1="90" y1="245" x2="790" y2="245" class="hair-light"/>
+  <path d="M 90.0,245.0 L 95.0,241.3 L 100.0,237.8 L 105.0,234.9 L 110.0,232.7 L 115.0,231.4 L 120.0,231.0 L 125.0,231.7 L 130.0,233.3 L 135.0,235.8 L 140.0,238.9 L 145.0,242.5 L 150.0,246.3 L 155.0,249.9 L 160.0,253.2 L 165.0,255.9 L 170.0,257.9 L 175.0,258.9 L 180.0,258.9 L 185.0,257.9 L 190.0,255.9 L 195.0,253.2 L 200.0,249.9 L 205.0,246.3 L 210.0,242.5 L 215.0,238.9 L 220.0,235.8 L 225.0,233.3 L 230.0,231.7 L 235.0,231.0 L 240.0,231.4 L 245.0,232.7 L 250.0,234.9 L 255.0,237.8 L 260.0,241.3 L 265.0,245.0 L 270.0,248.7 L 275.0,252.2 L 280.0,255.1 L 285.0,257.3 L 290.0,258.6 L 295.0,259.0 L 300.0,258.3 L 305.0,256.7 L 310.0,254.2 L 315.0,251.1 L 320.0,247.5 L 325.0,243.7 L 330.0,240.1 L 335.0,236.8 L 340.0,234.1 L 345.0,232.1 L 350.0,231.1 L 355.0,231.1 L 360.0,232.1 L 365.0,234.1 L 370.0,236.8 L 375.0,240.1 L 380.0,243.7 L 385.0,247.5 L 390.0,251.1 L 395.0,254.2 L 400.0,256.7 L 405.0,258.3 L 410.0,259.0 L 415.0,258.6 L 420.0,257.3 L 425.0,255.1 L 430.0,252.2 L 435.0,248.7 L 440.0,245.0 L 445.0,241.3 L 450.0,237.8 L 455.0,234.9 L 460.0,232.7 L 465.0,231.4 L 470.0,231.0 L 475.0,231.7 L 480.0,233.3 L 485.0,235.8 L 490.0,238.9 L 495.0,242.5 L 500.0,246.3 L 505.0,249.9 L 510.0,253.2 L 515.0,255.9 L 520.0,257.9 L 525.0,258.9 L 530.0,258.9 L 535.0,257.9 L 540.0,255.9 L 545.0,253.2 L 550.0,249.9 L 555.0,246.3 L 560.0,242.5 L 565.0,238.9 L 570.0,235.8 L 575.0,233.3 L 580.0,231.7 L 585.0,231.0 L 590.0,231.4 L 595.0,232.7 L 600.0,234.9 L 605.0,237.8 L 610.0,241.3 L 615.0,245.0 L 620.0,248.7 L 625.0,252.2 L 630.0,255.1 L 635.0,257.3 L 640.0,258.6 L 645.0,259.0 L 650.0,258.3 L 655.0,256.7 L 660.0,254.2 L 665.0,251.1 L 670.0,247.5 L 675.0,243.7 L 680.0,240.1 L 685.0,236.8 L 690.0,234.1 L 695.0,232.1 L 700.0,231.1 L 705.0,231.1 L 710.0,232.1 L 715.0,234.1 L 720.0,236.8 L 725.0,240.1 L 730.0,243.7 L 735.0,247.5 L 740.0,251.1 L 745.0,254.2 L 750.0,256.7 L 755.0,258.3 L 760.0,259.0 L 765.0,258.6 L 770.0,257.3 L 775.0,255.1 L 780.0,252.2 L 785.0,248.7 L 790.0,245.0" class="acc-line"/>
+  <text x="96" y="213" class="lbl-acc">2. Vibrato Fisiológico Libre (5.5 – 6.5 Hz · ±0.5 semitono)</text>
+  <text x="618" y="213" class="mag-acc">Alternancia CT/TA espontánea</text>
 
-  <!-- COL 2: VIBRATO LIBRE (VERDE) -->
-  <rect x="250" y="56" width="225" height="370" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
-  <rect x="251" y="57" width="223" height="32" rx="7" fill="#f0fdf4"/>
-  <text x="362" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#15803d">2. Vibrato Libre Canónico</text>
+  <!-- Band 3: Wobble -->
+  <line x1="90" y1="330" x2="790" y2="330" class="hair-light"/>
+  <path d="M 90.0,330.0 L 95.0,325.1 L 100.0,320.4 L 105.0,315.8 L 110.0,311.5 L 115.0,307.6 L 120.0,304.2 L 125.0,301.3 L 130.0,299.0 L 135.0,297.3 L 140.0,296.3 L 145.0,296.0 L 150.0,296.4 L 155.0,297.5 L 160.0,299.2 L 165.0,301.6 L 170.0,304.6 L 175.0,308.1 L 180.0,312.0 L 185.0,316.4 L 190.0,321.0 L 195.0,325.7 L 200.0,330.6 L 205.0,335.5 L 210.0,340.2 L 215.0,344.8 L 220.0,349.0 L 225.0,352.8 L 230.0,356.2 L 235.0,359.0 L 240.0,361.3 L 245.0,362.9 L 250.0,363.8 L 255.0,364.0 L 260.0,363.5 L 265.0,362.3 L 270.0,360.5 L 275.0,358.0 L 280.0,355.0 L 285.0,351.4 L 290.0,347.4 L 295.0,343.1 L 300.0,338.5 L 305.0,333.7 L 310.0,328.8 L 315.0,323.9 L 320.0,319.2 L 325.0,314.7 L 330.0,310.5 L 335.0,306.7 L 340.0,303.4 L 345.0,300.7 L 350.0,298.5 L 355.0,297.0 L 360.0,296.2 L 365.0,296.0 L 370.0,296.6 L 375.0,297.9 L 380.0,299.8 L 385.0,302.3 L 390.0,305.4 L 395.0,309.0 L 400.0,313.1 L 405.0,317.5 L 410.0,322.1 L 415.0,327.0 L 420.0,331.8 L 425.0,336.7 L 430.0,341.4 L 435.0,345.8 L 440.0,350.0 L 445.0,353.7 L 450.0,357.0 L 455.0,359.6 L 460.0,361.7 L 465.0,363.1 L 470.0,363.9 L 475.0,363.9 L 480.0,363.3 L 485.0,361.9 L 490.0,359.9 L 495.0,357.3 L 500.0,354.1 L 505.0,350.5 L 510.0,346.4 L 515.0,341.9 L 520.0,337.3 L 525.0,332.4 L 530.0,327.6 L 535.0,322.7 L 540.0,318.1 L 545.0,313.6 L 550.0,309.5 L 555.0,305.9 L 560.0,302.7 L 565.0,300.1 L 570.0,298.1 L 575.0,296.7 L 580.0,296.1 L 585.0,296.1 L 590.0,296.9 L 595.0,298.3 L 600.0,300.4 L 605.0,303.0 L 610.0,306.3 L 615.0,310.0 L 620.0,314.2 L 625.0,318.6 L 630.0,323.3 L 635.0,328.2 L 640.0,333.0 L 645.0,337.9 L 650.0,342.5 L 655.0,346.9 L 660.0,351.0 L 665.0,354.6 L 670.0,357.7 L 675.0,360.2 L 680.0,362.1 L 685.0,363.4 L 690.0,364.0 L 695.0,363.8 L 700.0,363.0 L 705.0,361.5 L 710.0,359.3 L 715.0,356.6 L 720.0,353.3 L 725.0,349.5 L 730.0,345.3 L 735.0,340.8 L 740.0,336.1 L 745.0,331.2 L 750.0,326.3 L 755.0,321.5 L 760.0,316.9 L 765.0,312.6 L 770.0,308.6 L 775.0,305.0 L 780.0,302.0 L 785.0,299.5 L 790.0,297.7" class="ink-line"/>
+  <text x="96" y="294" class="lbl-b">3. Oscilación Lenta / Wobble (&lt; 4.5 Hz · ±1.5 a 2.0 st)</text>
+  <text x="638" y="294" class="mag-muted">Voce ballerina (Tosi, 1723)</text>
 
-  <g transform="translate(260, 100)">
-    <rect x="0" y="0" width="205" height="115" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
-    <path d="M 15 58 Q 28 35 42 58 T 70 58 T 98 58 T 126 58 T 154 58 T 182 58" stroke="#16a34a" stroke-width="2.5" fill="none"/>
-    <text x="102" y="25" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#15803d">5.5 – 6.5 Ciclos/seg (Hz)</text>
-    <text x="102" y="88" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#166534">Amplitud: ± 0.5 semitono</text>
-    <text x="102" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#15803d">Oscilación libre CT / TA</text>
-  </g>
+  <!-- Band 4: Bleat / Tremolo -->
+  <line x1="90" y1="412" x2="790" y2="412" class="hair-light"/>
+  <path d="M 90.0,412.0 L 95.0,404.4 L 100.0,403.0 L 105.0,405.9 L 110.0,406.8 L 115.0,403.9 L 120.0,403.1 L 125.0,408.8 L 130.0,417.3 L 135.0,421.2 L 140.0,419.2 L 145.0,417.0 L 150.0,418.9 L 155.0,421.3 L 160.0,418.0 L 165.0,409.7 L 170.0,403.4 L 175.0,403.6 L 180.0,406.6 L 185.0,406.2 L 190.0,403.2 L 195.0,404.0 L 200.0,411.1 L 205.0,419.0 L 210.0,421.1 L 215.0,418.4 L 220.0,417.1 L 225.0,419.7 L 230.0,421.1 L 235.0,416.1 L 240.0,407.5 L 245.0,402.8 L 250.0,404.4 L 255.0,406.9 L 260.0,405.5 L 265.0,402.8 L 270.0,405.3 L 275.0,413.4 L 280.0,420.2 L 285.0,420.6 L 290.0,417.6 L 295.0,417.5 L 300.0,420.5 L 305.0,420.4 L 310.0,413.9 L 315.0,405.6 L 320.0,402.8 L 325.0,405.3 L 330.0,407.0 L 335.0,404.6 L 340.0,402.8 L 345.0,407.1 L 350.0,415.7 L 355.0,421.0 L 360.0,419.9 L 365.0,417.2 L 370.0,418.2 L 375.0,421.1 L 380.0,419.3 L 385.0,411.5 L 390.0,404.2 L 395.0,403.1 L 400.0,406.1 L 405.0,406.7 L 410.0,403.8 L 415.0,403.2 L 420.0,409.2 L 425.0,417.7 L 430.0,421.3 L 435.0,419.0 L 440.0,417.0 L 445.0,419.0 L 450.0,421.3 L 455.0,417.7 L 460.0,409.2 L 465.0,403.2 L 470.0,403.8 L 475.0,406.7 L 480.0,406.1 L 485.0,403.1 L 490.0,404.2 L 495.0,411.5 L 500.0,419.3 L 505.0,421.1 L 510.0,418.2 L 515.0,417.2 L 520.0,419.9 L 525.0,421.0 L 530.0,415.7 L 535.0,407.1 L 540.0,402.8 L 545.0,404.6 L 550.0,407.0 L 555.0,405.3 L 560.0,402.8 L 565.0,405.6 L 570.0,413.9 L 575.0,420.4 L 580.0,420.5 L 585.0,417.5 L 590.0,417.6 L 595.0,420.6 L 600.0,420.2 L 605.0,413.4 L 610.0,405.3 L 615.0,402.8 L 620.0,405.5 L 625.0,406.9 L 630.0,404.4 L 635.0,402.8 L 640.0,407.5 L 645.0,416.1 L 650.0,421.1 L 655.0,419.7 L 660.0,417.1 L 665.0,418.4 L 670.0,421.1 L 675.0,419.0 L 680.0,411.1 L 685.0,404.0 L 690.0,403.2 L 695.0,406.2 L 700.0,406.6 L 705.0,403.6 L 710.0,403.4 L 715.0,409.7 L 720.0,418.0 L 725.0,421.3 L 730.0,418.9 L 735.0,417.0 L 740.0,419.2 L 745.0,421.2 L 750.0,417.3 L 755.0,408.8 L 760.0,403.1 L 765.0,403.9 L 770.0,406.8 L 775.0,405.9 L 780.0,403.0 L 785.0,404.4 L 790.0,412.0" stroke="#1C1B19" stroke-width="1.1" fill="none"/>
+  <text x="96" y="384" class="lbl-b">4. Trémolo Caprino / Bleat (&gt; 7.5 Hz)</text>
+  <text x="628" y="384" class="mag-muted">Constricción suprahioidea (Bovicelli)</text>
 
-  <g transform="translate(260, 228)">
-    <rect x="0" y="0" width="205" height="185" rx="6" fill="#f0fdf4" stroke="#dcfce7"/>
-    <text x="102" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#15803d">El Ideal del Bel Canto</text>
-    <text x="102" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#14532d">
-      <tspan x="102" dy="0">Relajación neuromuscular:</tspan>
-      <tspan x="102" dy="15">la voz respira con vida,</tspan>
-      <tspan x="102" dy="15">calidez y pureza tímbrica.</tspan>
-    </text>
-    <line x1="20" y1="95" x2="185" y2="95" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="102" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#14532d">
-      <tspan x="102" dy="0" font-weight="700" fill="#15803d">Virtudes Acústicas:</tspan>
-      <tspan x="102" dy="14">• Longevidad y salud</tspan>
-      <tspan x="102" dy="14">• Afinación flexible y viva</tspan>
-      <tspan x="102" dy="14">• Messa di voce plena</tspan>
-    </text>
-  </g>
-
-  <!-- COL 3: WOBBLE -->
-  <rect x="490" y="56" width="220" height="370" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="1.3"/>
-  <rect x="491" y="57" width="218" height="32" rx="7" fill="#fffbeb"/>
-  <text x="600" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#b45309">3. Oscilación Lenta (Wobble)</text>
-
-  <g transform="translate(500, 100)">
-    <rect x="0" y="0" width="200" height="115" rx="6" fill="#fffbeb" stroke="#fde68a"/>
-    <path d="M 15 58 Q 50 15 85 58 T 155 58 T 185 58" stroke="#f59e0b" stroke-width="2.8" fill="none"/>
-    <text x="100" y="25" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#b45309">&lt; 4.5 Hz (Lenta y ancha)</text>
-    <text x="100" y="88" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#92400e">Amplitud: &gt; 1.5 semitonos</text>
-    <text x="100" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#78350f">Pérdida de control motor</text>
-  </g>
-
-  <g transform="translate(500, 228)">
-    <rect x="0" y="0" width="200" height="185" rx="6" fill="#fffbeb" stroke="#fef3c7"/>
-    <text x="100" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#92400e">Voce Ballerina</text>
-    <text x="100" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#78350f">
-      <tspan x="100" dy="0">Tambaleo y descontrol:</tspan>
-      <tspan x="100" dy="15">el tono oscila sin rumbo,</tspan>
-      <tspan x="100" dy="15">destruyendo la afinación.</tspan>
-    </text>
-    <line x1="20" y1="95" x2="180" y2="95" stroke="#fde68a" stroke-width="1"/>
-    <text x="100" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#78350f">
-      <tspan x="100" dy="0" font-weight="700" fill="#b45309">Causas Fisiológicas:</tspan>
-      <tspan x="100" dy="14">• Fatiga del soporte respiratorio</tspan>
-      <tspan x="100" dy="14">• Hipotonía tiroaritenoidea</tspan>
-      <tspan x="100" dy="14">• Desgaste senil o por sobrepresión</tspan>
-    </text>
-  </g>
-
-  <!-- COL 4: TREMOLO CAPRINO -->
-  <rect x="725" y="56" width="220" height="370" rx="8" fill="#ffffff" stroke="#ef4444" stroke-width="1.3"/>
-  <rect x="726" y="57" width="218" height="32" rx="7" fill="#fef2f2"/>
-  <text x="835" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#b91c1c">4. Trémolo Caprino (Bleat)</text>
-
-  <g transform="translate(735, 100)">
-    <rect x="0" y="0" width="200" height="115" rx="6" fill="#fef2f2" stroke="#fecaca"/>
-    <path d="M 10 58 Q 20 40 30 58 T 50 58 T 70 58 T 90 58 T 110 58 T 130 58 T 150 58 T 170 58 T 190 58" stroke="#ef4444" stroke-width="2" fill="none"/>
-    <text x="100" y="25" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#991b1b">&gt; 7.5 Hz (Rápido y espasmódico)</text>
-    <text x="100" y="88" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#7f1d1d">Espasmo constrictor laríngeo</text>
-    <text x="100" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#991b1b">Tensión de base lingual</text>
-  </g>
-
-  <g transform="translate(735, 228)">
-    <rect x="0" y="0" width="200" height="185" rx="6" fill="#fef2f2" stroke="#fee2e2"/>
-    <text x="100" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#991b1b">Voz de Cabra</text>
-    <text x="100" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10" fill="#7f1d1d">
-      <tspan x="100" dy="0">Afonía nerviosa y rigidez:</tspan>
-      <tspan x="100" dy="15">temblor convulsivo que</tspan>
-      <tspan x="100" dy="15">denota constricción extrema.</tspan>
-    </text>
-    <line x1="20" y1="95" x2="180" y2="95" stroke="#fecaca" stroke-width="1"/>
-    <text x="100" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#7f1d1d">
-      <tspan x="100" dy="0" font-weight="700" fill="#b91c1c">Condena Histórica:</tspan>
-      <tspan x="100" dy="14">• Bovicelli (1594): vicio capital</tspan>
-      <tspan x="100" dy="14">• Rigidez suprahioidea</tspan>
-      <tspan x="100" dy="14">• Cierre espasmódico</tspan>
-    </text>
-  </g>
+  <line x1="36" y1="456" x2="844" y2="456" stroke="#1C1B19" stroke-width="0.6" stroke-opacity="0.25"/>
+  <text x="36" y="474" class="caption-b">Lectura neurofisiológica:</text>
+  <text x="196" y="474" class="caption">El vibrato sano refleja la descarga rítmica natural (5.5–6.5 Hz) de una laringe sin rigidez extrínseca (Sundberg).</text>
 </svg>

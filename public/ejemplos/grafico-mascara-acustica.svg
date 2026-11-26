@@ -1,91 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <rect x="15" y="10" width="890" height="36" rx="6" fill="#0f172a"/>
-  <text x="460" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">"CANTAR EN LA MÁSCARA": ILUSIÓN SENSORIAL vs. REALIDAD ACÚSTICA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" role="img" aria-label="Voce in maschera: conducción ósea desde el paladar duro frente a la imposibilidad acústica de los senos paranasales">
+  <defs>
+    <style>
+      .title { font-family: 'Cinzel', Georgia, serif; font-size: 19px; font-weight: 700; fill: #1C1B19; letter-spacing: 0.6px; }
+      .subtitle { font-family: 'Newsreader', Georgia, serif; font-size: 13px; font-style: italic; fill: #1C1B19; opacity: 0.78; }
+      .plate-num { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1.8px; fill: #881337; text-transform: uppercase; }
+      .sec-head { font-family: 'Cinzel', Georgia, serif; font-size: 13px; font-weight: 700; fill: #1C1B19; letter-spacing: 0.4px; }
+      .sec-head-acc { font-family: 'Cinzel', Georgia, serif; font-size: 13px; font-weight: 700; fill: #881337; letter-spacing: 0.4px; }
+      .lbl { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; fill: #1C1B19; }
+      .lbl-b { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; font-weight: 700; fill: #1C1B19; }
+      .lbl-acc { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; font-weight: 700; fill: #881337; }
+      .lbl-sm { font-family: 'Newsreader', Georgia, serif; font-size: 11px; fill: #1C1B19; opacity: 0.85; }
+      .mag { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10.5px; font-weight: 600; fill: #1C1B19; }
+      .mag-acc { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10.5px; font-weight: 700; fill: #881337; }
+      .mag-muted { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 9.5px; fill: #1C1B19; opacity: 0.65; }
+      .caption { font-family: 'Newsreader', Georgia, serif; font-size: 11.5px; fill: #1C1B19; opacity: 0.86; }
+      .caption-b { font-family: 'Newsreader', Georgia, serif; font-size: 11.5px; font-weight: 700; fill: #1C1B19; }
+      .hair { stroke: #1C1B19; stroke-width: 1; fill: none; }
+      .hair-light { stroke: #1C1B19; stroke-width: 0.7; stroke-opacity: 0.35; fill: none; }
+      .hair-dash { stroke: #1C1B19; stroke-width: 1.1; stroke-dasharray: 4 3; fill: none; }
+      .ink-line { stroke: #1C1B19; stroke-width: 1.4; fill: none; }
+      .acc-line { stroke: #881337; stroke-width: 1.8; fill: none; }
+      .acc-dash { stroke: #881337; stroke-width: 1.2; stroke-dasharray: 4 3; fill: none; }
+      .leader { stroke: #1C1B19; stroke-width: 0.85; stroke-opacity: 0.65; fill: none; }
+    </style>
+    <pattern id="hatch-ink" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1C1B19" stroke-width="0.7" stroke-opacity="0.22"/>
+    </pattern>
+    <pattern id="hatch-acc" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#881337" stroke-width="0.8" stroke-opacity="0.24"/>
+    </pattern>
+    <marker id="arr-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 2 L 8 5 L 1 8 z" fill="#1C1B19"/>
+    </marker>
+    <marker id="arr-acc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 2 L 8 5 L 1 8 z" fill="#881337"/>
+    </marker>
+  </defs>
+  <rect width="880" height="500" fill="#FAF8F5"/>
+  <rect x="12" y="12" width="856" height="476" fill="none" stroke="#DCD6CD" stroke-width="1"/>
+  <text x="36" y="42" class="plate-num">LÁMINA XVIII · CONDUCCIÓN ÓSEA Y RESONANCIA</text>
+  <text x="36" y="66" class="title">Voce in Maschera: Vibración Ósea vs. Fuga Nasal</text>
+  <text x="36" y="85" class="subtitle">Por qué los senos paranasales son acústicamente inertes y qué origina el cosquilleo facial</text>
+  <line x1="36" y1="98" x2="844" y2="98" stroke="#1C1B19" stroke-width="0.8" stroke-opacity="0.3"/>
 
-  <!-- PANEL IZQUIERDO: EL MITO -->
-  <rect x="15" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#ef4444" stroke-width="1.3"/>
-  <rect x="16" y="57" width="433" height="32" rx="7" fill="#fef2f2"/>
-  <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b91c1c">A) El Mito: Senos como Cajas de Resonancia</text>
+  <!-- Left Panel: Diderot-style Sagittal Schematic -->
+  <text x="36" y="122" class="sec-head-acc">A. CORTE SAGITAL: CONDUCCIÓN ÓSEA vs. SENOS INERTES</text>
+  <g transform="translate(36, 136)">
+    <rect x="0" y="0" width="460" height="305" fill="none" stroke="#DCD6CD" stroke-width="0.9"/>
 
-  <g transform="translate(25, 100)">
-    <!-- Perfil esquemático cabeza (x: 10 a 120) -->
-    <path d="M 15 90 Q 15 15 60 15 Q 100 15 100 45 L 115 65 L 95 70 L 105 85 L 80 90 L 75 110" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
-    <ellipse cx="82" cy="35" rx="10" ry="7" fill="#fecaca" stroke="#ef4444" stroke-width="1.2"/>
-    <text x="82" y="38" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#991b1b">Frontal</text>
-    <ellipse cx="88" cy="60" rx="11" ry="8" fill="#fecaca" stroke="#ef4444" stroke-width="1.2"/>
-    <text x="88" y="63" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#991b1b">Maxilar</text>
+    <!-- Stylized sagittal profile outline (fine engraving ink) -->
+    <path d="M 155,34 C 110,34 80,68 78,108 L 54,155 L 76,164 L 74,185 L 88,195 L 82,228 L 106,245 L 116,292" class="ink-line"/>
+    <!-- Posterior pharyngeal wall -->
+    <path d="M 272,42 C 294,95 292,185 282,292" class="ink-line"/>
 
-    <!-- Caja Explicación (x: 140) -->
-    <rect x="140" y="0" width="275" height="115" rx="6" fill="#fef2f2" stroke="#fca5a5"/>
-    <text x="152" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#991b1b">Imposibilidad Física (Sundberg):</text>
-    <text x="152" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Senos con orificios mínimos (ostia &lt; 2 mm)</text>
-    <text x="152" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Tapizados de mucosa esponjosa absorbente</text>
-    <text x="152" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Radiación acústica hacia el exterior: 0 dB</text>
-    <text x="152" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• No pueden reforzar el volumen vocal</text>
-    <text x="152" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#b91c1c">• Amplificación acústica exterior nula</text>
+    <!-- Frontal & Maxillary Sinuses (hatched absorbent mucosa + 1-3mm ostium) -->
+    <path d="M 96,74 C 110,64 128,74 124,94 C 118,104 98,102 96,74 Z" fill="url(#hatch-ink)" stroke="#1C1B19" stroke-width="1"/>
+    <path d="M 134,116 C 154,110 168,124 162,142 C 152,150 132,144 134,116 Z" fill="url(#hatch-ink)" stroke="#1C1B19" stroke-width="1"/>
+
+    <!-- Hard Palate (curved bone reflector) -->
+    <path d="M 96,178 Q 145,156 196,164" stroke="#1C1B19" stroke-width="2.4" fill="none"/>
+
+    <!-- Soft Palate (Velum) ELEVATED sealing nasopharynx -->
+    <path d="M 196,164 Q 242,146 276,136" class="acc-line"/>
+    <circle cx="276" cy="136" r="3" fill="#881337"/>
+
+    <!-- Velum LOWERED comparison (dashed) -->
+    <path d="M 196,164 Q 228,176 238,202" class="hair-dash"/>
+
+    <!-- Acoustic Energy rising from larynx/pharynx toward hard palate -->
+    <path d="M 216,282 C 214,232 186,198 144,174" class="acc-line" marker-end="url(#arr-acc)"/>
+    <path d="M 232,282 C 228,236 204,202 162,172" class="acc-dash" marker-end="url(#arr-acc)"/>
+
+    <!-- Bone conduction vibrotactile ripples into cheekbones / nasal bridge -->
+    <path d="M 136,164 Q 112,138 92,126" class="acc-dash" marker-end="url(#arr-acc)"/>
+    <path d="M 142,162 Q 134,126 114,98" class="acc-dash"/>
+
+    <!-- Oral radiation out through lips -->
+    <path d="M 144,186 L 52,186" class="acc-line" marker-end="url(#arr-acc)"/>
+    <text x="14" y="182" class="mag-acc">99.9%</text>
+    <text x="14" y="196" class="lbl-sm">oral</text>
+
+    <!-- Leader lines & annotations -->
+    <line x1="124" y1="78" x2="284" y2="54" class="leader"/>
+    <text x="288" y="52" class="lbl-b">Senos paranasales</text>
+    <text x="288" y="66" class="lbl-sm">Ostia 1–3 mm · mucosa</text>
+    <text x="288" y="80" class="mag-muted">Radiación externa: 0 dB</text>
+
+    <line x1="246" y1="145" x2="284" y2="122" class="leader"/>
+    <text x="288" y="120" class="lbl-acc">Velo elevado (sellado)</text>
+    <text x="288" y="134" class="lbl-sm">Bloquea fuga a cavidad nasal</text>
+
+    <line x1="236" y1="192" x2="284" y2="176" class="leader"/>
+    <text x="288" y="174" class="lbl-sm">Velo caído (punteado)</text>
+    <text x="288" y="188" class="mag-muted">Genera voce di naso</text>
+
+    <line x1="146" y1="168" x2="284" y2="232" class="leader"/>
+    <text x="288" y="230" class="lbl-b">Paladar duro y maxilar</text>
+    <text x="288" y="244" class="lbl-sm">Impacto 2.8–3.2 kHz →</text>
+    <text x="288" y="258" class="lbl-acc">conducción ósea facial</text>
+
+    <text x="174" y="294" class="mag-muted">Hacia laringe (2.8–3.2 kHz)</text>
   </g>
 
-  <g transform="translate(25, 228)">
-    <rect x="0" y="0" width="414" height="185" rx="6" fill="#fef2f2" stroke="#fee2e2"/>
-    <text x="207" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#991b1b">El Riesgo Pedagógico: La Voz Nasalizada</text>
-    <text x="207" y="46" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#7f1d1d">
-      <tspan x="207" dy="0">"Intentar 'meter la voz en la nariz' fuerza</tspan>
-      <tspan x="207" dy="16">el descenso del velo del paladar, produciendo</tspan>
-      <tspan x="207" dy="16">una emisión gangosa, opaca y sin armónicos."</tspan>
-    </text>
-    <line x1="40" y1="92" x2="374" y2="92" stroke="#fecaca" stroke-width="1"/>
-    <text x="207" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">
-      <tspan x="207" dy="0">Consecuencia Fonética Directa:</tspan>
-      <tspan x="207" dy="14" font-weight="600" fill="#b91c1c">Asfixia del formante del cantante y sonido opaco</tspan>
-    </text>
-    <text x="207" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#991b1b">
-      <tspan x="207" dy="0">Condena Clásica de Pier Francesco Tosi (1723)</tspan>
-      <tspan x="207" dy="14" font-weight="500" fill="#7f1d1d">«Il difetto del naso è fra i più abominevoli nel cantante»</tspan>
-    </text>
+  <!-- Right Panel: Diagnostic Matrix -->
+  <text x="518" y="122" class="sec-head">B. DIAGNÓSTICO DIFERENCIAL</text>
+  <g transform="translate(518, 136)">
+    <rect x="0" y="0" width="326" height="145" fill="none" stroke="#881337" stroke-width="1.2"/>
+    <rect x="0" y="0" width="326" height="28" fill="url(#hatch-acc)"/>
+    <text x="14" y="19" class="sec-head-acc">MÁSCARA VERDADERA (ÓSEA)</text>
+    <text x="14" y="48" class="lbl-b">1. Velo del paladar:</text>
+    <text x="156" y="48" class="lbl-sm">elevado y hermético</text>
+    <text x="14" y="72" class="lbl-b">2. Salida del sonido:</text>
+    <text x="156" y="72" class="lbl-sm">100% por los labios</text>
+    <text x="14" y="96" class="lbl-b">3. Test pinzamiento:</text>
+    <text x="156" y="96" class="lbl-acc">timbre inalterado</text>
+    <text x="14" y="122" class="lbl-sm">Síntoma reflejo del formante del cantante.</text>
+
+    <rect x="0" y="160" width="326" height="145" fill="none" stroke="#1C1B19" stroke-width="1"/>
+    <rect x="0" y="160" width="326" height="28" fill="url(#hatch-ink)"/>
+    <text x="14" y="179" class="sec-head">FALSA MÁSCARA (NASALIZACIÓN)</text>
+    <text x="14" y="208" class="lbl-b">1. Velo del paladar:</text>
+    <text x="156" y="208" class="lbl-sm">descendido / abierto</text>
+    <text x="14" y="232" class="lbl-b">2. Salida del sonido:</text>
+    <text x="156" y="232" class="lbl-sm">fuga por fosas nasales</text>
+    <text x="14" y="256" class="lbl-b">3. Test pinzamiento:</text>
+    <text x="156" y="256" class="lbl-b">el sonido se ahoga</text>
+    <text x="14" y="282" class="lbl-sm">Cornetes absorben armónicos agudos.</text>
   </g>
 
-  <!-- PANEL DERECHO: LA REALIDAD CIENTIFICA -->
-  <rect x="470" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.3"/>
-  <rect x="471" y="57" width="433" height="32" rx="7" fill="#f0fdf4"/>
-  <text x="687" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#15803d">B) Realidad: Retroalimentación Vibrotáctil</text>
-
-  <g transform="translate(480, 100)">
-    <!-- Perfil esquemático tracto libre (x: 10 a 115) -->
-    <path d="M 15 90 Q 15 15 60 15 Q 100 15 100 45 L 115 65 L 95 70 L 105 85 L 80 90 L 75 110" fill="none" stroke="#16a34a" stroke-width="1.5"/>
-    <path d="M 68 52 Q 80 52 94 54" stroke="#15803d" stroke-width="3" fill="none"/>
-    <path d="M 68 52 Q 63 44 58 44" stroke="#22c55e" stroke-width="3" fill="none"/>
-    <text x="50" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#15803d">Velo Alto</text>
-
-    <!-- Ondas de vibración ósea y texto limpio SIN solapar -->
-    <path d="M 98 44 Q 103 44 105 50 M 102 39 Q 108 39 110 47" stroke="#16a34a" stroke-width="2" fill="none" stroke-dasharray="2,2"/>
-    <text x="100" y="30" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#15803d">Vibración</text>
-
-    <!-- Caja Explicación (x: 140) -->
-    <rect x="140" y="0" width="275" height="115" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
-    <text x="152" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#166534">Conducción Ósea y Acústica:</text>
-    <text x="152" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• El paladar duro recibe ondas intensas</text>
-    <text x="152" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• Conducción ósea hacia maxilar y nasales</text>
-    <text x="152" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• Squillo óptimo (clúster formántico 3 kHz)</text>
-    <text x="152" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">• La vibración facial es síntoma, no causa</text>
-    <text x="152" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#15803d">• El tracto bucofaríngeo es el resonador real</text>
-  </g>
-
-  <g transform="translate(480, 228)">
-    <rect x="0" y="0" width="414" height="185" rx="6" fill="#f0fdf4" stroke="#dcfce7"/>
-    <text x="207" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#15803d">La Regla Canónica: Sensación vs. Emisión</text>
-    <text x="207" y="46" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#14532d">
-      <tspan x="207" dy="0">"Canta en la sensación de la máscara,</tspan>
-      <tspan x="207" dy="16">pero jamás a través de las fosas nasales:</tspan>
-      <tspan x="207" dy="16">el velo sella el paso y la boca irradia el sonido."</tspan>
-    </text>
-    <line x1="40" y1="92" x2="374" y2="92" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="207" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">
-      <tspan x="207" dy="0">Síntesis Acústica Superior:</tspan>
-      <tspan x="207" dy="14" font-weight="600" fill="#15803d">Gola aperta en faringe + foco propioceptivo anterior</tspan>
-    </text>
-    <text x="207" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#166534">
-      <tspan x="207" dy="0">Axioma Pedagógico del Bel Canto</tspan>
-      <tspan x="207" dy="14" font-weight="500" fill="#14532d">Claridad frontal diamantina sustentada en amplio espacio interno</tspan>
-    </text>
-  </g>
+  <line x1="36" y1="456" x2="844" y2="456" stroke="#1C1B19" stroke-width="0.6" stroke-opacity="0.25"/>
+  <text x="36" y="474" class="caption-b">Lectura fisiológica:</text>
+  <text x="160" y="474" class="caption">La sensación en la máscara es retroalimentación vibrotáctil ósea del paladar duro, no resonancia paranasal (Sundberg; Titze).</text>
 </svg>

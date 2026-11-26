@@ -1,108 +1,109 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 440" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <rect x="15" y="10" width="910" height="36" rx="6" fill="#0f172a"/>
-  <text x="470" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">EL ESPECTRO DEL CHIAROSCURO: LA SÍNTESIS ACÚSTICA DEL BEL CANTO</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" role="img" aria-label="Envolvente espectral del Chiaroscuro: Polo Scuro (300-600 Hz) y Polo Chiaro (2.8-3.2 kHz)">
+  <defs>
+    <style>
+      .title { font-family: 'Cinzel', Georgia, serif; font-size: 19px; font-weight: 700; fill: #1C1B19; letter-spacing: 0.6px; }
+      .subtitle { font-family: 'Newsreader', Georgia, serif; font-size: 13px; font-style: italic; fill: #1C1B19; opacity: 0.78; }
+      .plate-num { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1.8px; fill: #881337; text-transform: uppercase; }
+      .sec-head { font-family: 'Cinzel', Georgia, serif; font-size: 13px; font-weight: 700; fill: #1C1B19; letter-spacing: 0.4px; }
+      .sec-head-acc { font-family: 'Cinzel', Georgia, serif; font-size: 13px; font-weight: 700; fill: #881337; letter-spacing: 0.4px; }
+      .lbl { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; fill: #1C1B19; }
+      .lbl-b { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; font-weight: 700; fill: #1C1B19; }
+      .lbl-acc { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; font-weight: 700; fill: #881337; }
+      .lbl-sm { font-family: 'Newsreader', Georgia, serif; font-size: 11px; fill: #1C1B19; opacity: 0.85; }
+      .mag { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10.5px; font-weight: 600; fill: #1C1B19; }
+      .mag-acc { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10.5px; font-weight: 700; fill: #881337; }
+      .mag-muted { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 9.5px; fill: #1C1B19; opacity: 0.65; }
+      .caption { font-family: 'Newsreader', Georgia, serif; font-size: 11.5px; fill: #1C1B19; opacity: 0.86; }
+      .caption-b { font-family: 'Newsreader', Georgia, serif; font-size: 11.5px; font-weight: 700; fill: #1C1B19; }
+      .hair { stroke: #1C1B19; stroke-width: 1; fill: none; }
+      .hair-light { stroke: #1C1B19; stroke-width: 0.7; stroke-opacity: 0.35; fill: none; }
+      .hair-dash { stroke: #1C1B19; stroke-width: 1.1; stroke-dasharray: 4 3; fill: none; }
+      .ink-line { stroke: #1C1B19; stroke-width: 1.4; fill: none; }
+      .acc-line { stroke: #881337; stroke-width: 1.8; fill: none; }
+      .acc-dash { stroke: #881337; stroke-width: 1.2; stroke-dasharray: 4 3; fill: none; }
+      .leader { stroke: #1C1B19; stroke-width: 0.85; stroke-opacity: 0.65; fill: none; }
+    </style>
+    <pattern id="hatch-ink" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1C1B19" stroke-width="0.7" stroke-opacity="0.22"/>
+    </pattern>
+    <pattern id="hatch-acc" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#881337" stroke-width="0.8" stroke-opacity="0.24"/>
+    </pattern>
+    <marker id="arr-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 2 L 8 5 L 1 8 z" fill="#1C1B19"/>
+    </marker>
+    <marker id="arr-acc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 2 L 8 5 L 1 8 z" fill="#881337"/>
+    </marker>
+  </defs>
+  <rect width="880" height="500" fill="#FAF8F5"/>
+  <rect x="12" y="12" width="856" height="476" fill="none" stroke="#DCD6CD" stroke-width="1"/>
+  <text x="36" y="42" class="plate-num">LÁMINA XXII · ENVOLVENTE ESPECTRAL DEL TIMBRE</text>
+  <text x="36" y="66" class="title">El Espectro del Chiaroscuro: Luz Epilaríngea y Sombra Faríngea</text>
+  <text x="36" y="85" class="subtitle">Coexistencia de energía en F1 (300–600 Hz) y el Formante del Cantante (2.8–3.2 kHz)</text>
+  <line x1="36" y1="98" x2="844" y2="98" stroke="#1C1B19" stroke-width="0.8" stroke-opacity="0.3"/>
 
-  <!-- PANEL 1: SCURO -->
-  <rect x="15" y="56" width="290" height="370" rx="8" fill="#ffffff" stroke="#1e293b" stroke-width="1.3"/>
-  <rect x="16" y="57" width="288" height="32" rx="7" fill="#0f172a"/>
-  <text x="160" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#f8fafc">1. Polo Scuro (Profundidad / Cuerpo)</text>
+  <!-- Plot Area -->
+  <g transform="translate(80, 120)">
+    <!-- Axes -->
+    <line x1="0" y1="265" x2="730" y2="265" stroke="#1C1B19" stroke-width="1.3"/>
+    <line x1="0" y1="10" x2="0" y2="265" stroke="#1C1B19" stroke-width="1.3"/>
+    <!-- Horizontal dB grid -->
+    <line x1="0" y1="200" x2="730" y2="200" class="hair-light"/>
+    <line x1="0" y1="135" x2="730" y2="135" class="hair-light"/>
+    <line x1="0" y1="70" x2="730" y2="70" class="hair-light"/>
 
-  <g transform="translate(25, 100)">
-    <rect x="0" y="0" width="270" height="115" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
-    <text x="15" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0f172a">Configuración Acústica Grave:</text>
-    <text x="15" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Faringe amplia y flexible (gola aperta)</text>
-    <text x="15" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Laringe baja de forma elástica</text>
-    <text x="15" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Refuerzo armónico de F1 (300–600 Hz)</text>
-    <text x="15" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Amplitud del tracto posterior</text>
-    <text x="15" y="106" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#0f172a">• Calidez, redondez y peso noble</text>
+    <!-- Shaded Bands: Polo Scuro & Polo Chiaro -->
+    <rect x="42" y="14" width="90" height="251" fill="url(#hatch-ink)" opacity="0.65"/>
+    <text x="87" y="30" text-anchor="middle" class="lbl-b">POLO SCURO</text>
+    <text x="87" y="44" text-anchor="middle" class="mag-muted">300–600 Hz</text>
+
+    <rect x="465" y="14" width="88" height="251" fill="url(#hatch-acc)"/>
+    <text x="509" y="30" text-anchor="middle" class="lbl-acc">POLO CHIARO</text>
+    <text x="509" y="44" text-anchor="middle" class="mag-acc">2.8–3.2 kHz</text>
+
+    <!-- Chiaroscuro Canónico (solid burgundy, balanced F1 + Singer's Formant) -->
+    <path d="M 10,248 Q 55,66 88,68 Q 130,158 185,112 Q 245,178 320,164 Q 405,198 462,175 Q 509,35 552,172 Q 625,222 720,254" class="acc-line"/>
+
+    <!-- Troppo Chiaro / Voce Bianca (dashed ink, weak F1, sharp high) -->
+    <path d="M 10,254 Q 65,165 110,132 Q 165,155 215,118 Q 290,170 390,175 Q 502,94 565,185 Q 645,232 720,258" class="hair-dash"/>
+
+    <!-- Troppo Scuro / Knödel (dotted/thin ink, heavy low, collapsed 3kHz) -->
+    <path d="M 10,242 Q 52,58 84,64 Q 130,175 180,158 Q 270,210 380,226 Q 508,224 585,238 Q 660,252 720,260" stroke="#1C1B19" stroke-width="1.1" stroke-dasharray="2 3" fill="none"/>
+
+    <!-- Direct Leader Annotations -->
+    <line x1="92" y1="68" x2="150" y2="62" class="leader"/>
+    <text x="155" y="64" class="lbl-sm">Faringe dilatada (cuerpo y calidez)</text>
+
+    <line x1="510" y1="104" x2="572" y2="82" class="leader"/>
+    <text x="577" y="80" class="lbl-acc">Tubo epilaríngeo 1:6</text>
+    <text x="577" y="94" class="lbl-sm">(proyección sobre orquesta)</text>
+
+    <line x1="468" y1="227" x2="420" y2="246" class="leader"/>
+    <text x="275" y="248" class="lbl-sm">Troppo scuro (Knödel)</text>
+    <text x="275" y="260" class="mag-muted">Pérdida de squillo</text>
+
+    <!-- X Axis Ticks -->
+    <text x="0" y="284" text-anchor="middle" class="mag-muted">0.2</text>
+    <text x="146" y="284" text-anchor="middle" class="mag-muted">0.8</text>
+    <text x="292" y="284" text-anchor="middle" class="mag-muted">1.5</text>
+    <text x="438" y="284" text-anchor="middle" class="mag-muted">2.5</text>
+    <text x="509" y="284" text-anchor="middle" class="mag-acc">3.0</text>
+    <text x="656" y="284" text-anchor="middle" class="mag-muted">4.0</text>
+    <text x="724" y="284" text-anchor="middle" class="mag-muted">kHz</text>
+
+    <text x="-34" y="135" text-anchor="middle" transform="rotate(-90 -34 135)" class="mag-muted">Energía Relativa (dB)</text>
+
+    <!-- Legend -->
+    <line x1="12" y1="308" x2="42" y2="308" class="acc-line"/>
+    <text x="48" y="312" class="lbl-acc">Chiaroscuro canónico</text>
+    <line x1="230" y1="308" x2="260" y2="308" class="hair-dash"/>
+    <text x="266" y="312" class="lbl-sm">Troppo chiaro (voce bianca)</text>
+    <line x1="480" y1="308" x2="510" y2="308" stroke="#1C1B19" stroke-width="1.2" stroke-dasharray="2 3"/>
+    <text x="516" y="312" class="lbl-sm">Troppo scuro (voce ingolata)</text>
   </g>
 
-  <g transform="translate(25, 228)">
-    <rect x="0" y="0" width="270" height="185" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
-    <text x="135" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0f172a">Aporte al Timbre Vocal</text>
-    <text x="135" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#334155">
-      <tspan x="135" dy="0">Nobleza, redondez y calidez:</tspan>
-      <tspan x="135" dy="16">el terciopelo acústico</tspan>
-      <tspan x="135" dy="16">que sostiene la estructura.</tspan>
-    </text>
-    <line x1="25" y1="98" x2="245" y2="98" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="135" y="122" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#475569">
-      <tspan x="135" dy="0" font-weight="700" fill="#b91c1c">Riesgo si se desequilibra:</tspan>
-      <tspan x="135" dy="15">• Si falta: voz infantil o estridente</tspan>
-      <tspan x="135" dy="15">• Si abusa: voz engolada y sorda</tspan>
-      <tspan x="135" dy="15" font-style="italic">(voce ingolata / caverna)</tspan>
-    </text>
-  </g>
-
-  <!-- PANEL 2: SINTESIS EQUILIBRADA -->
-  <rect x="325" y="56" width="290" height="370" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.4"/>
-  <rect x="326" y="57" width="288" height="32" rx="7" fill="#f0f9ff"/>
-  <text x="470" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#0369a1">2. Envolvente Espectral Equilibrada</text>
-
-  <g transform="translate(335, 100)">
-    <rect x="0" y="0" width="270" height="115" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
-    <!-- Ejes -->
-    <line x1="25" y1="85" x2="245" y2="85" stroke="#64748b" stroke-width="1.2"/>
-    <line x1="25" y1="85" x2="25" y2="15" stroke="#64748b" stroke-width="1.2"/>
-    <text x="55" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#64748b">500 Hz</text>
-    <text x="125" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#64748b">1.5 kHz</text>
-    <text x="195" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#0284c7">3 kHz</text>
-
-    <!-- Curva Chiaroscuro -->
-    <path d="M 30 80 Q 55 25 75 62 Q 110 75 145 70 Q 175 65 195 20 Q 210 45 235 83" stroke="#0284c7" stroke-width="2.5" fill="none"/>
-    <circle cx="58" cy="30" r="4" fill="#1e293b"/>
-    <text x="58" y="20" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#1e293b">Scuro</text>
-
-    <circle cx="195" cy="20" r="4" fill="#0284c7"/>
-    <text x="195" y="12" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#0284c7">Squillo</text>
-  </g>
-
-  <g transform="translate(335, 228)">
-    <rect x="0" y="0" width="270" height="185" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
-    <text x="135" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0369a1">La Síntesis Canónica</text>
-    <text x="135" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#0c4a6e">
-      <tspan x="135" dy="0">"La luz dentro de la sombra:</tspan>
-      <tspan x="135" dy="16">el squillo penetrante montado</tspan>
-      <tspan x="135" dy="16">sobre la calidez profunda."</tspan>
-    </text>
-    <line x1="25" y1="98" x2="245" y2="98" stroke="#bae6fd" stroke-width="1"/>
-    <text x="135" y="122" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">
-      <tspan x="135" dy="0" font-weight="700" fill="#0284c7">Rendimiento Acústico:</tspan>
-      <tspan x="135" dy="15">• Formante de 3 kHz viaja pleno</tspan>
-      <tspan x="135" dy="15">• Atraviesa orquestas sin esfuerzo</tspan>
-      <tspan x="135" dy="15" font-weight="600" fill="#0369a1">• Máxima longevidad vocal</tspan>
-    </text>
-  </g>
-
-  <!-- PANEL 3: CHIARO -->
-  <rect x="635" y="56" width="290" height="370" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="1.3"/>
-  <rect x="636" y="57" width="288" height="32" rx="7" fill="#fffbeb"/>
-  <text x="780" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#b45309">3. Polo Chiaro (Claridad / Squillo)</text>
-
-  <g transform="translate(645, 100)">
-    <rect x="0" y="0" width="270" height="115" rx="6" fill="#fffbeb" stroke="#fde68a"/>
-    <text x="15" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#92400e">Configuración Acústica Aguda:</text>
-    <text x="15" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Estrechamiento epilaríngeo (AES)</text>
-    <text x="15" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Elevación cigomática (sonrisa noble)</text>
-    <text x="15" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Clúster armónico F3–F5 (~3.000 Hz)</text>
-    <text x="15" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Mordiente anterior proyectado</text>
-    <text x="15" y="106" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#92400e">• Máxima inteligibilidad de texto</text>
-  </g>
-
-  <g transform="translate(645, 228)">
-    <rect x="0" y="0" width="270" height="185" rx="6" fill="#fffbeb" stroke="#fef3c7"/>
-    <text x="135" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#b45309">Aporte al Timbre Vocal</text>
-    <text x="135" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#78350f">
-      <tspan x="135" dy="0">Brillo metálico, filo y mordiente:</tspan>
-      <tspan x="135" dy="16">la punta acústica que corta</tspan>
-      <tspan x="135" dy="16">el espacio del teatro.</tspan>
-    </text>
-    <line x1="25" y1="98" x2="245" y2="98" stroke="#fde68a" stroke-width="1"/>
-    <text x="135" y="122" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">
-      <tspan x="135" dy="0" font-weight="700" fill="#b45309">Riesgo si se desequilibra:</tspan>
-      <tspan x="135" dy="15">• Si falta: la voz se pierde (velata)</tspan>
-      <tspan x="135" dy="15">• Si abusa: voz chillona y dura</tspan>
-      <tspan x="135" dy="15" font-style="italic">(voce sguaiata / estridencia)</tspan>
-    </text>
-  </g>
+  <line x1="36" y1="456" x2="844" y2="456" stroke="#1C1B19" stroke-width="0.6" stroke-opacity="0.25"/>
+  <text x="36" y="474" class="caption-b">Lectura espectral:</text>
+  <text x="156" y="474" class="caption">La excelencia tímbrica une la densidad grave de la faringe abierta (F1) con el clúster epilaríngeo de 2.8–3.2 kHz (Sundberg; Stark).</text>
 </svg>

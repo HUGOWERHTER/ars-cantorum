@@ -1,98 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 440" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <rect x="15" y="10" width="910" height="36" rx="6" fill="#0f172a"/>
-  <text x="470" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">ANATOMÍA DEL ATAQUE VOCAL: COMPARATIVA BIOMECÁNICA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" role="img" aria-label="Sincronización glótica en tres tipos de ataque vocal: Soplado, Coup de Glotte coordinado y Choque glótico">
+  <defs>
+    <style>
+      .title { font-family: 'Cinzel', Georgia, serif; font-size: 19px; font-weight: 700; fill: #1C1B19; letter-spacing: 0.6px; }
+      .subtitle { font-family: 'Newsreader', Georgia, serif; font-size: 13px; font-style: italic; fill: #1C1B19; opacity: 0.78; }
+      .plate-num { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1.8px; fill: #881337; text-transform: uppercase; }
+      .sec-head { font-family: 'Cinzel', Georgia, serif; font-size: 13px; font-weight: 700; fill: #1C1B19; letter-spacing: 0.4px; }
+      .sec-head-acc { font-family: 'Cinzel', Georgia, serif; font-size: 13px; font-weight: 700; fill: #881337; letter-spacing: 0.4px; }
+      .lbl { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; fill: #1C1B19; }
+      .lbl-b { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; font-weight: 700; fill: #1C1B19; }
+      .lbl-acc { font-family: 'Newsreader', Georgia, serif; font-size: 12.5px; font-weight: 700; fill: #881337; }
+      .lbl-sm { font-family: 'Newsreader', Georgia, serif; font-size: 11px; fill: #1C1B19; opacity: 0.85; }
+      .mag { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10.5px; font-weight: 600; fill: #1C1B19; }
+      .mag-acc { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10.5px; font-weight: 700; fill: #881337; }
+      .mag-muted { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 9.5px; fill: #1C1B19; opacity: 0.65; }
+      .caption { font-family: 'Newsreader', Georgia, serif; font-size: 11.5px; fill: #1C1B19; opacity: 0.86; }
+      .caption-b { font-family: 'Newsreader', Georgia, serif; font-size: 11.5px; font-weight: 700; fill: #1C1B19; }
+      .hair { stroke: #1C1B19; stroke-width: 1; fill: none; }
+      .hair-light { stroke: #1C1B19; stroke-width: 0.7; stroke-opacity: 0.35; fill: none; }
+      .hair-dash { stroke: #1C1B19; stroke-width: 1.1; stroke-dasharray: 4 3; fill: none; }
+      .ink-line { stroke: #1C1B19; stroke-width: 1.4; fill: none; }
+      .acc-line { stroke: #881337; stroke-width: 1.8; fill: none; }
+      .acc-dash { stroke: #881337; stroke-width: 1.2; stroke-dasharray: 4 3; fill: none; }
+      .leader { stroke: #1C1B19; stroke-width: 0.85; stroke-opacity: 0.65; fill: none; }
+    </style>
+    <pattern id="hatch-ink" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1C1B19" stroke-width="0.7" stroke-opacity="0.22"/>
+    </pattern>
+    <pattern id="hatch-acc" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#881337" stroke-width="0.8" stroke-opacity="0.24"/>
+    </pattern>
+    <marker id="arr-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 2 L 8 5 L 1 8 z" fill="#1C1B19"/>
+    </marker>
+    <marker id="arr-acc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 2 L 8 5 L 1 8 z" fill="#881337"/>
+    </marker>
+  </defs>
+  <rect width="880" height="500" fill="#FAF8F5"/>
+  <rect x="12" y="12" width="856" height="476" fill="none" stroke="#DCD6CD" stroke-width="1"/>
+  <text x="36" y="42" class="plate-num">LÁMINA XXI · SINCRONIZACIÓN MIOELÁSTICA</text>
+  <text x="36" y="66" class="title">Coup de Glotte vs. Ataque Soplado y Choque Glótico</text>
+  <text x="36" y="85" class="subtitle">Relación temporal (ms) entre aducción de pliegues vocales y flujo aéreo subglótico</text>
+  <line x1="36" y1="98" x2="844" y2="98" stroke="#1C1B19" stroke-width="0.8" stroke-opacity="0.3"/>
 
-  <!-- PANEL 1: ATAQUE SOPLADO -->
-  <rect x="15" y="56" width="290" height="370" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.3"/>
-  <rect x="16" y="57" width="288" height="32" rx="7" fill="#f8fafc"/>
-  <text x="160" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#334155">1. Ataque Soplado (Aspirado)</text>
-
-  <g transform="translate(25, 100)">
-    <rect x="0" y="0" width="270" height="115" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
-    <ellipse cx="135" cy="40" rx="40" ry="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <path d="M 105 40 Q 135 24 165 40" stroke="#94a3b8" stroke-width="4" fill="none"/>
-    <path d="M 105 40 Q 135 56 165 40" stroke="#94a3b8" stroke-width="4" fill="none"/>
-    <!-- Fuga aire -->
-    <path d="M 125 15 L 125 30 M 135 10 L 135 30 M 145 15 L 145 30" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="2,2"/>
-    <text x="135" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#64748b">Escape de aire previo (/h/)</text>
-    <text x="135" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#94a3b8">Glotis incompleta al iniciar fonación</text>
+  <!-- Shared t = 0 ms vertical reference -->
+  <!-- Panel 1: Breathy Onset -->
+  <g transform="translate(36, 118)">
+    <rect x="0" y="0" width="808" height="96" fill="none" stroke="#DCD6CD" stroke-width="0.9"/>
+    <text x="16" y="24" class="lbl-b">1. Ataque Soplado / Aspirado (Breathy Onset)</text>
+    <text x="16" y="44" class="lbl-sm">El flujo de aire precede al cierre:</text>
+    <text x="16" y="62" class="mag-muted">Fuga turbulenta /h/ · efecto Bernoulli débil</text>
+    <!-- Timeline -->
+    <line x1="340" y1="68" x2="780" y2="68" class="hair"/>
+    <line x1="560" y1="18" x2="560" y2="84" class="hair-dash"/>
+    <text x="560" y="14" text-anchor="middle" class="mag-muted">t = 0 ms (inicio sonoro)</text>
+    <!-- Airflow starts early -->
+    <path d="M 380,68 L 430,36 L 760,36" class="hair-dash"/>
+    <text x="392" y="32" class="mag-muted">Flujo aéreo (-60 ms)</text>
+    <!-- Adduction arrives late -->
+    <path d="M 380,68 L 590,68 L 620,44 L 760,44" class="ink-line"/>
+    <text x="626" y="58" class="lbl-sm">Aducción tardía</text>
   </g>
 
-  <g transform="translate(25, 228)">
-    <rect x="0" y="0" width="270" height="185" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
-    <text x="135" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#334155">Falta de Aducción Firme</text>
-    <text x="135" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#475569">
-      <tspan x="135" dy="0">El aire escapa antes del tono:</tspan>
-      <tspan x="135" dy="16">desperdicio aéreo masivo</tspan>
-      <tspan x="135" dy="16">que deja la voz velada y sin brillo.</tspan>
-    </text>
-    <line x1="25" y1="98" x2="245" y2="98" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="135" y="122" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#475569">
-      <tspan x="135" dy="0" font-weight="700" fill="#334155">Consecuencias:</tspan>
-      <tspan x="135" dy="15">• Voz velada y sin núcleo tímbrico</tspan>
-      <tspan x="135" dy="15">• Fatiga prematura por gasto de aire</tspan>
-      <tspan x="135" dy="15">• Imposibilidad de clarificar el squillo</tspan>
-    </text>
+  <!-- Panel 2: Coup de Glotte (Coordinated) -->
+  <g transform="translate(36, 226)">
+    <rect x="0" y="0" width="808" height="106" fill="none" stroke="#881337" stroke-width="1.4"/>
+    <rect x="0" y="0" width="290" height="106" fill="url(#hatch-acc)" opacity="0.5"/>
+    <text x="16" y="24" class="lbl-acc">2. Coup de Glotte de García (Coordinado)</text>
+    <text x="16" y="44" class="lbl-sm">Ajuste prefonatorio EMG + contacto elástico:</text>
+    <text x="16" y="62" class="mag-acc">Aducción y presión convergen en t = 0 ms</text>
+    <text x="16" y="80" class="lbl-sm">Cero fuga de aire · cero traumatismo</text>
+    <!-- Timeline -->
+    <line x1="340" y1="76" x2="780" y2="76" class="hair"/>
+    <line x1="560" y1="16" x2="560" y2="92" stroke="#881337" stroke-width="1.2" stroke-dasharray="3 2"/>
+    <circle cx="560" cy="40" r="4" fill="#881337"/>
+    <!-- Pre-phonatory tuning & simultaneous onset -->
+    <path d="M 380,76 L 535,76 Q 552,76 560,40 L 760,40" class="acc-line"/>
+    <path d="M 380,76 L 542,76 Q 554,76 560,42 L 760,46" class="hair-dash"/>
+    <text x="415" y="66" class="mag-acc">Ajuste EMG prefonatorio</text>
+    <text x="574" y="32" class="lbl-acc">Oscilación limpia instantánea</text>
   </g>
 
-  <!-- PANEL 2: CHOQUE GLOTICO -->
-  <rect x="325" y="56" width="290" height="370" rx="8" fill="#ffffff" stroke="#ef4444" stroke-width="1.3"/>
-  <rect x="326" y="57" width="288" height="32" rx="7" fill="#fef2f2"/>
-  <text x="470" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#b91c1c">2. Choque Glótico Violento (Trauma)</text>
-
-  <g transform="translate(335, 100)">
-    <rect x="0" y="0" width="270" height="115" rx="6" fill="#fef2f2" stroke="#fecaca"/>
-    <ellipse cx="135" cy="40" rx="40" ry="24" fill="#ffffff" stroke="#fca5a5" stroke-width="1.5"/>
-    <line x1="100" y1="40" x2="170" y2="40" stroke="#dc2626" stroke-width="7"/>
-    <path d="M 120 25 L 128 35 M 150 25 L 142 35 M 120 55 L 128 45 M 150 55 L 142 45" stroke="#b91c1c" stroke-width="1.8"/>
-    <text x="135" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#dc2626">Hiperaducción espasmódica</text>
-    <text x="135" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#b91c1c">Colisión destructiva entre cuerdas</text>
+  <!-- Panel 3: Hard Glottal Attack -->
+  <g transform="translate(36, 344)">
+    <rect x="0" y="0" width="808" height="96" fill="none" stroke="#DCD6CD" stroke-width="0.9"/>
+    <text x="16" y="24" class="lbl-b">3. Choque Glótico Violento (Knacklaut)</text>
+    <text x="16" y="44" class="lbl-sm">Hiperaducción rígida previa al flujo aéreo:</text>
+    <text x="16" y="62" class="mag-muted">Ruptura explosiva · microtrauma epitelial</text>
+    <!-- Timeline -->
+    <line x1="340" y1="68" x2="780" y2="68" class="hair"/>
+    <line x1="560" y1="18" x2="560" y2="84" class="hair-dash"/>
+    <!-- Rigid hyperadduction early -->
+    <path d="M 380,68 L 430,28 L 560,28 L 570,42 L 760,42" class="ink-line"/>
+    <text x="434" y="22" class="mag-muted">Compresión rígida (-80 ms)</text>
+    <!-- Explosive pressure spike at t=0 -->
+    <path d="M 380,68 L 545,68 L 560,18 L 575,46 L 760,46" class="hair-dash"/>
+    <text x="580" y="34" class="lbl-sm">Chasquido por ruptura</text>
   </g>
 
-  <g transform="translate(335, 228)">
-    <rect x="0" y="0" width="270" height="185" rx="6" fill="#fef2f2" stroke="#fee2e2"/>
-    <text x="135" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#991b1b">Explosión Acústica Percusiva</text>
-    <text x="135" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#7f1d1d">
-      <tspan x="135" dy="0">El malentendido histórico:</tspan>
-      <tspan x="135" dy="16">un golpe violento que lacera</tspan>
-      <tspan x="135" dy="16">el epitelio cordal y crea nódulos.</tspan>
-    </text>
-    <line x1="25" y1="98" x2="245" y2="98" stroke="#fecaca" stroke-width="1"/>
-    <text x="135" y="122" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">
-      <tspan x="135" dy="0" font-weight="700" fill="#b91c1c">Peligro Clínico:</tspan>
-      <tspan x="135" dy="15">• Impacto fonotraumático severo</tspan>
-      <tspan x="135" dy="15">• Riesgo de edema y pólipos</tspan>
-      <tspan x="135" dy="15">• Rigidez inmediata en el passaggio</tspan>
-    </text>
-  </g>
-
-  <!-- PANEL 3: COUP DE GLOTTE GARCIA -->
-  <rect x="635" y="56" width="290" height="370" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
-  <rect x="636" y="57" width="288" height="32" rx="7" fill="#f0fdf4"/>
-  <text x="780" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11.5" fill="#15803d">3. Coup de Glotte de García (Simultáneo)</text>
-
-  <g transform="translate(645, 100)">
-    <rect x="0" y="0" width="270" height="115" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
-    <ellipse cx="135" cy="40" rx="40" ry="24" fill="#ffffff" stroke="#86efac" stroke-width="1.5"/>
-    <line x1="104" y1="40" x2="166" y2="40" stroke="#16a34a" stroke-width="4.5"/>
-    <text x="135" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#15803d">Contacto elástico y exacto</text>
-    <text x="135" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#166534">Cierre simultáneo con el soplo aéreo</text>
-  </g>
-
-  <g transform="translate(645, 228)">
-    <rect x="0" y="0" width="270" height="185" rx="6" fill="#f0fdf4" stroke="#dcfce7"/>
-    <text x="135" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#15803d">Fonación de Flujo Inmediata</text>
-    <text x="135" y="48" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#14532d">
-      <tspan x="135" dy="0">El verdadero espíritu de García:</tspan>
-      <tspan x="135" dy="16">un pizzicato vocal limpio,</tspan>
-      <tspan x="135" dy="16">cero aire residual y máxima pureza.</tspan>
-    </text>
-    <line x1="25" y1="98" x2="245" y2="98" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="135" y="122" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#14532d">
-      <tspan x="135" dy="0" font-weight="700" fill="#15803d">Beneficios Vocales:</tspan>
-      <tspan x="135" dy="15">• Tono brillante e instantáneo</tspan>
-      <tspan x="135" dy="15">• Máximo rendimiento energético</tspan>
-      <tspan x="135" dy="15" font-weight="600" fill="#166534">• Salud y longevidad laríngea</tspan>
-    </text>
-  </g>
+  <line x1="36" y1="456" x2="844" y2="456" stroke="#1C1B19" stroke-width="0.6" stroke-opacity="0.25"/>
+  <text x="36" y="474" class="caption-b">Lectura clínica:</text>
+  <text x="132" y="474" class="caption">García II prescribía el ataque simultáneo sin fuga ni choque; la confusión victoriana equiparó coup con Knacklaut (Stark; Miller).</text>
 </svg>
