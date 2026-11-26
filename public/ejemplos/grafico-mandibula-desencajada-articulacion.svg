@@ -1,88 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <rect x="15" y="10" width="890" height="36" rx="6" fill="#0f172a"/>
-  <text x="460" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">BIOMECÁNICA MANDIBULAR EN EL CANTO: CAÍDA PASIVA vs. MANDÍBULA DESENCAJADA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="100%" height="auto" style="background:#FAF8F5; border:1px solid #DCD6CD; display:block;">
+  <defs>
+    <pattern id="hatchATM" width="5" height="5" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#881337" stroke-width="0.8" stroke-opacity="0.22"/>
+    </pattern>
+  </defs>
+  <rect x="10" y="10" width="860" height="440" fill="none" stroke="#1C1B19" stroke-width="0.8" stroke-opacity="0.25"/>
 
-  <!-- PANEL IZQUIERDO -->
-  <rect x="15" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.3"/>
-  <rect x="16" y="57" width="433" height="32" rx="7" fill="#f0f9ff"/>
-  <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#0369a1">A) Bel Canto: Suspensión Mandibular Libre</text>
+  <text x="36" y="42" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1C1B19" letter-spacing="0.06em">FIG. 1 — CINEMÁTICA DE LA ATM: ROTACIÓN CONDILAR vs. JAW DROP EXTREMO</text>
+  <text x="36" y="61" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="12.5" fill="#57534E">Efecto de la traslación mandibular forzada sobre los músculos suprahioideos y el espacio faríngeo posterior</text>
+  <line x1="36" y1="73" x2="844" y2="73" stroke="#1C1B19" stroke-width="0.7" stroke-opacity="0.3"/>
 
-  <g transform="translate(25, 100)">
-    <rect x="0" y="0" width="150" height="115" rx="6" fill="#f8fafc" stroke="#bae6fd"/>
-    <text x="75" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Apertura Libre</text>
-    <!-- Curva en tercio superior sin tocar texto -->
-    <path d="M 35 30 Q 55 52 105 55" stroke="#0284c7" stroke-width="3" fill="none"/>
-    <circle cx="35" cy="30" r="4.5" fill="#0284c7"/>
-    <text x="75" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0369a1">Rotación Condilar Pura</text>
-    <text x="75" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748b">ATM libre de tensión</text>
+  <line x1="440" y1="90" x2="440" y2="345" stroke="#1C1B19" stroke-width="0.7" stroke-opacity="0.25" stroke-dasharray="3,3"/>
 
-    <rect x="162" y="0" width="250" height="115" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
-    <text x="174" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369a1">Mecánica Fisiológica</text>
-    <text x="174" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Descenso condicionado por la vocal</text>
-    <text x="174" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Espacio faríngeo libre y amplio</text>
-    <text x="174" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Cóndilo rota naturalmente en la fosa</text>
-    <text x="174" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Laringe en flotación elástica neutra</text>
-    <text x="174" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Máxima agilidad en la dicción</text>
+  <!-- IZQUIERDA: ROTACIÓN LIBRE -->
+  <text x="230" y="102" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#881337">I. SUSPENSIÓN GRAVITACIONAL (ROTACIÓN)</text>
+  <g transform="translate(85, 125)">
+    <!-- Fosa glenoidea -->
+    <path d="M 165,28 Q 185,12 205,28" fill="none" stroke="#1C1B19" stroke-width="1.3"/>
+    <!-- Rama y cuerpo mandibular rotando suavemente -->
+    <circle cx="185" cy="30" r="6" fill="#881337"/>
+    <path d="M 185,30 L 180,105 L 80,122" fill="none" stroke="#881337" stroke-width="2.2"/>
+    <!-- Arco suave de descenso -->
+    <path d="M 80,90 Q 75,108 80,122" fill="none" stroke="#881337" stroke-width="1.2" stroke-dasharray="3,3"/>
+    <!-- Faringe libre detrás -->
+    <rect x="215" y="45" width="28" height="115" fill="url(#hatchATM)" stroke="#881337" stroke-width="1"/>
+    <line x1="185" y1="30" x2="130" y2="24" stroke="#881337" stroke-width="0.8"/>
+    <text x="125" y="24" text-anchor="end" font-family="'Newsreader', Georgia, serif" font-size="11" font-weight="700" fill="#881337">Rotación pura en fosa</text>
+    <text x="125" y="37" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#57534E">Maseteros pasivos</text>
+
+    <line x1="243" y1="100" x2="262" y2="100" stroke="#881337" stroke-width="0.8"/>
+    <text x="266" y="98" font-family="'Newsreader', Georgia, serif" font-size="11" font-weight="600" fill="#881337">Faringe</text>
+    <text x="266" y="111" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#57534E">amplia y libre</text>
+    <text x="145" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#881337">Apertura calibrada por vocal y tono (F1 tracking)</text>
   </g>
 
-  <g transform="translate(25, 228)">
-    <rect x="0" y="0" width="414" height="185" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
-    <text x="207" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#1e293b">Doctrina de Mancini y Lamperti</text>
-    <text x="207" y="46" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#475569">
-      <tspan x="207" dy="0">"La mandíbula no debe ser empujada hacia abajo;</tspan>
-      <tspan x="207" dy="16">debe colgar libremente por su propio peso,</tspan>
-      <tspan x="207" dy="16">sin violencia en las articulaciones ni rigidez."</tspan>
-    </text>
-    <line x1="40" y1="92" x2="374" y2="92" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="207" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748b">
-      <tspan x="207" dy="0">Beneficio Acústico:</tspan>
-      <tspan x="207" dy="14" font-weight="600" fill="#0369a1">Preservación del formante del cantante y agilidad</tspan>
-    </text>
-    <text x="207" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0284c7">
-      <tspan x="207" dy="0">Apertura Diferenciada por Vocal y Rango</tspan>
-      <tspan x="207" dy="14" font-weight="500" fill="#334155">Apertura moderada en graves, mayor holgura en agudos</tspan>
-    </text>
+  <!-- DERECHA: TRASLACIÓN / JAW DROP FORZADO -->
+  <text x="655" y="102" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#1C1B19">II. JAW DROP EXTREMO (TRASLACIÓN)</text>
+  <g transform="translate(505, 125)">
+    <path d="M 165,28 Q 185,12 205,28" fill="none" stroke="#1C1B19" stroke-width="1.3"/>
+    <!-- Cóndilo desplazado fuera de la fosa hacia adelante -->
+    <circle cx="155" cy="36" r="6" fill="#FAF8F5" stroke="#1C1B19" stroke-width="1.6"/>
+    <path d="M 155,36 L 165,122 L 75,155" fill="none" stroke="#1C1B19" stroke-width="2" stroke-dasharray="5,3"/>
+    <!-- Flecha de tracción hioidea posterior -->
+    <path d="M 165,122 L 205,122 M 199,117 L 205,122 L 199,127" fill="none" stroke="#1C1B19" stroke-width="1.5"/>
+    <!-- Faringe colapsada -->
+    <rect x="215" y="45" width="12" height="115" fill="#1C1B19" fill-opacity="0.18" stroke="#1C1B19" stroke-width="1"/>
+    <line x1="150" y1="34" x2="105" y2="24" stroke="#1C1B19" stroke-width="0.8"/>
+    <text x="100" y="24" text-anchor="end" font-family="'Newsreader', Georgia, serif" font-size="11" font-weight="600" fill="#1C1B19">Subluxación anterior</text>
+    <text x="100" y="37" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#57534E">Espasmo maseterino</text>
+
+    <line x1="227" y1="105" x2="255" y2="105" stroke="#1C1B19" stroke-width="0.8"/>
+    <text x="259" y="103" font-family="'Newsreader', Georgia, serif" font-size="11" font-weight="600" fill="#1C1B19">Estrechamiento</text>
+    <text x="259" y="116" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#57534E">Tracción hioidea</text>
+    <text x="145" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#57534E">Raíz lingual empujada sobre la epiglotis (Knödel)</text>
   </g>
 
-  <!-- PANEL DERECHO -->
-  <rect x="470" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1.3"/>
-  <rect x="471" y="57" width="433" height="32" rx="7" fill="#fef2f2"/>
-  <text x="687" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b91c1c">B) La Trampa del Jaw Drop Extremo</text>
-
-  <g transform="translate(480, 100)">
-    <rect x="0" y="0" width="150" height="115" rx="6" fill="#f8fafc" stroke="#fecaca"/>
-    <text x="75" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#b91c1c">Subluxación Rígida</text>
-    <!-- Dibujo en tercio superior sin tocar texto -->
-    <path d="M 40 28 L 40 55 L 95 62" stroke="#dc2626" stroke-width="3" fill="none"/>
-    <circle cx="40" cy="28" r="4.5" fill="#dc2626"/>
-    <text x="75" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#b91c1c">Mandíbula Forzada</text>
-    <text x="75" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#7f1d1d">Tracción sobre el hioides</text>
-
-    <rect x="162" y="0" width="250" height="115" rx="6" fill="#fef2f2" stroke="#fecaca"/>
-    <text x="174" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#991b1b">Efectos Patológicos</text>
-    <text x="174" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Contracción espasmódica de maseteros</text>
-    <text x="174" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• La base lingual es empujada a la faringe</text>
-    <text x="174" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Tracción ascensional sobre la laringe</text>
-    <text x="174" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Bloqueo de la basculación tiroidea</text>
-    <text x="174" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">• Timbre sordo y dicción empastada</text>
-  </g>
-
-  <g transform="translate(480, 228)">
-    <rect x="0" y="0" width="414" height="185" rx="6" fill="#fef2f2" stroke="#fee2e2"/>
-    <text x="207" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#991b1b">Advertencia de Richard Miller</text>
-    <text x="207" y="46" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#7f1d1d">
-      <tspan x="207" dy="0">"Desencajar la mandíbula hacia abajo y atrás</tspan>
-      <tspan x="207" dy="16">no crea verdadero espacio; introduce una ancla</tspan>
-      <tspan x="207" dy="16">de rigidez muscular en el cuello y la lengua."</tspan>
-    </text>
-    <line x1="40" y1="92" x2="374" y2="92" stroke="#fecaca" stroke-width="1"/>
-    <text x="207" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7f1d1d">
-      <tspan x="207" dy="0">Consecuencia Técnica Crónica:</tspan>
-      <tspan x="207" dy="14" font-weight="600" fill="#b91c1c">Pérdida de flexibilidad en el passaggio agudo</tspan>
-    </text>
-    <text x="207" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#991b1b">
-      <tspan x="207" dy="0">El Mito de la Boca en Caverna</tspan>
-      <tspan x="207" dy="14" font-weight="500" fill="#7f1d1d">Apertura desmesurada que desactiva los formantes</tspan>
-    </text>
-  </g>
+  <line x1="36" y1="365" x2="844" y2="365" stroke="#1C1B19" stroke-width="0.6" stroke-opacity="0.25"/>
+  <text x="36" y="388" font-family="'Newsreader', Georgia, serif" font-size="12" fill="#1C1B19">
+    <tspan font-weight="600">Lectura anatómica:</tspan> La apertura moderada por rotación (burdeos) mantiene la faringe despejada; forzar el descenso extremo
+  </text>
+  <text x="36" y="406" font-family="'Newsreader', Georgia, serif" font-size="12" fill="#1C1B19">
+    luxa el cóndilo y activa los músculos suprahioideos, empujando la base lingual hacia atrás y bloqueando el tracto.
+  </text>
+  <text x="36" y="432" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#78716C" letter-spacing="0.04em">ARS CANTORUM · CINEMÁTICA MANDIBULAR (LAMPERTI 1890 · MILLER 2008 · DIMON)</text>
 </svg>

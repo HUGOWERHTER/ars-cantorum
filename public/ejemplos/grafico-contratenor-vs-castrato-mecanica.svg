@@ -1,93 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 580" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <!-- ENCABEZADO MONUMENTAL -->
-  <rect x="15" y="10" width="950" height="48" rx="6" fill="#0f172a"/>
-  <text x="490" y="31" text-anchor="middle" fill="#f8fafc" font-family="'Cinzel', serif" font-size="13.5" font-weight="700" letter-spacing="0.04em">DISYUNTIVA BIOMECÁNICA: CASTRATO HISTÓRICO VS. CONTRATENOR MODERNO</text>
-  <text x="490" y="48" text-anchor="middle" fill="#cbd5e1" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10">Comparativa laríngea, capacidad torácica y mecanismo fonatorio de masa cordal</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="100%" height="auto" style="background:#FAF8F5; border:1px solid #DCD6CD; display:block;">
+  <defs>
+    <pattern id="hatchCas" width="6" height="6" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#881337" stroke-width="0.9" stroke-opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect x="10" y="10" width="860" height="440" fill="none" stroke="#1C1B19" stroke-width="0.8" stroke-opacity="0.25"/>
 
-  <!-- PANEL IZQUIERDO: CASTRATO HISTÓRICO -->
-  <g transform="translate(30, 72)">
-    <rect width="445" height="470" fill="#ffffff" stroke="#d97706" stroke-width="1.4" rx="8" />
-    
-    <!-- Encabezado Tarjeta -->
-    <rect x="1" y="1" width="443" height="34" fill="#fffbeb" rx="7" />
-    <text x="222" y="23" text-anchor="middle" fill="#b45309" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">1. CASTRATO HISTÓRICO (Siglos XVII–XVIII)</text>
+  <text x="36" y="42" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1C1B19" letter-spacing="0.06em">FIG. 1 — ORGANOLOGÍA COMPARADA: CASTRATO BARROCO vs. CONTRATENOR</text>
+  <text x="36" y="61" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="12.5" fill="#57534E">Asimetría entre longitud cordal (mm), capacidad vital torácica (L) y mecanismo laríngeo (M1 vs. M2)</text>
+  <line x1="36" y1="73" x2="844" y2="73" stroke="#1C1B19" stroke-width="0.7" stroke-opacity="0.3"/>
 
-    <!-- Esquema Anatómico -->
-    <circle cx="222" cy="92" r="32" fill="#fffbeb" stroke="#d97706" stroke-width="2" stroke-dasharray="3,3" />
-    <path d="M 200,92 Q 222,82 244,92" stroke="#b45309" stroke-width="3" fill="none" />
-    <text x="222" y="142" text-anchor="middle" fill="#b45309" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700">Laringe Prepuberal Femenil</text>
-    <text x="222" y="157" text-anchor="middle" fill="#64748b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9.5">(Cuerdas de 11 a 14 mm de longitud)</text>
+  <line x1="440" y1="90" x2="440" y2="345" stroke="#1C1B19" stroke-width="0.7" stroke-opacity="0.25" stroke-dasharray="3,3"/>
 
-    <!-- Fuelle Torácico -->
-    <g transform="translate(45, 173)">
-      <rect width="355" height="48" fill="#fffbeb" stroke="#fde68a" stroke-width="1" rx="6" />
-      <text x="177" y="20" text-anchor="middle" fill="#b45309" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">Fuelle Hipertrófico (Eunucoide)</text>
-      <text x="177" y="36" text-anchor="middle" fill="#78350f" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9">Caja torácica de varón adulto • Capacidad superior</text>
-    </g>
+  <!-- IZQUIERDA: CASTRATO HISTÓRICO -->
+  <text x="230" y="102" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#881337">I. CASTRATO HISTÓRICO (SIGLOS XVII–XVIII)</text>
+  <!-- Glotis prepuberal 11-14 mm en M1 -->
+  <ellipse cx="230" cy="155" rx="44" ry="28" fill="url(#hatchCas)" stroke="#881337" stroke-width="1.3"/>
+  <path d="M 196,155 Q 230,147 264,155 Q 230,163 196,155 Z" fill="#881337" fill-opacity="0.75"/>
+  <line x1="196" y1="196" x2="264" y2="196" stroke="#881337" stroke-width="1"/>
+  <text x="230" y="211" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#881337">11–14 mm · Mecanismo M1 pleno</text>
+  <!-- Barra de capacidad torácica (>5.5 L) -->
+  <text x="70" y="248" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#57534E">CAPACIDAD TORÁCICA</text>
+  <rect x="70" y="256" width="320" height="14" fill="url(#hatchCas)" stroke="#881337" stroke-width="1"/>
+  <text x="390" y="284" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#881337">&gt; 5.5 L (Hipertrofia eunucoide)</text>
+  <text x="230" y="316" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-size="11.5" fill="#1C1B19">Cuerpo y cubierta en fase cerrada larga · Squillo heroico</text>
+  <text x="230" y="332" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#57534E">Resistencia de &gt;60 s en un solo aliento (Farinelli)</text>
 
-    <!-- Matriz de Parámetros -->
-    <g transform="translate(20, 238)">
-      <rect width="405" height="212" fill="#f8fafc" stroke="#e2e8f0" rx="6" />
-      
-      <text x="15" y="30" fill="#b45309" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">• Mecanismo Vocal:</text>
-      <text x="145" y="30" fill="#1e293b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5">M1 modal natural de pecho (no falsete)</text>
+  <!-- DERECHA: CONTRATENOR MODERNO -->
+  <text x="655" y="102" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#1C1B19">II. CONTRATENOR MODERNO (M2 ADULTO)</text>
+  <ellipse cx="655" cy="155" rx="58" ry="32" fill="none" stroke="#1C1B19" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <path d="M 605,153 Q 655,147 705,153" fill="none" stroke="#1C1B19" stroke-width="1.8"/>
+  <path d="M 605,157 Q 655,163 705,157" fill="none" stroke="#1C1B19" stroke-width="1.2" stroke-dasharray="2,2"/>
+  <line x1="605" y1="196" x2="705" y2="196" stroke="#1C1B19" stroke-width="1"/>
+  <text x="655" y="211" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#1C1B19">17–22 mm · Mecanismo M2 (Borde libre)</text>
+  <!-- Barra estándar -->
+  <text x="495" y="248" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#57534E">CAPACIDAD TORÁCICA</text>
+  <rect x="495" y="256" width="230" height="14" fill="none" stroke="#1C1B19" stroke-width="1"/>
+  <text x="725" y="284" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#57534E">4.0–5.0 L (Estándar masculino)</text>
+  <text x="655" y="316" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-size="11.5" fill="#1C1B19">Predominio de fundamental H₁ · Ligero hiatus posterior</text>
+  <text x="655" y="332" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#57534E">Timbre flautado y etéreo · Menor presión subglótica máxima</text>
 
-      <text x="15" y="68" fill="#b45309" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">• Masa Glótica:</text>
-      <text x="145" y="68" fill="#1e293b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5">Vibración completa de cuerpo y cubierta</text>
-
-      <text x="15" y="106" fill="#b45309" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">• Salida Acústica:</text>
-      <text x="145" y="106" fill="#1e293b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5">Penetración colosal y squillo heroico</text>
-
-      <text x="15" y="144" fill="#b45309" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">• Resistencia Aérea:</text>
-      <text x="145" y="144" fill="#1e293b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5">Fraseo sostenido superior a 60 segundos</text>
-
-      <text x="15" y="182" fill="#b45309" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">• Huella Espectral:</text>
-      <text x="145" y="182" fill="#1e293b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5">Agudos brillantes con anclaje torácico</text>
-    </g>
-  </g>
-
-  <!-- PANEL DERECHO: CONTRATENOR MODERNO -->
-  <g transform="translate(505, 72)">
-    <rect width="445" height="470" fill="#ffffff" stroke="#0284c7" stroke-width="1.4" rx="8" />
-    
-    <!-- Encabezado Tarjeta -->
-    <rect x="1" y="1" width="443" height="34" fill="#f0f9ff" rx="7" />
-    <text x="222" y="23" text-anchor="middle" fill="#0369a1" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">2. CONTRATENOR MODERNO (Siglos XX–XXI)</text>
-
-    <!-- Esquema Anatómico -->
-    <circle cx="222" cy="92" r="36" fill="#f0f9ff" stroke="#0284c7" stroke-width="2" stroke-dasharray="3,3" />
-    <path d="M 195,94 Q 222,85 249,94" stroke="#0369a1" stroke-width="3" fill="none" />
-    <text x="222" y="142" text-anchor="middle" fill="#0369a1" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700">Laringe Masculina Adulta</text>
-    <text x="222" y="157" text-anchor="middle" fill="#64748b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9.5">(Cuerdas de 17 a 22 mm en falsete M2)</text>
-
-    <!-- Fuelle Torácico -->
-    <g transform="translate(45, 173)">
-      <rect width="355" height="48" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1" rx="6" />
-      <text x="177" y="20" text-anchor="middle" fill="#0369a1" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">Fuelle Masculino Estándar</text>
-      <text x="177" y="36" text-anchor="middle" fill="#0c4a6e" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9">Capacidad vital de barítono o tenor moderno</text>
-    </g>
-
-    <!-- Matriz de Parámetros -->
-    <g transform="translate(20, 238)">
-      <rect width="405" height="212" fill="#f8fafc" stroke="#e2e8f0" rx="6" />
-      
-      <text x="15" y="30" fill="#0369a1" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">• Mecanismo Vocal:</text>
-      <text x="145" y="30" fill="#1e293b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5">M2 (falsete reforzado / voz de cabeza)</text>
-
-      <text x="15" y="68" fill="#0369a1" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">• Masa Glótica:</text>
-      <text x="145" y="68" fill="#1e293b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5">Vibración aislada del borde libre (mucosa)</text>
-
-      <text x="15" y="106" fill="#0369a1" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">• Salida Acústica:</text>
-      <text x="145" y="106" fill="#1e293b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5">Timbre etéreo; menor presión de proyección</text>
-
-      <text x="15" y="144" fill="#0369a1" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">• Resistencia Aérea:</text>
-      <text x="145" y="144" fill="#1e293b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5">Mayor escape de aire por cierre parcial</text>
-
-      <text x="15" y="182" fill="#0369a1" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5" font-weight="700">• Huella Espectral:</text>
-      <text x="145" y="182" fill="#1e293b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10.5">Predominio de fundamental (H1) y dulzura</text>
-    </g>
-  </g>
-
-  <!-- PIE DE PAGINA -->
-  <text x="490" y="564" text-anchor="middle" fill="#64748b" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10">Ars Cantorum © 2026 • Análisis Musicológico y Fisiológico Comparativo</text>
+  <line x1="36" y1="365" x2="844" y2="365" stroke="#1C1B19" stroke-width="0.6" stroke-opacity="0.25"/>
+  <text x="36" y="388" font-family="'Newsreader', Georgia, serif" font-size="12" fill="#1C1B19">
+    <tspan font-weight="600">Lectura organológica:</tspan> El castrato acoplaba una laringe infantil en M1 modal (burdeos) a un tórax gigante; el contratenor
+  </text>
+  <text x="36" y="406" font-family="'Newsreader', Georgia, serif" font-size="12" fill="#1C1B19">
+    adulto canta en M2 ligamentoso sobre una laringe virilizada, generando una acústica radicalmente distinta.
+  </text>
+  <text x="36" y="432" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#78716C" letter-spacing="0.04em">ARS CANTORUM · ANATOMÍA COMPARADA (TOSI 1723 · MANCINI 1774 · STARK 1999)</text>
 </svg>

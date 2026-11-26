@@ -1,72 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="auto" style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <rect x="15" y="10" width="890" height="36" rx="6" fill="#0f172a"/>
-  <text x="460" y="33" text-anchor="middle" font-family="'Cinzel', serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">EL REGISTRO DE PECHO FEMENINO: BEL CANTO CLÁSICO vs. LA CONTROVERSIA DEL BELTING</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="100%" height="auto" style="background:#FAF8F5; border:1px solid #DCD6CD; display:block;">
+  <defs>
+    <pattern id="hatchBelt" width="6" height="6" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#881337" stroke-width="0.9" stroke-opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect x="10" y="10" width="860" height="440" fill="none" stroke="#1C1B19" stroke-width="0.8" stroke-opacity="0.25"/>
 
-  <!-- PANEL IZQUIERDO -->
-  <rect x="15" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.3"/>
-  <rect x="16" y="57" width="433" height="32" rx="7" fill="#f0f9ff"/>
-  <text x="232" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#0369a1">A) Bel Canto Clásico: Marchesi y García (Pecho Integrado)</text>
+  <text x="36" y="42" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1C1B19" letter-spacing="0.06em">FIG. 1 — FRONTERAS DEL REGISTRO FEMENINO: MARCHESI vs. BELTING</text>
+  <text x="36" y="61" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="12.5" fill="#57534E">Distribución de los mecanismos M1 (pecho) y M2 (cabeza) según tres paradigmas estéticos y acústicos</text>
+  <line x1="36" y1="73" x2="844" y2="73" stroke="#1C1B19" stroke-width="0.7" stroke-opacity="0.3"/>
 
-  <g transform="translate(25, 100)">
-    <rect x="0" y="0" width="414" height="115" rx="6" fill="#f8fafc" stroke="#bae6fd"/>
-    <text x="15" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#0369a1">Zona Tradicional de Uso: Do3 a Mi4/Fa4</text>
-    <text x="15" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Transición obligada al registro medio (M2) en Fa4</text>
-    <text x="15" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Masa cordal plena que se aligera antes del pasaje</text>
-    <text x="15" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Preservación absoluta de la voz de cabeza y sobreagudos</text>
-    <text x="15" y="92" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0c4a6e">• Aporta cuerpo, nobleza y dramatismo sin estridencia</text>
-    <text x="15" y="106" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#0284c7">Criterio estético: Base física indispensable del chiaroscuro</text>
+  <!-- EJE TONAL BASE -->
+  <line x1="90" y1="305" x2="815" y2="305" stroke="#1C1B19" stroke-width="1.2"/>
+  <g stroke="#1C1B19" stroke-opacity="0.16" stroke-width="0.8">
+    <line x1="120" y1="110" x2="120" y2="305" stroke-dasharray="2,3"/>
+    <line x1="250" y1="110" x2="250" y2="305" stroke-dasharray="2,3"/>
+    <line x1="380" y1="100" x2="380" y2="305" stroke="#881337" stroke-opacity="0.55" stroke-width="1.2"/>
+    <line x1="560" y1="110" x2="560" y2="305" stroke-dasharray="2,3"/>
+    <line x1="760" y1="110" x2="760" y2="305" stroke-dasharray="2,3"/>
   </g>
+  <text x="120" y="324" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#57534E">Fa3</text>
+  <text x="250" y="324" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#57534E">Do4</text>
+  <text x="380" y="324" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#881337">Mi4–Fa4 (Frontera Marchesi)</text>
+  <text x="560" y="324" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#57534E">Do5</text>
+  <text x="760" y="324" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#57534E">Do6</text>
 
-  <g transform="translate(25, 228)">
-    <rect x="0" y="0" width="414" height="185" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
-    <text x="207" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#1e293b">Doctrina de Mathilde Marchesi</text>
-    <text x="207" y="46" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#475569">
-      <tspan x="207" dy="0">"Prohibir el pecho a la mujer destruye los cimientos</tspan>
-      <tspan x="207" dy="16">del edificio vocal; pero llevarlo más allá de Fa4</tspan>
-      <tspan x="207" dy="16">arruina irremediablemente el registro de cabeza."</tspan>
-    </text>
-    <line x1="40" y1="95" x2="374" y2="95" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="207" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#64748b">
-      <tspan x="207" dy="0">Riesgo del Tabú Anglosajón:</tspan>
-      <tspan x="207" dy="15" font-weight="600" fill="#0369a1">Voces huecas, descoloridas y sin fuerza dramática</tspan>
-    </text>
-    <text x="207" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#0284c7">
-      <tspan x="207" dy="0">Integración Orgánica de Registros</tspan>
-      <tspan x="207" dy="15" font-weight="500" fill="#334155">Graduación del tiroaritenoideo al cricotiroideo sin quiebre</tspan>
-    </text>
-  </g>
+  <!-- FILA 1: ESCUELA PURITANA VICTORIANA -->
+  <text x="90" y="128" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#57534E">1. ESCUELA SIN PECHO (VICTORIANA)</text>
+  <rect x="120" y="136" width="640" height="22" fill="none" stroke="#1C1B19" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="440" y="151" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-size="11" fill="#57534E">M2 exclusivo en toda la escala (graves huecos y sin cuerpo)</text>
 
-  <!-- PANEL DERECHO -->
-  <rect x="470" y="56" width="435" height="370" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.3"/>
-  <rect x="471" y="57" width="433" height="32" rx="7" fill="#fffbeb"/>
-  <text x="687" y="78" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#b45309">B) La Controversia del Belting Moderno</text>
+  <!-- FILA 2: BEL CANTO CLÁSICO (MARCHESI) -->
+  <text x="90" y="188" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#881337">2. BEL CANTO CLÁSICO (MARCHESI)</text>
+  <rect x="120" y="196" width="260" height="24" fill="url(#hatchBelt)" stroke="#881337" stroke-width="1.3"/>
+  <rect x="380" y="196" width="380" height="24" fill="none" stroke="#881337" stroke-width="1.3"/>
+  <text x="250" y="212" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-size="11" font-weight="700" fill="#881337">M1 (Pecho limpio)</text>
+  <text x="570" y="212" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-size="11" font-weight="600" fill="#1C1B19">Voix mixte + M2 (Cabeza libre)</text>
 
-  <g transform="translate(480, 100)">
-    <rect x="0" y="0" width="414" height="115" rx="6" fill="#f8fafc" stroke="#fde68a"/>
-    <text x="15" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#b45309">Extensión Forzada de M1 hasta Do5 / Mi5</text>
-    <text x="15" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Cociente de contacto glótico elevado (&gt; 65%)</text>
-    <text x="15" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Presión subglótica duplicada respecto al lírico</text>
-    <text x="15" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Acústica de habla amplificada (primer formante F1 sintonizado con 2f0)</text>
-    <text x="15" y="92" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#78350f">• Laringe elevada y estrechamiento faríngeo intencional</text>
-    <text x="15" y="106" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#b45309">Estilo predominante en teatro musical y música comercial</text>
-  </g>
+  <!-- FILA 3: BELTING CONTEMPORÁNEO -->
+  <text x="90" y="248" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#1C1B19">3. BELTING CONTEMPORÁNEO (BROADWAY)</text>
+  <rect x="120" y="256" width="510" height="24" fill="#1C1B19" fill-opacity="0.08" stroke="#1C1B19" stroke-width="1.3"/>
+  <text x="375" y="272" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-size="11" font-weight="600" fill="#1C1B19">Extensión de M1 con F1 ≈ f0 (contacto &gt;65%) hasta Do5–Mi5</text>
 
-  <g transform="translate(480, 228)">
-    <rect x="0" y="0" width="414" height="185" rx="6" fill="#fffbeb" stroke="#fef3c7"/>
-    <text x="207" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#92400e">Análisis Acústico de Ingo Titze</text>
-    <text x="207" y="46" text-anchor="middle" font-family="'Newsreader', serif" font-style="italic" font-size="10.5" fill="#78350f">
-      <tspan x="207" dy="0">"El belting no es un defecto salvaje, sino una sintonía</tspan>
-      <tspan x="207" dy="16">acústica precisa de alta energía; su peligro reside</tspan>
-      <tspan x="207" dy="16">en el impacto mecánico por hiperpresión cordal."</tspan>
-    </text>
-    <line x1="40" y1="95" x2="374" y2="95" stroke="#fde68a" stroke-width="1"/>
-    <text x="207" y="118" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#92400e">
-      <tspan x="207" dy="0">Advertencia Foniátrica:</tspan>
-      <tspan x="207" dy="15" font-weight="600" fill="#b45309">Riesgo elevado de fatiga y edema si carece de apoyo flexible</tspan>
-    </text>
-    <text x="207" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#92400e">
-      <tspan x="207" dy="0">Diferencia de Paradigma Estético</tspan>
-      <tspan x="207" dy="15" font-weight="500" fill="#78350f">Lírico: Chiaroscuro redondo • Belting: Proyección directa hiper-brillante</tspan>
-    </text>
-  </g>
+  <line x1="36" y1="365" x2="844" y2="365" stroke="#1C1B19" stroke-width="0.6" stroke-opacity="0.25"/>
+  <text x="36" y="388" font-family="'Newsreader', Georgia, serif" font-size="12" fill="#1C1B19">
+    <tspan font-weight="600">Lectura comparada:</tspan> Mientras la escuela victoriana suprimía el pecho y el belting lo extiende hasta Do5–Mi5 mediante
+  </text>
+  <text x="36" y="406" font-family="'Newsreader', Georgia, serif" font-size="12" fill="#1C1B19">
+    sintonía F1≈f0, el Bel Canto clásico (burdeos) usa M1 como cimiento grave y transiciona a M2 en Mi4–Fa4.
+  </text>
+  <text x="36" y="432" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#78716C" letter-spacing="0.04em">ARS CANTORUM · REGISTROS FEMENINOS (MARCHESI OP. 31 · MILLER · TITZE · LEBORGNE)</text>
 </svg>
