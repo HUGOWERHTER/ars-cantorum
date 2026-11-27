@@ -1,11 +1,12 @@
 ---
 title: "El Ideal del Chiaroscuro: La Síntesis Acústica del Bel Canto"
 description: "Cómo coexisten en la misma nota dos resonadores opuestos: el tubo epilaríngeo de 2.8–3.2 kHz (chiaro) y la faringe dilatada de 300–600 Hz (scuro)."
-date: "2026-11-18"
+date: "2026-10-16"
 author: "Ars Cantorum"
-category: "Estética y Acústica Vocal"
+category: "Acústica y Ciencia Vocal"
 tags: ["Chiaroscuro", "Bel Canto", "Timbre", "Tosi", "Mancini", "Richard Miller", "Johan Sundberg"]
 readTime: "10 min"
+featured: true
 ---
 
 Cuando los tratadistas italianos del siglo XVIII adoptaron el término pictórico **chiaroscuro** para describir la voz ideal, no buscaban una metáfora poética vaga: señalaban un problema acústico concreto. Una emisión que solo concentra armónicos agudos corta la sala con facilidad, pero suena estridente y blanca; otra que solo amplifica la zona grave suena noble de cerca, pero queda sepultada por la orquesta. La paradoja del timbre lírico clásico consiste en generar ambos polos —luz y sombra— simultáneamente dentro del mismo tracto vocal.

@@ -1,9 +1,9 @@
 ---
 title: "Cantar en la Máscara: Ilusión Sensorial y Realidad Biomecánica"
 description: "El cantante siente vibrar pómulos y frente, pero los senos paranasales no irradian sonido: diagnóstico entre la máscara verdadera y la nasalización."
-date: "2026-11-18"
+date: "2026-10-24"
 author: "Ars Cantorum"
-category: "Ciencia Acústica y Pedagogía"
+category: "Acústica y Ciencia Vocal"
 tags: ["Máscara", "Voce in Maschera", "Acústica Vocal", "Johan Sundberg", "Ingo Titze", "Bel Canto"]
 readTime: "10 min"
 ---

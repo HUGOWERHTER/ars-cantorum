@@ -1,11 +1,12 @@
 ---
 title: "La Mecánica del Appoggio: Expansión Diafragmática vs. Contracción Abdominal"
 description: "Entre empujar hacia abajo como levantando un peso o meter el ombligo hacia la columna: qué muestra la biomecánica respiratoria frente a la tradición del appoggio."
-date: "2026-11-18"
+date: "2026-10-22"
 author: "Ars Cantorum"
-category: "Fisiología y Técnica Respiratoria"
+category: "Respiración y Appoggio"
 tags: ["Appoggio", "Respiración", "Diafragma", "Richard Miller", "William Vennard", "Janice Chapman", "Bel Canto"]
 readTime: "10 min"
+featured: true
 ---
 
 Pocas consignas dividen tanto a las escuelas de canto como el gesto físico que debe sostener la columna de aire. Mientras una tradición enseña a *"empujar con fuerza hacia el bajo vientre"* para anclar las notas agudas, otra exige *"meter el ombligo hacia la columna"* para impulsar el aliento hacia afuera. Ambas instrucciones apelan a un mismo término histórico —el **appoggio**—, pero en términos fisiológicos producen mecanismos opuestos al equilibrio que describieron los tratados italianos y que hoy mide la biomecánica respiratoria[^1].

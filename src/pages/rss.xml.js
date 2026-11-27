@@ -3,19 +3,24 @@ import rss from '@astrojs/rss';
 export async function GET(context) {
   const postModules = import.meta.glob('../content/articulos/*.md', { eager: true });
   
-  const items = Object.entries(postModules).map(([path, mod]) => {
-    const slug = path.split(/[\\/]/).pop()?.replace('.md', '');
-    const dateStr = mod.frontmatter?.date || '2026-11-12';
-    
-    return {
-      title: mod.frontmatter?.title || 'Artículo sin título',
-      pubDate: new Date(dateStr),
-      description: mod.frontmatter?.description || 'Ensayo de investigación vocal y pedagogía del Bel Canto.',
-      link: `/articulos/${slug}/`,
-      categories: mod.frontmatter?.tags || ['Bel Canto', 'Canto Lírico'],
-      author: mod.frontmatter?.author || 'Ars Cantorum',
-    };
-  });
+  const today = new Date().toISOString().slice(0, 10);
+
+  const items = Object.entries(postModules)
+    .map(([path, mod]) => {
+      const slug = path.split(/[\\/]/).pop()?.replace('.md', '');
+      const dateStr = mod.frontmatter?.date || '2026-11-12';
+      
+      return {
+        title: mod.frontmatter?.title || 'Artículo sin título',
+        pubDate: new Date(dateStr),
+        dateStr,
+        description: mod.frontmatter?.description || 'Ensayo de investigación vocal y pedagogía del Bel Canto.',
+        link: `/articulos/${slug}/`,
+        categories: mod.frontmatter?.tags || ['Bel Canto', 'Canto Lírico'],
+        author: mod.frontmatter?.author || 'Ars Cantorum',
+      };
+    })
+    .filter(item => item.dateStr <= today);
 
   // Ordenar por fecha descendente
   items.sort((a, b) => b.pubDate.getTime() - a.pubDate.getTime());

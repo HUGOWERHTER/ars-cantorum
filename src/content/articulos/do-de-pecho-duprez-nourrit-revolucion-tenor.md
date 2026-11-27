@@ -1,9 +1,9 @@
 ---
 title: "La Revolución del Do de Pecho: Gilbert Duprez, Adolphe Nourrit y el Ocaso del Falsettone"
 description: "La noche de 1837 en París en que el Do de pecho de Gilbert Duprez desplazó la voix mixte de Adolphe Nourrit y dividió para siempre la estética del tenor."
-date: "2026-11-18"
+date: "2026-10-14"
 author: "Ars Cantorum"
-category: "Historia y Estética Vocal"
+category: "Historia y Estética"
 tags: ["Tenor", "Do di Petto", "Gilbert Duprez", "Adolphe Nourrit", "Rossini", "Voce Coperta", "Richard Miller", "Rodolfo Celletti", "Bel Canto"]
 readTime: "13 min"
 ---

@@ -1,9 +1,9 @@
 ---
 title: "¿Quién Manda en la Partitura?: La Guerra entre el Urtext Rígido y la Ornamentación Belcantista"
 description: "Rossini le preguntó a una soprano quién había escrito su aria al oírla cantar el papel sin una sola variación. ¿Por qué seguimos tratando al Bel Canto con el literalismo de una sinfonía?"
-date: "2026-12-03"
+date: "2026-11-21"
 author: "Ars Cantorum"
-category: "Historia y Estética del Bel Canto"
+category: "Historia y Estética"
 tags: ["Ornamentación", "Philip Gossett", "Rossini", "Pier Francesco Tosi", "Giambattista Mancini", "Da Capo", "Bel Canto"]
 readTime: "10 min"
 image: "/ejemplos/grafico-urtext-vs-ornamentacion.svg"

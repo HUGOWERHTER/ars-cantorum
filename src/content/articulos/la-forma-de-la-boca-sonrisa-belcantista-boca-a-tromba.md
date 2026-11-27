@@ -1,9 +1,9 @@
 ---
 title: "La Forma de la Boca en el Canto: ¿Sonrisa Belcantista (Bocca Ridente) o Bostezo (Bocca a Tromba)?"
 description: "¿Sonrisa contenida de salón dieciochesco o bostezo cavernoso para cortar la orquesta romántica? La geometría labial frente a la acústica de los formantes."
-date: "2026-11-20"
+date: "2026-10-26"
 author: "Ars Cantorum"
-category: "Técnica Vocal y Acústica"
+category: "Biomecánica y Técnica"
 tags: ["Forma de la Boca", "Bocca Ridente", "Bostezo", "Richard Miller", "Pier Francesco Tosi", "Johan Sundberg", "Bel Canto"]
 readTime: "12 min"
 ---

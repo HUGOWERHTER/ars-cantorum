@@ -3,12 +3,14 @@ interface Props {
 	title?: string;
 	description?: string;
 	image?: string;
+	ogType?: string;
 }
 
 const { 
 	title = "Ars Cantorum — El Arte del Canto",
 	description = "Ensayos, historia y técnica sobre el arte del canto lírico y la ciencia de la voz.",
-	image = "https://www.arscantorum.com/og-image.jpg"
+	image = "https://www.arscantorum.com/og-image.jpg",
+	ogType = "website"
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, "https://www.arscantorum.com");
@@ -26,7 +28,7 @@ const canonicalURL = new URL(Astro.url.pathname, "https://www.arscantorum.com");
 		
 		<!-- Metadatos SEO y Redes Sociales (Open Graph & Twitter Cards) -->
 		<meta name="description" content={description} />
-		<meta property="og:type" content="article" />
+		<meta property="og:type" content={ogType} />
 		<meta property="og:site_name" content="Ars Cantorum" />
 		<meta property="og:url" content={canonicalURL} />
 		<meta property="og:title" content={title} />
@@ -182,6 +184,13 @@ const canonicalURL = new URL(Astro.url.pathname, "https://www.arscantorum.com");
 						<div class="font-sans" style="font-size: 0.8rem; letter-spacing: 0.06em; font-style: italic; color: var(--accent-gold); font-weight: 600; text-align: center; margin-top: 0.15rem;">El Arte del Canto</div>
 					</div>
 				</a>
+
+				<!-- Navegación principal -->
+				<nav aria-label="Navegación principal" class="font-sans" style="display: flex; align-items: center; gap: 1.4rem; font-size: 0.92rem; font-weight: 600;">
+					<a href="/" style="color: #1e293b;">Ensayos</a>
+					<a href="/sobre" style="color: #1e293b;">Sobre el autor</a>
+					<a href="/sobre#contacto" style="color: #1e293b;">Contacto</a>
+				</nav>
 				
 				<!-- Redes Sociales en el Header -->
 				<div style="display: flex; align-items: center; gap: 0.6rem;">

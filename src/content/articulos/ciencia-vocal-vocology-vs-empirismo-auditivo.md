@@ -1,9 +1,9 @@
 ---
 title: "Ciencia Vocal (Vocology) frente a Empirismo Auditivo: ¿Puede un Espectrograma Crear Mejores Cantantes?"
 description: "Un maestro cierra los ojos y habla de seda; el de al lado mide porcentajes de contacto glótico en un monitor. ¿Dónde termina el dato útil y empieza la parálisis por análisis?"
-date: "2026-12-05"
+date: "2026-11-25"
 author: "Ars Cantorum"
-category: "Pedagogía y Ciencia Vocal"
+category: "Acústica y Ciencia Vocal"
 tags: ["Vocology", "Ingo Titze", "Johan Sundberg", "Pedagogía Vocal", "Espectrograma", "Empirismo", "David C. Taylor"]
 readTime: "10 min"
 image: "/ejemplos/grafico-vocology-vs-empirismo.svg"

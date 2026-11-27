@@ -1,11 +1,12 @@
 ---
 title: "Tratado de las Técnicas y Escuelas de Canto: Del Chiaroscuro Histórico a la Biomecánica y Acústica Vocal Contemporánea"
 description: "¿Cómo divergieron las escuelas italiana, alemana, francesa y angloamericana desde un tronco común, y qué separa al chiaroscuro lírico del belting y el twang?"
-date: "2026-11-15"
+date: "2026-10-08"
 author: "Ars Cantorum"
-category: "Técnica Vocal y Pedagogía"
+category: "Historia y Estética"
 tags: ["Escuelas de Canto", "Chiaroscuro", "Richard Miller", "Biomecánica Vocal", "Johan Sundberg", "Belting", "Twang"]
 readTime: "15 min"
+featured: true
 ---
 
 Cuando un mismo cantante intenta abordar en una misma semana un aria de Bellini, un monólogo wagneriano, una *mélodie* de Debussy y una balada de teatro musical sin ajustar su estética sonora ni su configuración resonancial, suele chocar contra un muro físico[^1]. Detrás de ese tropiezo se esconde una confusión habitual: tomar los rasgos de un **estilo nacional** por leyes universales de la **técnica**, o exigir a una mecánica vocal diseñada para el micrófono el rendimiento acústico de una sala sinfónica sin amplificación.

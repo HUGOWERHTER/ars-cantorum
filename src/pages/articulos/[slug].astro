@@ -3,21 +3,25 @@ import Layout from '../../layouts/Layout.astro';
 import { formatearFecha } from '../../utils/fechas';
 
 export async function getStaticPaths() {
+	const today = new Date().toISOString().slice(0, 10);
 	const postModules = import.meta.glob('../../content/articulos/*.md', { eager: true });
-	return Object.entries(postModules).map(([path, post]: [string, any]) => {
-		const slug = path.split(/[\\/]/).pop()?.replace('.md', '');
-		return {
-			params: { slug },
-			props: { post },
-		};
-	});
+	return Object.entries(postModules)
+		.filter(([, post]: [string, any]) => (post.frontmatter?.date || '2026-11-01') <= today)
+		.map(([path, post]: [string, any]) => {
+			const slug = path.split(/[\\/]/).pop()?.replace('.md', '');
+			return {
+				params: { slug },
+				props: { post },
+			};
+		});
 }
 
 const { post } = Astro.props;
 const { Content } = post;
 const { title, date, category, readTime, tags = [] } = post.frontmatter;
 
-// Cargar todos los artículos para calcular los 3 más relacionados temáticamente
+// Cargar todos los artículos publicados para calcular los 3 más relacionados temáticamente
+const today = new Date().toISOString().slice(0, 10);
 const postModules = import.meta.glob('../../content/articulos/*.md', { eager: true });
 const currentSlug = Astro.params.slug;
 
@@ -29,12 +33,12 @@ const otrosArticulos = Object.entries(postModules)
 			title: mod.frontmatter?.title || "Artículo",
 			description: mod.frontmatter?.description || "",
 			date: mod.frontmatter?.date || "2026-11-01",
-			category: mod.frontmatter?.category || "Técnica Vocal",
+			category: mod.frontmatter?.category || "Biomecánica y Técnica",
 			tags: mod.frontmatter?.tags || [],
 			readTime: mod.frontmatter?.readTime || "5 min"
 		};
 	})
-	.filter(art => art.slug !== currentSlug);
+	.filter(art => art.slug !== currentSlug && art.date <= today);
 
 // Algoritmo de afinidad: +5 puntos por misma categoría, +2 puntos por cada etiqueta compartida
 otrosArticulos.forEach((art: any) => {
@@ -79,7 +83,7 @@ const schemaData = {
 };
 ---
 
-<Layout title={`${title} — Ars Cantorum`} description={post.frontmatter.description}>
+<Layout title={`${title} — Ars Cantorum`} description={post.frontmatter.description} ogType="article">
 	<script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
 	<div class="container" style="max-width: 800px;">
 		<!-- Barra superior con botón volver -->
@@ -150,6 +154,20 @@ const schemaData = {
 				Marcar como leído
 			</button>
 		</div>
+
+		<!-- ==================== FIRMA EDITORIAL (E-E-A-T) ==================== -->
+		<aside class="font-sans" style="margin-top: 2rem; padding: 1.4rem 1.6rem; background: #faf8f5; border: 1px solid var(--border-color); border-radius: 8px; display: flex; align-items: center; gap: 1.15rem; flex-wrap: wrap;">
+			<img src="/logo.jpg" alt="Ars Cantorum" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 1.5px solid #b45309; flex-shrink: 0;" />
+			<div style="flex: 1; min-width: 220px;">
+				<div style="font-weight: 700; font-size: 0.95rem; color: #0f172a; margin-bottom: 0.2rem;">
+					Ars Cantorum · Investigación y Pedagogía Vocal
+				</div>
+				<p style="font-size: 0.85rem; color: #475569; line-height: 1.5; margin: 0;">
+					Proyecto filantrópico dedicado al contraste entre fuentes históricas del Bel Canto y acústica vocal contemporánea.
+					<a href="/sobre" style="font-weight: 600; margin-left: 0.35rem;">Sobre el autor y criterio editorial →</a>
+				</p>
+			</div>
+		</aside>
 
 		<!-- ==================== ARTÍCULOS RELACIONADOS ==================== -->
 		{articulosRelacionados.length > 0 && (

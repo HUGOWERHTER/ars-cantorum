@@ -1,9 +1,9 @@
 ---
 title: "La Elevación del Velo del Paladar: ¿Espacio Acústico Necesario o Parálisis Faríngea?"
 description: "«¡Levanta el velo del paladar!» suele sonar en el aula como un gesto salvador, pero tirar de él a la fuerza agarrota la faringe. ¿Cómo sellar el paso nasal sin paralizar la garganta?"
-date: "2026-11-22"
+date: "2026-10-30"
 author: "Ars Cantorum"
-category: "Biomecánica y Técnica Vocal"
+category: "Biomecánica y Técnica"
 tags: ["Velo del Paladar", "Paladar Blando", "Cierre Velofaríngeo", "Richard Miller", "William Vennard", "Acústica Vocal", "Bel Canto"]
 readTime: "11 min"
 ---

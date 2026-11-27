@@ -1,9 +1,9 @@
 ---
 title: "Cantar como se Habla (Marafioti) frente a la Impostación Operística: El Mito de la «Voz Natural»"
 description: "«Canta exactamente como hablas» suena liberador en el aula, pero frente a una orquesta de 90 músicos esa consigna suele terminar en grito. ¿Dónde se separan habla e impostación?"
-date: "2026-12-04"
+date: "2026-11-23"
 author: "Ars Cantorum"
-category: "Acústica y Fonética"
+category: "Acústica y Ciencia Vocal"
 tags: ["Mario Marafioti", "Caruso", "Johan Sundberg", "Impostación", "Singing Formant", "Voz Natural", "Acústica"]
 readTime: "9 min"
 image: "/ejemplos/grafico-habla-marafioti-vs-impostacion.svg"

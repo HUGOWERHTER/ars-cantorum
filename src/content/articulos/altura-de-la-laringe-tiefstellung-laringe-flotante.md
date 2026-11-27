@@ -1,9 +1,9 @@
 ---
 title: "La Altura de la Laringe: ¿Depresión Forzada (Tiefstellung) o Laringe Flotante?"
 description: "De Stockhausen y el Tiefstellung germánico a la tracción traqueal del Bel Canto: anatomía del cabestrillo laríngeo frente al engolamiento (Knödel)."
-date: "2026-11-18"
+date: "2026-10-10"
 author: "Ars Cantorum"
-category: "Biomecánica y Técnica Vocal"
+category: "Biomecánica y Técnica"
 tags: ["Laringe", "Tiefstellung", "Richard Miller", "William Vennard", "Chiaroscuro", "Técnica Vocal", "Bel Canto", "G. B. Lamperti"]
 readTime: "12 min"
 ---

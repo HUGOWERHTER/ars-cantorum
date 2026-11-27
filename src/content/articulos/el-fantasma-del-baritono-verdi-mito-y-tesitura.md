@@ -1,9 +1,9 @@
 ---
 title: "El Fantasma del «Barítono Verdi»: ¿Realidad Histórica o Invento Moderno Cavernoso?"
 description: "Muchos barítonos audicionan Rigoletto oscureciendo el centro como bajos y se estrangulan al llegar al Fa4. ¿Por qué los teatros siguen pidiendo un sonido que Verdi jamás escribió?"
-date: "2026-12-01"
+date: "2026-11-17"
 author: "Ars Cantorum"
-category: "Registros y Clasificación Vocal"
+category: "Registros y Clasificación"
 tags: ["Barítono Verdi", "Anthony Frisell", "Richard Miller", "Rodolfo Celletti", "Passaggio", "Squillo", "Verdi"]
 readTime: "9 min"
 image: "/ejemplos/grafico-baritono-verdi-tesitura.svg"

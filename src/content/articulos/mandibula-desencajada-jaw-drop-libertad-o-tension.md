@@ -1,9 +1,9 @@
 ---
 title: "La Mandíbula Desencajada (Jaw Drop): ¿Libertad Acústica o Tensión Maseterina?"
 description: "«¡Deja caer la mandíbula al máximo!» choca frontalmente con la anatomía de la ATM y la tradición de Lamperti: por qué desencajar el maxilar cierra la faringe en vez de abrirla."
-date: "2026-11-24"
+date: "2026-11-03"
 author: "Ars Cantorum"
-category: "Biomecánica y Técnica Vocal"
+category: "Biomecánica y Técnica"
 tags: ["Mandíbula", "Jaw Drop", "Articulación Temporomandibular", "Richard Miller", "Francesco Lamperti", "Johan Sundberg", "Bel Canto"]
 readTime: "11 min"
 ---

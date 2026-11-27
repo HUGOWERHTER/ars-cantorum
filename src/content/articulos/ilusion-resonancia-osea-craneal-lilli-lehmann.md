@@ -1,9 +1,9 @@
 ---
 title: "La Ilusión de la Resonancia Ósea Craneal: Los Diagramas de Lilli Lehmann bajo la Acústica Moderna"
 description: "Sentir vibrar los pómulos o la frente al cantar parece probar que los huesos amplifican la voz. ¿Por qué los diagramas de Lilli Lehmann ayudan a unos alumnos y traban la garganta de otros?"
-date: "2026-11-25"
+date: "2026-11-05"
 author: "Ars Cantorum"
-category: "Pedagogía y Acústica Vocal"
+category: "Acústica y Ciencia Vocal"
 tags: ["Lilli Lehmann", "Resonancia Ósea", "Conducción Ósea", "Richard Miller", "William Vennard", "Johan Sundberg", "Bel Canto"]
 readTime: "12 min"
 ---

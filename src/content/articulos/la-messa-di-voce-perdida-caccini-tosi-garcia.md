@@ -1,9 +1,9 @@
 ---
 title: "La Messa di Voce Perdida: Por qué Casi Ningún Cantante Moderno Domina la Prueba Suprema de Caccini y Tosi"
 description: "Un simple regulador (< >) en la partitura esconde la prueba más temida del Bel Canto: ¿por qué casi ningún cantante actual logra hinchar y recoger una nota sin que se rompa?"
-date: "2026-12-06"
+date: "2026-11-27"
 author: "Ars Cantorum"
-category: "Estilo y Pedagogía Histórica"
+category: "Estilo, Dicción y Ornamentación"
 tags: ["Messa di Voce", "Giulio Caccini", "Pier Francesco Tosi", "Manuel García II", "Nicola Vaccai", "Bel Canto", "M1 y M2"]
 readTime: "10 min"
 image: "/ejemplos/grafico-messa-di-voce-mecanica.svg"

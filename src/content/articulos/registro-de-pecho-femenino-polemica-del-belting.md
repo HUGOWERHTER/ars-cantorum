@@ -1,9 +1,9 @@
 ---
 title: "El Registro de Pecho en la Mujer y la Controversia del Belting: De Marchesi a Broadway"
 description: "De la soprano victoriana a la que prohibían cantar de pecho hasta las heroínas de Broadway en Do5: ¿dónde se cruzan la estética lírica de Marchesi y la rebelión del belting?"
-date: "2026-11-23"
+date: "2026-11-01"
 author: "Ars Cantorum"
-category: "Pedagogía y Acústica Comparada"
+category: "Registros y Clasificación"
 tags: ["Registro de Pecho", "Voz Femenina", "Mathilde Marchesi", "Belting", "Richard Miller", "Ingo Titze", "Bel Canto"]
 readTime: "12 min"
 ---

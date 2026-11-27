@@ -1,10 +1,11 @@
 ---
 title: "La Extinción del Portamento y la Degeneración del Legato en el Siglo XX"
 description: "En las grabaciones de 1904 la voz humana se desliza con libertad oratoria; tras la posguerra, cualquier deslizamiento pasó a ser tabú. ¿Purificamos el legato o lo convertimos en un xilófono?"
-date: "2026-11-27"
-category: "Estilo y Pedagogía Histórica"
+date: "2026-11-09"
+category: "Estilo, Dicción y Ornamentación"
 author: "Ars Cantorum"
 image: "/ejemplos/grafico-portamento-vs-legato-acustica.svg"
+tags: ["Portamento", "Legato", "Manuel García II", "Adelina Patti", "Werktreue", "Fraseo", "Bel Canto"]
 ---
 
 Quien escucha hoy por primera vez las grabaciones acústicas realizadas entre 1900 y 1920 por **Adelina Patti**, **Fernando De Lucia** o **Mattia Battistini** suele experimentar un choque inmediato.[^14] Allí donde el oído actual espera un salto limpio y perpendicular de una nota a otra —como en las teclas de un piano—, las voces formadas en el siglo XIX trazan ligaduras expresivas, anticipaciones sutiles y deslizamientos veloces entre intervalos. Para un jurado de conservatorio moderno, buena parte de aquel fraseo sería reprobado como "arrastre".

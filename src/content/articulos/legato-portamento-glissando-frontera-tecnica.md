@@ -1,9 +1,9 @@
 ---
 title: "La Frontera Técnica del Canto: Legato, Portamento y la Distinción del Glissando"
 description: "Cuando el miedo al scooping vuelve mecánica la línea de canto: diagnóstico auditivo y laríngeo entre legato puro, portamento di voce y glissando."
-date: "2026-11-13"
+date: "2026-10-06"
 author: "Ars Cantorum"
-category: "Técnica Vocal y Fraseo"
+category: "Estilo, Dicción y Ornamentación"
 tags: ["Legato", "Portamento", "Glissando", "Técnica Vocal", "Bel Canto", "García", "Miller", "Toft"]
 readTime: "8 min"
 ---

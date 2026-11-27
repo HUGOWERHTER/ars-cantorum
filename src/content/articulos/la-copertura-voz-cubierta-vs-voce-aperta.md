@@ -1,9 +1,9 @@
 ---
 title: "La Copertura (Voz Cubierta) frente a la Voce Aperta: ¿Evolución Acústica o Muleta del Siglo XIX?"
 description: "Para los puristas del siglo XVIII la voix sombrée oscureció la claridad del Bel Canto; para la acústica moderna evita el choque formántico del passaggio. ¿Dónde termina el ajuste sano y empieza el engolamiento?"
-date: "2026-11-28"
+date: "2026-11-11"
 author: "Ars Cantorum"
-category: "Acústica y Técnica Vocal"
+category: "Acústica y Ciencia Vocal"
 tags: ["Copertura", "Aggiustamento", "Passaggio", "Manuel García II", "Richard Miller", "Johan Sundberg", "Bel Canto"]
 readTime: "10 min"
 image: "/ejemplos/grafico-copertura-vs-voce-aperta.svg"

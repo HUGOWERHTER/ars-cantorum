@@ -1,7 +1,7 @@
 ---
 title: "La Paradoja del Aire: Por qué «Llenar los Pulmones al Máximo» Te Deja Sin Aliento al Cantar"
 description: "Tomar una bocanada gigante antes de cantar parece sentido común, pero la aerodinámica de Titze y los preceptos de Lamperti demuestran por qué llenar al 100% te deja sin aire."
-date: "2026-12-02"
+date: "2026-11-19"
 author: "Ars Cantorum"
 category: "Respiración y Appoggio"
 tags: ["Respiración", "Francesco Lamperti", "G. B. Lamperti", "Appoggio", "Over-Breathing", "Ingo Titze", "Bel Canto"]

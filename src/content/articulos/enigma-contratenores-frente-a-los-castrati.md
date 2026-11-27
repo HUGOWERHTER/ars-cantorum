@@ -1,10 +1,11 @@
 ---
 title: "El Enigma de los Contratenores frente a los Castrati: ¿Continuidad Histórica o Ficción Acústica?"
 description: "El siglo XX entronizó al contratenor como heredero natural de Farinelli y Senesino, pero uno cantaba en M1 con laringe prepuberal y el otro en falsete M2 adulto. ¿Continuidad o ficción?"
-date: "2026-11-26"
-category: "Historia y Fisiología Vocal"
+date: "2026-11-07"
+category: "Registros y Clasificación"
 author: "Ars Cantorum"
 image: "/ejemplos/grafico-contratenor-vs-castrato-mecanica.svg"
+tags: ["Contratenor", "Castrato", "M1 y M2", "Farinelli", "Música Antigua", "Registros Vocales", "Bel Canto"]
 ---
 
 Cuando el renacimiento de la música antigua coronó al contratenor moderno como heredero natural de los héroes barrocos de Händel y Vivaldi, dio por sentada una continuidad sonora que choca de frente con la anatomía vocal. Farinelli, Senesino y Caffarelli no cantaban en falsete masculino adulto: su instrumento reunía una laringe infantil inalterada hormonalmente (mecanismo modal M1) con una caja torácica adulta hipertrofiada.[^1] [^2]

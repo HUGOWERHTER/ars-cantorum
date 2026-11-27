@@ -1,9 +1,9 @@
 ---
 title: "El Vibrato en la Música Antigua: La Falacia del Straight-Tone y la Evidencia Histórica"
 description: "¿Cantaban Monteverdi y Bach con voz inmóvil como una flauta, o confundió el movimiento HIP el rechazo al tremolo caprino con la supresión del vibrato?"
-date: "2026-11-18"
+date: "2026-10-20"
 author: "Ars Cantorum"
-category: "Interpretación Histórica y Ciencia"
+category: "Historia y Estética"
 tags: ["Vibrato", "Música Antigua", "Straight-Tone", "Giulio Caccini", "Bovicelli", "Richard Miller", "Johan Sundberg"]
 readTime: "10 min"
 ---

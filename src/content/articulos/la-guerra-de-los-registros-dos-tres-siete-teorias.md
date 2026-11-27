@@ -1,9 +1,9 @@
 ---
 title: "La Guerra de los Registros Vocales: ¿Dos, Tres o Siete? De Tosi a García y la Ciencia Acústica"
 description: "¿Dos registros como pedía Tosi, tres como postuló Manuel García II, o hasta siete como en la era victoriana? La disputa terminológica que aún divide a laringólogos y maestros."
-date: "2026-11-21"
+date: "2026-10-28"
 author: "Ars Cantorum"
-category: "Historia y Fisiología Vocal"
+category: "Registros y Clasificación"
 tags: ["Registros Vocales", "Manuel García II", "Pier Francesco Tosi", "Ingo Titze", "James Stark", "Mecanismos Laríngeos", "Bel Canto"]
 readTime: "12 min"
 ---

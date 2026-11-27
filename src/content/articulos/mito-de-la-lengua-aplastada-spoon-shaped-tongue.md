@@ -1,9 +1,9 @@
 ---
 title: "El Mito de la Lengua Aplastada (Spoon-Shaped Tongue): Por qué Hundirla Estrangula tu Voz"
 description: "Frente al espejo parece que hundir la lengua abre la garganta, pero por detrás su raíz aplasta la epiglotis y apaga el brillo. ¿Cómo liberar la lengua sin perder espacio?"
-date: "2026-11-29"
+date: "2026-11-13"
 author: "Ars Cantorum"
-category: "Biomecánica y Técnica Vocal"
+category: "Biomecánica y Técnica"
 tags: ["Lengua", "Hioides", "Richard Miller", "William Vennard", "James McKinney", "Constricción", "Técnica Vocal"]
 readTime: "9 min"
 image: "/ejemplos/grafico-lengua-aplastada-vs-libre.svg"
