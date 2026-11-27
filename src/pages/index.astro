@@ -286,22 +286,30 @@ const destacados = articulos.filter(art => art.featured).slice(0, 3);
 		const contCargarMas = document.getElementById('contenedor-cargar-mas');
 		const btnCargarMas = document.getElementById('btn-cargar-mas');
 
+		function normalizarTexto(str) {
+			return (str || '')
+				.normalize('NFD')
+				.replace(/[\u0300-\u036f]/g, '')
+				.toLowerCase()
+				.trim();
+		}
+
 		function aplicarFiltros() {
-			const q = queryActiva.trim().toLowerCase();
+			const terminos = normalizarTexto(queryActiva).split(/\s+/).filter(Boolean);
 			let matches = 0;
 			let shown = 0;
 
 			cards.forEach(card => {
 				const estado = card.getAttribute('data-estado');
 				const cat = card.getAttribute('data-category');
-				const text = card.getAttribute('data-search') || '';
+				const text = normalizarTexto(card.getAttribute('data-search') || '');
 
 				const okEstado =
 					estadoActivo === 'todos' ||
 					(estadoActivo === 'pendientes' && estado === 'pendiente') ||
 					(estadoActivo === 'leidos' && estado === 'leido');
 				const okCat = categoriaActiva === 'todas' || cat === categoriaActiva;
-				const okQuery = !q || text.includes(q);
+				const okQuery = terminos.length === 0 || terminos.every(t => text.includes(t));
 
 				if (okEstado && okCat && okQuery) {
 					matches++;
