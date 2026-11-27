@@ -7,6 +7,7 @@ export const GET: APIRoute = () => {
 
 	const urls: { loc: string; lastmod: string; priority: string }[] = [
 		{ loc: `${site}/`, lastmod: today, priority: '1.0' },
+		{ loc: `${site}/bibliografia/`, lastmod: today, priority: '0.85' },
 		{ loc: `${site}/sobre/`, lastmod: today, priority: '0.8' },
 	];
 
