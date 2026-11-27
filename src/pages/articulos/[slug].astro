@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { formatearFecha } from '../../utils/fechas';
+import { calcularTiempoLectura } from '../../utils/lectura';
 
 export async function getStaticPaths() {
 	const today = new Date().toISOString().slice(0, 10);
@@ -18,7 +19,15 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = post;
-const { title, date, category, readTime, tags = [] } = post.frontmatter;
+const { title, date, category, tags = [] } = post.frontmatter;
+const readTime = calcularTiempoLectura(
+	typeof post.rawContent === 'function' ? post.rawContent() : '',
+	post.frontmatter?.readTime || '5 min'
+);
+
+// Datos del autor para la firma editorial (edita aquí tu nombre real y subtítulo)
+const authorName = post.frontmatter?.authorName || 'Hugo Werhter';
+const authorSubtitle = post.frontmatter?.authorSubtitle || 'Cantante, investigador vocal y editor de Ars Cantorum';
 
 // Cargar todos los artículos publicados para calcular los 3 más relacionados temáticamente
 const today = new Date().toISOString().slice(0, 10);
@@ -35,7 +44,7 @@ const otrosArticulos = Object.entries(postModules)
 			date: mod.frontmatter?.date || "2026-11-01",
 			category: mod.frontmatter?.category || "Biomecánica y Técnica",
 			tags: mod.frontmatter?.tags || [],
-			readTime: mod.frontmatter?.readTime || "5 min"
+			readTime: calcularTiempoLectura(typeof mod.rawContent === 'function' ? mod.rawContent() : '', mod.frontmatter?.readTime || "5 min")
 		};
 	})
 	.filter(art => art.slug !== currentSlug && art.date <= today);
@@ -157,10 +166,13 @@ const schemaData = {
 
 		<!-- ==================== FIRMA EDITORIAL (E-E-A-T) ==================== -->
 		<aside class="font-sans" style="margin-top: 2rem; padding: 1.4rem 1.6rem; background: #faf8f5; border: 1px solid var(--border-color); border-radius: 8px; display: flex; align-items: center; gap: 1.15rem; flex-wrap: wrap;">
-			<img src="/logo.jpg" alt="Ars Cantorum" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 1.5px solid #b45309; flex-shrink: 0;" />
+			<img src="/logo.jpg" alt={authorName} style="width: 58px; height: 58px; border-radius: 50%; object-fit: cover; border: 1.5px solid #b45309; flex-shrink: 0;" />
 			<div style="flex: 1; min-width: 220px;">
-				<div style="font-weight: 700; font-size: 0.95rem; color: #0f172a; margin-bottom: 0.2rem;">
-					Ars Cantorum · Investigación y Pedagogía Vocal
+				<div style="font-weight: 700; font-size: 0.98rem; color: #0f172a; margin-bottom: 0.1rem;">
+					{authorName}
+				</div>
+				<div style="font-size: 0.82rem; font-weight: 600; color: var(--accent-gold); margin-bottom: 0.35rem;">
+					{authorSubtitle}
 				</div>
 				<p style="font-size: 0.85rem; color: #475569; line-height: 1.5; margin: 0;">
 					Proyecto filantrópico dedicado al contraste entre fuentes históricas del Bel Canto y acústica vocal contemporánea.
@@ -174,19 +186,19 @@ const schemaData = {
 			<section style="margin-top: 4.5rem; padding-top: 2.5rem; border-top: 1px solid var(--border-color);">
 				<div style="margin-bottom: 1.8rem;">
 					<div class="font-sans" style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; background: #f4ede3; color: var(--accent-gold); display: inline-block; padding: 0.2rem 0.6rem; border-radius: 4px; margin-bottom: 0.5rem;">
-						Continuar la Investigación
+						Continuar la investigación
 					</div>
-					<h3 class="font-heading" style="font-size: 1.65rem; color: #0f172a; margin-bottom: 0.35rem;">
-						Ensayos Relacionados
+					<h3 style="font-size: 1.65rem; color: #0f172a; margin-bottom: 0.35rem;">
+						Ensayos relacionados
 					</h3>
 					<p class="font-sans" style="font-size: 0.95rem; color: #64748b;">
 						Estudios vinculados por afinidad fisiológica, fuentes históricas y técnica vocal.
 					</p>
 				</div>
 
-				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; align-items: stretch;">
 					{articulosRelacionados.map((rel: any) => (
-						<article data-article-card data-slug={rel.slug} style="background: #ffffff; border: 1px solid var(--border-color); border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.03); transition: border-left 0.2s, box-shadow 0.2s;">
+						<article data-article-card data-slug={rel.slug} style="height: 100%; background: #ffffff; border: 1px solid var(--border-color); border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.03); transition: border-left 0.2s, box-shadow 0.2s;">
 							<div>
 								<div class="font-sans" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; gap: 0.5rem; flex-wrap: wrap;">
 									<span style="font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent-gold);">
@@ -212,7 +224,7 @@ const schemaData = {
 							<div class="font-sans" style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 0.8rem; font-size: 0.8rem; color: #64748b;">
 								<span>Lectura: {rel.readTime}</span>
 								<a href={`/articulos/${rel.slug}`} style="font-weight: 600; color: var(--accent);">
-									Leer Ensayo →
+									Leer ensayo →
 								</a>
 							</div>
 						</article>
@@ -223,19 +235,19 @@ const schemaData = {
 
 		<!-- Módulo Editorial: Debate Académico, Consultas y Correspondencia Directa -->
 		<section style="margin-top: 4.5rem; padding: 2.5rem; background: #ffffff; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);">
-			<div class="font-sans" style="display: align-items: center; gap: 0.6rem; margin-bottom: 0.75rem;">
+			<div class="font-sans" style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.75rem;">
 				<span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; background: #f4ede3; color: var(--accent-gold); padding: 0.2rem 0.6rem; border-radius: 4px;">
 					Coloquio Editorial
 				</span>
 				<span style="font-size: 0.85rem; color: #94a3b8;">• Ars Cantorum</span>
 			</div>
 
-			<h3 class="font-heading" style="font-size: 1.45rem; color: #0f172a; margin-bottom: 0.75rem;">
-				Tribuna de Debate Académico y Correspondencia
+			<h3 style="font-size: 1.5rem; color: #0f172a; margin-bottom: 0.75rem;">
+				Tribuna de debate académico y correspondencia
 			</h3>
 
 			<p style="font-size: 1.1rem; color: #475569; line-height: 1.7; margin-bottom: 1.8rem; font-style: italic;">
-				«En Ars Cantorum concebimos la pedagogía vocal y la investigación musicológica como un diálogo riguroso y vivo. ¿Tiene alguna observación crítica sobre este ensayo, desea consultar pasajes de los tratados canónicos o compartir experiencias de su práctica en el aula o el escenario?»
+				«En Ars Cantorum concebimos la pedagogía vocal y la investigación musicológica como un diálogo riguroso y vivo. ¿Tienes alguna observación crítica sobre este ensayo, quieres consultar pasajes de los tratados canónicos o compartir experiencias de tu práctica en el aula o el escenario?»
 			</p>
 
 			<!-- Formulario Integrado Directo (Cero Fricción) -->
@@ -254,14 +266,14 @@ const schemaData = {
 				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
 					<div>
 						<label for="autor-nombre" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 0.35rem;">
-							Su Nombre o Cargo <span style="color: #94a3b8; font-weight: 400;">(ej. Maestro de canto, cantante, investigador)</span>
+							Tu nombre o perfil <span style="color: #94a3b8; font-weight: 400;">(ej. maestro de canto, cantante, investigador)</span>
 						</label>
 						<input type="text" id="autor-nombre" name="nombre" required placeholder="Nombre y apellido" 
 							style="width: 100%; padding: 0.7rem 0.9rem; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem; background: #f8fafc; font-family: inherit; box-sizing: border-box;" />
 					</div>
 					<div>
 						<label for="autor-email" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 0.35rem;">
-							Su Correo Electrónico <span style="color: #94a3b8; font-weight: 400;">(para responderle en privado)</span>
+							Tu correo electrónico <span style="color: #94a3b8; font-weight: 400;">(para responderte en privado)</span>
 						</label>
 						<input type="email" id="autor-email" name="email" required placeholder="correo@ejemplo.com" 
 							style="width: 100%; padding: 0.7rem 0.9rem; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem; background: #f8fafc; font-family: inherit; box-sizing: border-box;" />
@@ -270,16 +282,16 @@ const schemaData = {
 
 				<div>
 					<label for="autor-mensaje" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 0.35rem;">
-						Consulta, Crítica Documental o Aporte Pedagógico
+						Consulta, crítica documental o aporte pedagógico
 					</label>
-					<textarea id="autor-mensaje" name="mensaje" rows="4" required placeholder="Escriba aquí sus observaciones sobre las fuentes históricas, técnica o experiencias de canto..." 
+					<textarea id="autor-mensaje" name="mensaje" rows="4" required placeholder="Escribe aquí tus observaciones sobre las fuentes históricas, la técnica o tu experiencia en el estudio..." 
 						style="width: 100%; padding: 0.75rem 0.9rem; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.95rem; background: #f8fafc; font-family: inherit; resize: vertical; line-height: 1.5; box-sizing: border-box;"></textarea>
 				</div>
 
 				<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-top: 0.3rem;">
 					<button type="submit" id="btn-enviar-consulta" 
 						style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--accent); color: #ffffff; padding: 0.75rem 1.6rem; border-radius: 6px; font-weight: 600; font-size: 0.95rem; border: none; cursor: pointer; box-shadow: 0 2px 8px rgba(136, 19, 55, 0.25); transition: background-color 0.2s;">
-						✉ Enviar Mensaje a la Redacción
+						✉ Enviar mensaje a la redacción
 					</button>
 
 					<div style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
@@ -309,6 +321,14 @@ const schemaData = {
 
 <script is:inline define:vars={{ currentSlug }}>
 	document.addEventListener('DOMContentLoaded', () => {
+		// Normalizar IDs de notas al pie a #fn-1 / #fnref-1 (bidireccionales con retorno ↩)
+		document.querySelectorAll('.articulo-contenido [id^="user-content-fn"]').forEach(el => {
+			el.id = el.id.replace(/^user-content-/, '');
+		});
+		document.querySelectorAll('.articulo-contenido a[href^="#user-content-fn"]').forEach(a => {
+			a.setAttribute('href', (a.getAttribute('href') || '').replace(/^#user-content-/, '#'));
+		});
+
 		const STORAGE_KEY = 'arscantorum_articulos_leidos';
 
 		function getLeidos() {
@@ -454,9 +474,9 @@ const schemaData = {
 					estado.style.background = '#f0fdf4';
 					estado.style.color = '#166534';
 					estado.style.border = '1px solid #bbf7d0';
-					estado.innerHTML = '<strong>✓ Mensaje enviado con éxito.</strong> Muchas gracias por su aporte a la redacción.';
+					estado.innerHTML = '<strong>✓ Mensaje enviado con éxito.</strong> Muchas gracias por tu aporte a la redacción.';
 					form.reset();
-					btn.innerHTML = '✓ Mensaje Enviado';
+					btn.innerHTML = '✓ Mensaje enviado';
 					btn.style.background = '#15803d';
 					btn.style.opacity = '1';
 					return;
@@ -477,9 +497,9 @@ const schemaData = {
 						estado.style.background = '#f0fdf4';
 						estado.style.color = '#166534';
 						estado.style.border = '1px solid #bbf7d0';
-						estado.innerHTML = '<strong>✓ Mensaje enviado con éxito.</strong> Muchas gracias por su aporte; la redacción de <em>Ars Cantorum</em> ha recibido su consulta y le responderá a su correo a la brevedad.';
+						estado.innerHTML = '<strong>✓ Mensaje enviado con éxito.</strong> Muchas gracias por tu aporte; la redacción de <em>Ars Cantorum</em> ha recibido tu consulta y te responderá a tu correo a la brevedad.';
 						form.reset();
-						btn.innerHTML = '✓ Mensaje Enviado';
+						btn.innerHTML = '✓ Mensaje enviado';
 						btn.style.background = '#15803d';
 						btn.style.opacity = '1';
 					} else {
@@ -490,7 +510,7 @@ const schemaData = {
 					estado.style.background = '#fef2f2';
 					estado.style.color = '#991b1b';
 					estado.style.border = '1px solid #fecaca';
-					estado.innerHTML = 'No se pudo enviar el mensaje por un inconveniente de red. Puede escribirnos directamente a <strong>arscantorumoficial@gmail.com</strong>.';
+					estado.innerHTML = 'No se pudo enviar el mensaje por un inconveniente de red. Puedes escribirnos directamente a <strong>arscantorumoficial@gmail.com</strong>.';
 					btn.disabled = false;
 					btn.innerHTML = textoOriginal;
 					btn.style.opacity = '1';
@@ -549,5 +569,25 @@ const schemaData = {
 		height: auto;
 		border-radius: 6px;
 		box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+	}
+
+	.articulo-contenido sup a[data-footnote-ref] {
+		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-size: 0.72rem;
+		font-weight: 700;
+		color: var(--accent);
+		padding: 0 0.15rem;
+		scroll-margin-top: 100px;
+	}
+
+	.articulo-contenido .footnotes li {
+		scroll-margin-top: 100px;
+	}
+
+	.articulo-contenido .data-footnote-backref {
+		margin-left: 0.35rem;
+		font-weight: 600;
+		color: var(--accent);
+		text-decoration: none;
 	}
 </style>

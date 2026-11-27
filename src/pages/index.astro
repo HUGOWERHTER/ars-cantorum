@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { formatearFecha } from '../utils/fechas';
+import { calcularTiempoLectura } from '../utils/lectura';
 
 const CATEGORIAS = [
 	"Historia y Estética",
@@ -24,7 +25,7 @@ const articulos = Object.entries(postModules)
 			date: mod.frontmatter?.date || "2026-11-01",
 			category: mod.frontmatter?.category || "Biomecánica y Técnica",
 			tags: mod.frontmatter?.tags || ["Bel Canto"],
-			readTime: mod.frontmatter?.readTime || "5 min",
+			readTime: calcularTiempoLectura(typeof mod.rawContent === 'function' ? mod.rawContent() : '', mod.frontmatter?.readTime || "5 min"),
 			featured: Boolean(mod.frontmatter?.featured),
 		};
 	})

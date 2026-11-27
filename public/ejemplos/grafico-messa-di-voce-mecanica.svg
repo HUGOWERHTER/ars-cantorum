@@ -30,11 +30,8 @@
   <line x1="88" y1="100" x2="88" y2="310" stroke="#1C1B19" stroke-width="1.2"/>
   <line x1="88" y1="310" x2="825" y2="310" stroke="#1C1B19" stroke-width="1.2"/>
 
-  <!-- Etiquetas de Eje Y -->
-  <text x="76" y="129" text-anchor="end" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="12" fill="#1C1B19">ff</text>
-  <text x="76" y="189" text-anchor="end" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="12" fill="#1C1B19">mf</text>
-  <text x="76" y="249" text-anchor="end" font-family="'Newsreader', Georgia, serif" font-style="italic" font-size="12" fill="#1C1B19">pp</text>
-  <text x="42" y="205" text-anchor="middle" transform="rotate(-90 42 205)" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#57534E" letter-spacing="0.06em">AMPLITUD / DINÁMICA</text>
+  <!-- Etiquetas de Eje Y (sin contradicción pp/mf/ff en eje vertical) -->
+  <text x="54" y="205" text-anchor="middle" transform="rotate(-90 54 205)" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#57534E" letter-spacing="0.06em">AMPLITUD / ENVOLVENTE DINÁMICA</text>
 
   <!-- Etiquetas de Eje X (Tiempo) -->
   <text x="148" y="328" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#57534E">0 s · Ataque</text>
@@ -51,6 +48,11 @@
   <circle cx="110" cy="185" r="3.5" fill="#881337"/>
   <circle cx="454" cy="122" r="3.5" fill="#881337"/>
   <circle cx="798" cy="185" r="3.5" fill="#881337"/>
+
+  <!-- Indicadores dinámicos sobre la envolvente simétrica (pp en extremos, ff en máxima apertura) -->
+  <text x="104" y="205" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="700" font-size="13" fill="#881337">pp</text>
+  <text x="454" y="168" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="700" font-size="15" fill="#881337">ff</text>
+  <text x="806" y="205" text-anchor="middle" font-family="'Newsreader', Georgia, serif" font-style="italic" font-weight="700" font-size="13" fill="#881337">pp</text>
 
   <!-- TRAZO COMPARATIVO PUNTEADO: FALLO MODERNO (Quiebre y calado en el diminuendo) -->
   <path d="M 110,185 C 190,185 330,138 454,132 L 540,148 L 555,212 C 620,225 690,234 745,238"
