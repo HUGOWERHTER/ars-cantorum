@@ -179,6 +179,13 @@ const canonicalURL = new URL(Astro.url.pathname, "https://www.arscantorum.com");
 				padding: 1.2rem 1.5rem;
 				border-radius: 0 6px 6px 0;
 			}
+
+			@media print {
+				header {
+					position: static !important;
+					box-shadow: none !important;
+				}
+			}
 		</style>
 	</head>
 	<body>
