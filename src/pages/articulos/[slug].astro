@@ -25,9 +25,9 @@ const readTime = calcularTiempoLectura(
 	post.frontmatter?.readTime || '5 min'
 );
 
-// Datos del autor para la firma editorial (edita aquí tu nombre real y subtítulo)
-const authorName = post.frontmatter?.authorName || 'Hugo Werhter';
-const authorSubtitle = post.frontmatter?.authorSubtitle || 'Cantante, investigador vocal y editor de Ars Cantorum';
+// Identidad editorial del proyecto independiente (Opción B)
+const authorName = post.frontmatter?.authorName || 'Ars Cantorum';
+const authorSubtitle = post.frontmatter?.authorSubtitle || 'Investigación vocal independiente y pedagogía del Bel Canto';
 
 // Cargar todos los artículos publicados para calcular los 3 más relacionados temáticamente
 const today = new Date().toISOString().slice(0, 10);
@@ -176,7 +176,7 @@ const schemaData = {
 				</div>
 				<p style="font-size: 0.85rem; color: #475569; line-height: 1.5; margin: 0;">
 					Proyecto filantrópico dedicado al contraste entre fuentes históricas del Bel Canto y acústica vocal contemporánea.
-					<a href="/sobre" style="font-weight: 600; margin-left: 0.35rem;">Sobre el autor y criterio editorial →</a>
+					<a href="/sobre" style="font-weight: 600; margin-left: 0.35rem;">Sobre el proyecto y criterio editorial →</a>
 				</p>
 			</div>
 		</aside>
