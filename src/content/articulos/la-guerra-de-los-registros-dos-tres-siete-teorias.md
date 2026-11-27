@@ -1,5 +1,5 @@
 ---
-title: "La Guerra de los Registros Vocales: ¿Dos, Tres o Siete? De Tosi a García y la Ciencia Acústica"
+title: "La guerra de los registros vocales: ¿dos, tres o siete? De Tosi a García y la ciencia acústica"
 description: "¿Dos registros como pedía Tosi, tres como postuló Manuel García II, o hasta siete como en la era victoriana? La disputa terminológica que aún divide a laringólogos y maestros."
 date: "2026-10-28"
 author: "Ars Cantorum"

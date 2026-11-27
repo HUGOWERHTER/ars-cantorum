@@ -1,5 +1,5 @@
 ---
-title: "La Mandíbula Desencajada (Jaw Drop): ¿Libertad Acústica o Tensión Maseterina?"
+title: "La mandíbula desencajada (jaw drop): ¿libertad acústica o tensión maseterina?"
 description: "«¡Deja caer la mandíbula al máximo!» choca frontalmente con la anatomía de la ATM y la tradición de Lamperti: por qué desencajar el maxilar cierra la faringe en vez de abrirla."
 date: "2026-11-03"
 author: "Ars Cantorum"

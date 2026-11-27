@@ -1,5 +1,5 @@
 ---
-title: "El Ideal del Chiaroscuro: La Síntesis Acústica del Bel Canto"
+title: "El ideal del chiaroscuro: la síntesis acústica del Bel Canto"
 description: "Cómo coexisten en la misma nota dos resonadores opuestos: el tubo epilaríngeo de 2.8–3.2 kHz (chiaro) y la faringe dilatada de 300–600 Hz (scuro)."
 date: "2026-10-16"
 author: "Ars Cantorum"

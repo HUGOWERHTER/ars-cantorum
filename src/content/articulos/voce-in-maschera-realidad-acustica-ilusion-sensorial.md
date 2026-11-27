@@ -1,5 +1,5 @@
 ---
-title: "Cantar en la Máscara: Ilusión Sensorial y Realidad Biomecánica"
+title: "Cantar en la máscara: ilusión sensorial y realidad biomecánica"
 description: "El cantante siente vibrar pómulos y frente, pero los senos paranasales no irradian sonido: diagnóstico entre la máscara verdadera y la nasalización."
 date: "2026-10-24"
 author: "Ars Cantorum"

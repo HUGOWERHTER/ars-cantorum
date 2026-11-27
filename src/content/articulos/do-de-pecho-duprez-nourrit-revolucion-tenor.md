@@ -1,5 +1,5 @@
 ---
-title: "La Revolución del Do de Pecho: Gilbert Duprez, Adolphe Nourrit y el Ocaso del Falsettone"
+title: "La revolución del Do de pecho: Gilbert Duprez, Adolphe Nourrit y el ocaso del falsettone"
 description: "La noche de 1837 en París en que el Do de pecho de Gilbert Duprez desplazó la voix mixte de Adolphe Nourrit y dividió para siempre la estética del tenor."
 date: "2026-10-14"
 author: "Ars Cantorum"

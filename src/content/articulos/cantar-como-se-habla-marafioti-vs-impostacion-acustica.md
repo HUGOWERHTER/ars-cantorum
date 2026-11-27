@@ -1,5 +1,5 @@
 ---
-title: "Cantar como se Habla (Marafioti) frente a la Impostación Operística: El Mito de la «Voz Natural»"
+title: "Cantar como se habla (Marafioti) frente a la impostación operística: el mito de la «voz natural»"
 description: "«Canta exactamente como hablas» suena liberador en el aula, pero frente a una orquesta de 90 músicos esa consigna suele terminar en grito. ¿Dónde se separan habla e impostación?"
 date: "2026-11-23"
 author: "Ars Cantorum"

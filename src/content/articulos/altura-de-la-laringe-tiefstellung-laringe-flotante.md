@@ -1,5 +1,5 @@
 ---
-title: "La Altura de la Laringe: ¿Depresión Forzada (Tiefstellung) o Laringe Flotante?"
+title: "La altura de la laringe: ¿depresión forzada (Tiefstellung) o laringe flotante?"
 description: "De Stockhausen y el Tiefstellung germánico a la tracción traqueal del Bel Canto: anatomía del cabestrillo laríngeo frente al engolamiento (Knödel)."
 date: "2026-10-10"
 author: "Ars Cantorum"

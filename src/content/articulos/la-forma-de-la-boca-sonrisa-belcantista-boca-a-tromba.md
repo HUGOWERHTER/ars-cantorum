@@ -1,5 +1,5 @@
 ---
-title: "La Forma de la Boca en el Canto: ¿Sonrisa Belcantista (Bocca Ridente) o Bostezo (Bocca a Tromba)?"
+title: "La forma de la boca en el canto: ¿sonrisa belcantista (bocca ridente) o bostezo (bocca a tromba)?"
 description: "¿Sonrisa contenida de salón dieciochesco o bostezo cavernoso para cortar la orquesta romántica? La geometría labial frente a la acústica de los formantes."
 date: "2026-10-26"
 author: "Ars Cantorum"

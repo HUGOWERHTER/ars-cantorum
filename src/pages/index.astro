@@ -55,12 +55,12 @@ const destacados = articulos.filter(art => art.featured).slice(0, 3);
 					<div class="font-sans" style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; background: #f4ede3; color: var(--accent-gold); display: inline-block; padding: 0.2rem 0.65rem; border-radius: 4px; margin-bottom: 0.45rem;">
 						Guía de Entrada
 					</div>
-					<h2 style="font-size: 1.55rem; color: #0f172a;">Por dónde empezar</h2>
+					<h2 class="font-heading" style="font-size: 1.35rem; color: #0f172a; text-transform: uppercase;">Por dónde empezar</h2>
 				</div>
 
-				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem;">
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; align-items: stretch;">
 					{destacados.map(art => (
-						<article data-featured-card data-slug={art.slug} style="background: #ffffff; border: 1px solid var(--border-color); border-top: 3px solid var(--accent); border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.03);">
+						<article data-featured-card data-slug={art.slug} style="height: 100%; background: #ffffff; border: 1px solid var(--border-color); border-top: 3px solid var(--accent); border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.03);">
 							<div>
 								<div class="font-sans" style="display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; margin-bottom: 0.7rem; flex-wrap: wrap;">
 									<span style="font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--accent-gold);">
@@ -96,7 +96,7 @@ const destacados = articulos.filter(art => art.featured).slice(0, 3);
 			<!-- Cabecera de la lista con progreso y filtros de lectura -->
 			<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 1rem;">
 				<div>
-					<h2 style="font-size: 1.6rem; color: #0f172a; margin-bottom: 0.25rem;">Ensayos publicados</h2>
+					<h2 class="font-heading" style="font-size: 1.35rem; color: #0f172a; margin-bottom: 0.25rem; text-transform: uppercase;">Ensayos publicados</h2>
 					<div id="contador-progreso" class="font-sans" style="font-size: 0.9rem; color: #64748b;">
 						{articulos.length} ensayos en la biblioteca
 					</div>

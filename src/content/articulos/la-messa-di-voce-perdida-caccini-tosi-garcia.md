@@ -1,5 +1,5 @@
 ---
-title: "La Messa di Voce Perdida: Por qué Casi Ningún Cantante Moderno Domina la Prueba Suprema de Caccini y Tosi"
+title: "La messa di voce perdida: por qué casi ningún cantante moderno domina la prueba suprema de Caccini y Tosi"
 description: "Un simple regulador (< >) en la partitura esconde la prueba más temida del Bel Canto: ¿por qué casi ningún cantante actual logra hinchar y recoger una nota sin que se rompa?"
 date: "2026-11-27"
 author: "Ars Cantorum"

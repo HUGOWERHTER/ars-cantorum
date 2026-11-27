@@ -1,5 +1,5 @@
 ---
-title: "El Vibrato en la Música Antigua: La Falacia del Straight-Tone y la Evidencia Histórica"
+title: "El vibrato en la música antigua: la falacia del straight-tone y la evidencia histórica"
 description: "¿Cantaban Monteverdi y Bach con voz inmóvil como una flauta, o confundió el movimiento HIP el rechazo al tremolo caprino con la supresión del vibrato?"
 date: "2026-10-20"
 author: "Ars Cantorum"

@@ -1,5 +1,5 @@
 ---
-title: "La Frontera Técnica del Canto: Legato, Portamento y la Distinción del Glissando"
+title: "La frontera técnica del canto: legato, portamento y la distinción del glissando"
 description: "Cuando el miedo al scooping vuelve mecánica la línea de canto: diagnóstico auditivo y laríngeo entre legato puro, portamento di voce y glissando."
 date: "2026-10-06"
 author: "Ars Cantorum"

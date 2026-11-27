@@ -1,5 +1,5 @@
 ---
-title: "Tratado de las Técnicas y Escuelas de Canto: Del Chiaroscuro Histórico a la Biomecánica y Acústica Vocal Contemporánea"
+title: "Tratado de las técnicas y escuelas de canto: del chiaroscuro histórico a la biomecánica y acústica vocal contemporánea"
 description: "¿Cómo divergieron las escuelas italiana, alemana, francesa y angloamericana desde un tronco común, y qué separa al chiaroscuro lírico del belting y el twang?"
 date: "2026-10-08"
 author: "Ars Cantorum"

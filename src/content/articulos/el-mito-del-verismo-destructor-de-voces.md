@@ -1,5 +1,5 @@
 ---
-title: "¿El Verismo Destruyó las Voces?: El Mito frente a la Técnica de Caruso, Gigli y Ponselle"
+title: "¿El verismo destruyó las voces?: el mito frente a la técnica de Caruso, Gigli y Ponselle"
 description: "Se repite en los conservatorios que Puccini y Mascagni arruinan las voces, pero Caruso, Gigli y Ponselle cantaron verismo durante décadas. ¿Qué cambió entre su técnica y la actual?"
 date: "2026-11-15"
 author: "Ars Cantorum"

@@ -1,5 +1,5 @@
 ---
-title: "El Arte del Trino y la Apoyatura en el Bel Canto"
+title: "El arte del trino y la apoyatura en el Bel Canto"
 description: "Para el siglo XVIII la partitura era solo un boceto: cómo la apoyatura y el trino encarnaban la retórica del afecto frente al literalismo moderno."
 date: "2026-10-04"
 author: "Ars Cantorum"

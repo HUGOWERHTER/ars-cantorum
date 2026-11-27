@@ -1,5 +1,5 @@
 ---
-title: "Dicción y Fonética en el Repertorio Francés: El Arte de Pierre Bernac y Thomas Grubb"
+title: "Dicción y fonética en el repertorio francés: el arte de Pierre Bernac y Thomas Grubb"
 description: "Por qué el cantante formado en el italiano suele nasalizar la mélodie o quebrar su legato: diagnóstico de las cuatro vocales nasales, el enchaînement y la e caduque."
 date: "2026-10-12"
 author: "Ars Cantorum"

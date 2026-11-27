@@ -1,5 +1,5 @@
 ---
-title: "La Mecánica del Appoggio: Expansión Diafragmática vs. Contracción Abdominal"
+title: "La mecánica del appoggio: expansión diafragmática frente a contracción abdominal"
 description: "Entre empujar hacia abajo como levantando un peso o meter el ombligo hacia la columna: qué muestra la biomecánica respiratoria frente a la tradición del appoggio."
 date: "2026-10-22"
 author: "Ars Cantorum"

@@ -1,5 +1,5 @@
 ---
-title: "Ciencia Vocal (Vocology) frente a Empirismo Auditivo: ¿Puede un Espectrograma Crear Mejores Cantantes?"
+title: "Ciencia vocal (vocology) frente a empirismo auditivo: ¿puede un espectrograma crear mejores cantantes?"
 description: "Un maestro cierra los ojos y habla de seda; el de al lado mide porcentajes de contacto glótico en un monitor. ¿Dónde termina el dato útil y empieza la parálisis por análisis?"
 date: "2026-11-25"
 author: "Ars Cantorum"

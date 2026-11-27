@@ -74,11 +74,19 @@ const canonicalURL = new URL(Astro.url.pathname, "https://www.arscantorum.com");
 				-webkit-font-smoothing: antialiased;
 			}
 
-			h1, h2, h3, h4, .font-heading {
-				font-family: 'Cinzel', serif;
-				letter-spacing: 0.02em;
+			h1, h2, h3, h4 {
+				font-family: 'Newsreader', Georgia, serif;
+				letter-spacing: -0.01em;
 				color: #0f172a;
-				line-height: 1.3;
+				line-height: 1.28;
+				text-transform: none;
+			}
+
+			.font-heading {
+				font-family: 'Cinzel', serif;
+				letter-spacing: 0.04em;
+				color: #0f172a;
+				line-height: 1.25;
 			}
 
 			.font-sans {

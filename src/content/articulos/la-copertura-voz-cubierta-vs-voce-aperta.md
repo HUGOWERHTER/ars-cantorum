@@ -1,5 +1,5 @@
 ---
-title: "La Copertura (Voz Cubierta) frente a la Voce Aperta: ¿Evolución Acústica o Muleta del Siglo XIX?"
+title: "La copertura (voz cubierta) frente a la voce aperta: ¿evolución acústica o muleta del siglo XIX?"
 description: "Para los puristas del siglo XVIII la voix sombrée oscureció la claridad del Bel Canto; para la acústica moderna evita el choque formántico del passaggio. ¿Dónde termina el ajuste sano y empieza el engolamiento?"
 date: "2026-11-11"
 author: "Ars Cantorum"

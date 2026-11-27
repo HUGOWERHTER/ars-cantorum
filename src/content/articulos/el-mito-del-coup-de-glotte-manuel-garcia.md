@@ -1,5 +1,5 @@
 ---
-title: "El Mito del Coup de Glotte: Manuel García II y la Verdad del Ataque Vocal"
+title: "El mito del coup de glotte: Manuel García II y la verdad del ataque vocal"
 description: "Un milisegundo separa la emisión limpia de la agresión cordal o la fuga de aire: cómo distinguir al oído el coup de glotte de García del choque glótico."
 date: "2026-10-18"
 author: "Ars Cantorum"

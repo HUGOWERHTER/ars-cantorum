@@ -1,5 +1,5 @@
 ---
-title: "La Paradoja del Aire: Por qué «Llenar los Pulmones al Máximo» Te Deja Sin Aliento al Cantar"
+title: "La paradoja del aire: por qué «llenar los pulmones al máximo» te deja sin aliento al cantar"
 description: "Tomar una bocanada gigante antes de cantar parece sentido común, pero la aerodinámica de Titze y los preceptos de Lamperti demuestran por qué llenar al 100% te deja sin aire."
 date: "2026-11-19"
 author: "Ars Cantorum"

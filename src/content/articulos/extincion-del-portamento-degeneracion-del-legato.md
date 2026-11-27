@@ -1,5 +1,5 @@
 ---
-title: "La Extinción del Portamento y la Degeneración del Legato en el Siglo XX"
+title: "La extinción del portamento y la degeneración del legato en el siglo XX"
 description: "En las grabaciones de 1904 la voz humana se desliza con libertad oratoria; tras la posguerra, cualquier deslizamiento pasó a ser tabú. ¿Purificamos el legato o lo convertimos en un xilófono?"
 date: "2026-11-09"
 category: "Estilo, Dicción y Ornamentación"

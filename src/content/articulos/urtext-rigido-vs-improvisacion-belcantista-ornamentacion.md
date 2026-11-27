@@ -1,5 +1,5 @@
 ---
-title: "¿Quién Manda en la Partitura?: La Guerra entre el Urtext Rígido y la Ornamentación Belcantista"
+title: "¿Quién manda en la partitura?: la guerra entre el Urtext rígido y la ornamentación belcantista"
 description: "Rossini le preguntó a una soprano quién había escrito su aria al oírla cantar el papel sin una sola variación. ¿Por qué seguimos tratando al Bel Canto con el literalismo de una sinfonía?"
 date: "2026-11-21"
 author: "Ars Cantorum"

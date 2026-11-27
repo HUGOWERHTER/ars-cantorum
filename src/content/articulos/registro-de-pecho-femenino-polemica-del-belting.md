@@ -1,5 +1,5 @@
 ---
-title: "El Registro de Pecho en la Mujer y la Controversia del Belting: De Marchesi a Broadway"
+title: "El registro de pecho en la mujer y la controversia del belting: de Marchesi a Broadway"
 description: "De la soprano victoriana a la que prohibían cantar de pecho hasta las heroínas de Broadway en Do5: ¿dónde se cruzan la estética lírica de Marchesi y la rebelión del belting?"
 date: "2026-11-01"
 author: "Ars Cantorum"

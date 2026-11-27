@@ -1,5 +1,5 @@
 ---
-title: "El Enigma de los Contratenores frente a los Castrati: ¿Continuidad Histórica o Ficción Acústica?"
+title: "El enigma de los contratenores frente a los castrati: ¿continuidad histórica o ficción acústica?"
 description: "El siglo XX entronizó al contratenor como heredero natural de Farinelli y Senesino, pero uno cantaba en M1 con laringe prepuberal y el otro en falsete M2 adulto. ¿Continuidad o ficción?"
 date: "2026-11-07"
 category: "Registros y Clasificación"
