@@ -49,6 +49,6 @@ Basta abrir una partitura de Puccini para encontrarla cubierta de indicaciones d
 ---
 
 [^1]: Salvatore Fucito, *Caruso and the Art of Singing*; y P. Mario Marafioti, *Caruso's Method of Voice Production*.
-[^2]: Noel Bonavia Hunt & Beniamino Gigli, *The Voice of the Mind*, Rockliff.
+[^2]: E. Herbert-Caesari, *The Voice of the Mind* (Rockliff, 1951; prólogo de Beniamino Gigli e introducción de Noel Bonavia-Hunt).
 [^3]: Jerome Hines, *Great Singers on Great Singing*, Limelight Editions; y Mary Jane Phillips-Matz, *Leonard Warren, American Baritone*.
 [^4]: Rodolfo Celletti, *Grandi Voci alla Scala* y *A History of Bel Canto*, Oxford University Press.
